@@ -3,19 +3,7 @@
 # This file is distributed under the same license as the Git package.
 # Jean-Noël Avila <jn.avila@free.fr>, 2019.
 msgid ""
-msgstr ""
-"Project-Id-Version: git documentation\n"
-"Report-Msgid-Bugs-To: jn.avila@free.fr\n"
-"POT-Creation-Date: 2021-05-17 17:03+0200\n"
-"PO-Revision-Date: 2021-05-17 12:31+0000\n"
-"Last-Translator: Jean-Noël Avila <jn.avila@free.fr>\n"
-"Language-Team: Jean-Noël Avila <jn.avila@free.fr>\n"
-"Language: fr\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 4.7-dev\n"
+msgstr "Project-Id-Version: git documentation\nReport-Msgid-Bugs-To: jn.avila@free.fr\nPOT-Creation-Date: 2021-05-17 17:03+0200\nPO-Revision-Date: 2021-06-06 20:40+0000\nLast-Translator: Jean-Noël Avila <jn.avila@free.fr>\nLanguage-Team: Jean-Noël Avila <jn.avila@free.fr>\nLanguage: fr\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=n > 1;\nX-Generator: Weblate 4.7-dev\n"
 
 #. type: Labeled list
 #: en/blame-options.txt:1 en/diff-options.txt:748 en/git-instaweb.txt:45 en/git-mailinfo.txt:49 en/git-mailsplit.txt:35 en/git-repack.txt:126 en/git-status.txt:31
@@ -2365,10 +2353,9 @@ msgstr "\t[section \"sous-section\"]\n"
 
 #. type: Plain text
 #: en/config.txt:53
-#, fuzzy, priority:100
-#| msgid "Subsection names are case sensitive and can contain any characters except newline and the null byte. Doublequote `\"` and backslash can be included by escaping them as `\\\"` and `\\\\`, respectively. Backslashes preceding other characters are dropped when reading; for example, `\\t` is read as `t` and `\\0` is read as `0` Section headers cannot span multiple lines.  Variables may belong directly to a section or to a given subsection. You can have `[section]` if you have `[section \"subsection\"]`, but you don't need to."
+#, priority:100
 msgid "Subsection names are case sensitive and can contain any characters except newline and the null byte. Doublequote `\"` and backslash can be included by escaping them as `\\\"` and `\\\\`, respectively. Backslashes preceding other characters are dropped when reading; for example, `\\t` is read as `t` and `\\0` is read as `0`. Section headers cannot span multiple lines.  Variables may belong directly to a section or to a given subsection. You can have `[section]` if you have `[section \"subsection\"]`, but you don't need to."
-msgstr "Les noms de sous-sections sont sensibles à la casse et peuvent contenir n'importe quel caractère, à l'exception du saut de ligne et de l'octet nul. Les guillemets `\"` et les barres obliques inverses peuvent être inclus en les échappant sous la forme `\\\"` et `\\\\`, respectivement. Les barres obliques inverses précédant d'autres caractères sont supprimées lors de la lecture ; par exemple, `\\t` est lu comme `t` et `\\0` est lu comme `0` Les en-têtes de section ne peuvent pas s'étendre sur plusieurs lignes.  Les variables peuvent appartenir directement à une section ou à une sous-section donnée. Vous pouvez avoir une `[section]` si vous avez `[section sous-section]`, mais vous n'en avez pas besoin."
+msgstr "Les noms de sous-sections sont sensibles à la casse et peuvent contenir n'importe quel caractère, à l'exception du saut de ligne et de l'octet nul. Les guillemets `\"` et les barres obliques inverses peuvent être inclus en les échappant sous la forme `\\\"` et `\\\\`, respectivement. Les barres obliques inverses précédant d'autres caractères sont supprimées lors de la lecture ; par exemple, `\\t` est lu comme `t` et `\\0` est lu comme `0`. Les en-têtes de section ne peuvent pas s'étendre sur plusieurs lignes.  Les variables peuvent appartenir directement à une section ou à une sous-section donnée. Vous pouvez avoir une `[section]` si vous avez `[section sous-section]`, mais vous n'en avez pas besoin."
 
 #. type: Plain text
 #: en/config.txt:58
@@ -2728,8 +2715,7 @@ msgstr "true"
 
 #. type: Plain text
 #: en/config.txt:247
-#, fuzzy, priority:100
-#| msgid "Boolean true literals are `yes`, `on`, `true`, and `1`.  Also, a variable defined without `= <value>` is taken as true."
+#, priority:100
 msgid "Boolean true literals are `yes`, `on`, `true`, and `1`.  Also, a variable defined without `= <value>` is taken as true."
 msgstr "Les littéraux booléens pour vrai sont `yes`, `on`, `true` et `1`.  De plus, une variable définie sans `=<valeur>` est considérée comme vraie."
 
@@ -2741,8 +2727,7 @@ msgstr "faux"
 
 #. type: Plain text
 #: en/config.txt:250
-#, fuzzy, priority:100
-#| msgid "Boolean false literals are `no`, `off`, `false`, `0` and the empty string."
+#, priority:100
 msgid "Boolean false literals are `no`, `off`, `false`, `0` and the empty string."
 msgstr "Les littéraux booléens faux sont `no`, `off`, `false`, `0` et la chaîne vide."
 
@@ -3614,10 +3599,9 @@ msgstr "Génération du texte de rustine avec -p"
 
 #. type: Plain text
 #: en/diff-generate-patch.txt:15
-#, fuzzy, priority:280
-#| msgid "Running linkgit:git-diff[1], linkgit:git-log[1], linkgit:git-show[1], linkgit:git-diff-index[1], linkgit:git-diff-tree[1], or linkgit:git-diff-files[1] with the `-p` option produces patch text.  You can customize the creation of patch text via the `GIT_EXTERNAL_DIFF` and the `GIT_DIFF_OPTS` environment variables (see linkgit:git[1])."
+#, priority:280
 msgid "Running linkgit:git-diff[1], linkgit:git-log[1], linkgit:git-show[1], linkgit:git-diff-index[1], linkgit:git-diff-tree[1], or linkgit:git-diff-files[1] with the `-p` option produces patch text.  You can customize the creation of patch text via the `GIT_EXTERNAL_DIFF` and the `GIT_DIFF_OPTS` environment variables (see linkgit:git[1]), and the `diff` attribute (see linkgit:gitattributes[5])."
-msgstr "Exécuter linkgit:git-diff[1], linkgit:git-log[1], linkgit:git-show[1], linkgit:git-diff-index[1], linkgit:git-diff-tree[1] ou linkgit:git-diff-files[1] avec l'option `-p` produit le texte de rustine.  Vous pouvez personnaliser la création du texte de rustine via les variables d'environnement `GIT_EXTERNAL_DIFF` et `GIT_DIFF_OPTS` (voir linkgit:git[1])."
+msgstr "Exécuter linkgit:git-diff[1], linkgit:git-log[1], linkgit:git-show[1], linkgit:git-diff-index[1], linkgit:git-diff-tree[1] ou linkgit:git-diff-files[1] avec l'option `-p` produit le texte de rustine.  Vous pouvez personnaliser la création du texte de rustine via les variables d'environnement `GIT_EXTERNAL_DIFF` et `GIT_DIFF_OPTS` (voir linkgit:git[1]), et l'attribut `diff` (voir linkgit:gitattributes[5])."
 
 #. type: Plain text
 #: en/diff-generate-patch.txt:18
@@ -3741,7 +3725,7 @@ msgstr ""
 #: en/diff-generate-patch.txt:81
 #, priority:280
 msgid "Hunk headers mention the name of the function to which the hunk applies.  See \"Defining a custom hunk-header\" in linkgit:gitattributes[5] for details of how to tailor to this to specific languages."
-msgstr ""
+msgstr "Les en-têtes de section mentionnent le nom de la fonction à laquelle la section s'applique.  Voir \"Définition d'un entête de section personnalisé\" dans linkgit:gitattributes[5] pour des détails sur la façon d'adapter cela à des langages spécifiques."
 
 #. type: Title -
 #: en/diff-generate-patch.txt:84
@@ -4013,10 +3997,9 @@ msgstr "Supprimer la sortie diff. Utile pour les commandes telles que `git show`
 
 #. type: Labeled list
 #: en/diff-options.txt:37
-#, fuzzy, no-wrap, priority:280
-#| msgid "--diff-merges=(off|none|first-parent|1|separate|m|combined|c|dense-combined|cc)"
+#, no-wrap, priority:280
 msgid "--diff-merges=(off|none|on|first-parent|1|separate|m|combined|c|dense-combined|cc)"
-msgstr "--diff-merges=(off|none|first-parent|1|separate|m|combined|c|dense-combined|cc)"
+msgstr "--diff-merges=(off|none|on|first-parent|1|separate|m|combined|c|dense-combined|cc)"
 
 #. type: Labeled list
 #: en/diff-options.txt:38 en/diff-options.txt:44
@@ -4032,10 +4015,9 @@ msgstr "Préciser le format de diff à utiliser pour les commits de fusion. La v
 
 #. type: Labeled list
 #: en/diff-options.txt:43
-#, fuzzy, no-wrap, priority:280
-#| msgid "--diff-merges=(off|none):"
+#, no-wrap, priority:280
 msgid "--diff-merges=(off|none)"
-msgstr "--diff-merges=(off|none):"
+msgstr "--diff-merges=(off|none)"
 
 #. type: Plain text
 #: en/diff-options.txt:47
@@ -4045,17 +4027,15 @@ msgstr "Désactive la sortie des diffs pour des commits de fusion. Utile pour pa
 
 #. type: Labeled list
 #: en/diff-options.txt:48
-#, fuzzy, no-wrap, priority:280
-#| msgid "--diff-merges=1:"
+#, no-wrap, priority:280
 msgid "--diff-merges=on"
-msgstr "--diff-merges=1:"
+msgstr "--diff-merges=on"
 
 #. type: Labeled list
 #: en/diff-options.txt:49
-#, fuzzy, no-wrap, priority:280
-#| msgid "--diff-merges=m:"
+#, no-wrap, priority:280
 msgid "--diff-merges=m"
-msgstr "--diff-merges=m:"
+msgstr "--diff-merges=m"
 
 #. type: Labeled list
 #: en/diff-options.txt:50 en/git-am.txt:66 en/git-branch.txt:125 en/git-checkout.txt:243 en/git-cvsexportcommit.txt:60 en/git-cvsimport.txt:118 en/git-diff-index.txt:37 en/git-diff-tree.txt:71 en/git-help.txt:69 en/git-instaweb.txt:36 en/git-ls-files.txt:43 en/git-mailinfo.txt:71 en/git-read-tree.txt:34 en/git-rebase.txt:341 en/git-restore.txt:86 en/git-svn.txt:308 en/git-svn.txt:675 en/git-switch.txt:121 en/git-symbolic-ref.txt:49
@@ -4067,21 +4047,19 @@ msgstr "-m"
 #: en/diff-options.txt:56
 #, priority:280
 msgid "This option makes diff output for merge commits to be shown in the default format. `-m` will produce the output only if `-p` is given as well. The default format could be changed using `log.diffMerges` configuration parameter, which default value is `separate`."
-msgstr ""
+msgstr "Cette option permet d'afficher la sortie diff pour les commits de fusion dans le format par défaut. `-m` produira la sortie seulement si `-p` est donné aussi. Le format par défaut peut être modifié en utilisant le paramètre de configuration `log.diffMerges`, dont la valeur par défaut est `separate`."
 
 #. type: Labeled list
 #: en/diff-options.txt:57
-#, fuzzy, no-wrap, priority:280
-#| msgid "--diff-merges=first-parent:"
+#, no-wrap, priority:280
 msgid "--diff-merges=first-parent"
-msgstr "--diff-merges=first-parent:"
+msgstr "--diff-merges=first-parent"
 
 #. type: Labeled list
 #: en/diff-options.txt:58
-#, fuzzy, no-wrap, priority:280
-#| msgid "--diff-merges=1:"
+#, no-wrap, priority:280
 msgid "--diff-merges=1"
-msgstr "--diff-merges=1:"
+msgstr "--diff-merges=1"
 
 #. type: Plain text
 #: en/diff-options.txt:61
@@ -4091,31 +4069,27 @@ msgstr "Cette option fait en sorte que les commits de fusion montrent les diffé
 
 #. type: Labeled list
 #: en/diff-options.txt:62
-#, fuzzy, no-wrap, priority:280
-#| msgid "--diff-merges=separate:"
+#, no-wrap, priority:280
 msgid "--diff-merges=separate"
-msgstr "--diff-merges=separate:"
+msgstr "--diff-merges=separate"
 
 #. type: Plain text
 #: en/diff-options.txt:66
-#, fuzzy, priority:280
-#| msgid "This makes merge commits show the full diff with respect to each of the parents. Separate log entry and diff is generated for each parent. `-m` doesn't produce any output without `-p`."
+#, priority:280
 msgid "This makes merge commits show the full diff with respect to each of the parents. Separate log entry and diff is generated for each parent."
-msgstr "Cela fait que les commits de fusion montrent la différence complète par rapport à chacun des parents. Une entrée de journal et une différence séparées sont générées pour chaque parent. `-m` ne produit aucune sortie sans `-p`."
+msgstr "Cela fait que les commits de fusion montrent la différence complète par rapport à chacun des parents. Une entrée de journal et une différence séparées sont générées pour chaque parent."
 
 #. type: Labeled list
 #: en/diff-options.txt:67
-#, fuzzy, no-wrap, priority:280
-#| msgid "--diff-merges=combined:"
+#, no-wrap, priority:280
 msgid "--diff-merges=combined"
-msgstr "--diff-merges=combined:"
+msgstr "--diff-merges=combined"
 
 #. type: Labeled list
 #: en/diff-options.txt:68
-#, fuzzy, no-wrap, priority:280
-#| msgid "--diff-merges=c:"
+#, no-wrap, priority:280
 msgid "--diff-merges=c"
-msgstr "--diff-merges=c:"
+msgstr "--diff-merges=c"
 
 #. type: Labeled list
 #: en/diff-options.txt:69 en/git-am.txt:54 en/git-blame.txt:53 en/git-branch.txt:132 en/git-cvsexportcommit.txt:37 en/git-diff-files.txt:37 en/git-diff-tree.txt:93 en/git-grep.txt:187 en/git-help.txt:54 en/git-ls-files.txt:35 en/git-shortlog.txt:79 en/git-stripspace.txt:42
@@ -4131,17 +4105,15 @@ msgstr "Avec cette option, la sortie de diff pour un commit de fusion montre les
 
 #. type: Labeled list
 #: en/diff-options.txt:77
-#, fuzzy, no-wrap, priority:280
-#| msgid "--diff-merges=dense-combined:"
+#, no-wrap, priority:280
 msgid "--diff-merges=dense-combined"
-msgstr "--diff-merges=dense-combined:"
+msgstr "--diff-merges=dense-combined"
 
 #. type: Labeled list
 #: en/diff-options.txt:78
-#, fuzzy, no-wrap, priority:280
-#| msgid "--diff-merges=cc:"
+#, no-wrap, priority:280
 msgid "--diff-merges=cc"
-msgstr "--diff-merges=cc:"
+msgstr "--diff-merges=cc"
 
 #. type: Labeled list
 #: en/diff-options.txt:79 en/git-diff-files.txt:38 en/git-diff-tree.txt:103
@@ -4645,10 +4617,9 @@ msgstr "--name-only"
 
 #. type: Plain text
 #: en/diff-options.txt:306
-#, fuzzy, priority:280
-#| msgid "Specifies the encoding used to output author names and commit summaries. Setting it to `none` makes blame output unconverted data. For more information see the discussion about encoding in the linkgit:git-log[1] manual page."
+#, priority:280
 msgid "Show only names of changed files. The file names are often encoded in UTF-8.  For more information see the discussion about encoding in the linkgit:git-log[1] manual page."
-msgstr "Spécifier l’encodage utilisé pour produire les des noms d’auteurs et les résumés des commits. Le définir sur `none` rend la sortie de blâme des données non converties. Pour plus d’informations, voir la discussion sur l’encodage dans la page manuelle linkgit:git-log[1]."
+msgstr "Afficher uniquement les noms des fichiers modifiés. Les noms de fichiers sont souvent encodés en UTF-8. Le définir sur `none` rend la sortie de blâme des données non converties. Pour plus d’informations, voir la discussion sur l’encodage dans la page manuelle linkgit:git-log[1]."
 
 #. type: Labeled list
 #: en/diff-options.txt:307 en/git-ls-tree.txt:60
@@ -4658,10 +4629,9 @@ msgstr "--name-status"
 
 #. type: Plain text
 #: en/diff-options.txt:311
-#, fuzzy, priority:280
-#| msgid "Show only names and status of changed files. See the description of the `--diff-filter` option on what the status letters mean."
+#, priority:280
 msgid "Show only names and status of changed files. See the description of the `--diff-filter` option on what the status letters mean.  Just like `--name-only` the file names are often encoded in UTF-8."
-msgstr "N'afficher que les noms et statuts des fichiers modifiés. Voir la description de l'option `--diff-filter` pour la signification des lettres de statut."
+msgstr "N'afficher que les noms et statuts des fichiers modifiés. Voir la description de l'option `--diff-filter` pour la signification des lettres de statut. Tout comme `--name-only`, les noms de fichiers sont souvent encodés en UTF-8."
 
 #. type: Labeled list
 #: en/diff-options.txt:312
@@ -6031,7 +6001,7 @@ msgstr "--prefetch"
 #: en/fetch-options.txt:117
 #, priority:220
 msgid "Modify the configured refspec to place all refs into the `refs/prefetch/` namespace. See the `prefetch` task in linkgit:git-maintenance[1]."
-msgstr ""
+msgstr "Modifier le spécificateur de référence configuré pour placer toutes les refs dans l'espace de noms `refs/prefetch/`. Voir la tâche `prefetch` dans linkgit:git-maintenance[1]."
 
 #. type: Labeled list
 #: en/fetch-options.txt:119 en/git-push.txt:153
@@ -7125,16 +7095,7 @@ msgstr "git-am - Appliquer une série de rustines depuis des fichiers mailbox"
 
 #. type: Plain text
 #: en/git-am.txt:21
-#, fuzzy, ignore-ellipsis, no-wrap, priority:100
-#| msgid ""
-#| "'git am' [--signoff] [--keep] [--[no-]keep-cr] [--[no-]utf8]\n"
-#| "\t [--[no-]3way] [--interactive] [--committer-date-is-author-date]\n"
-#| "\t [--ignore-date] [--ignore-space-change | --ignore-whitespace]\n"
-#| "\t [--whitespace=<option>] [-C<n>] [-p<n>] [--directory=<dir>]\n"
-#| "\t [--exclude=<path>] [--include=<path>] [--reject] [-q | --quiet]\n"
-#| "\t [--[no-]scissors] [-S[<keyid>]] [--patch-format=<format>]\n"
-#| "\t [(<mbox> | <Maildir>)...]\n"
-#| "'git am' (--continue | --skip | --abort | --quit | --show-current-patch[=(diff|raw)])\n"
+#, ignore-ellipsis, no-wrap, priority:100
 msgid ""
 "'git am' [--signoff] [--keep] [--[no-]keep-cr] [--[no-]utf8]\n"
 "\t [--[no-]3way] [--interactive] [--committer-date-is-author-date]\n"
@@ -7145,15 +7106,7 @@ msgid ""
 "\t [--quoted-cr=<action>]\n"
 "\t [(<mbox> | <Maildir>)...]\n"
 "'git am' (--continue | --skip | --abort | --quit | --show-current-patch[=(diff|raw)])\n"
-msgstr ""
-"'git am' [--signoff] [--keep] [--[no-]keep-cr] [--[no-]utf8]\n"
-"\t [--[no-]3way] [--interactive] [--committer-date-is-author-date]\n"
-"\t [--ignore-date] [--ignore-space-change | --ignore-whitespace]\n"
-"\t [--whitespace=<option>] [-C<n>] [-p<n>] [--directory=<répertoire>]\n"
-"\t [--exclude=<path>] [--include=<path>] [--reject] [-q | --quiet]\n"
-"\t [--[no-]scissors] [-S[<idclé>]] [--patch-format=<format>]\n"
-"\t [(<mbox> | <Maildir>)...]\n"
-"'git am' (--continue | --skip | --abort | --quit | --show-current-patch[=(diff|raw)])\n"
+msgstr "'git am' [--signoff] [--keep] [--[no-]keep-cr] [--[no-]utf8]\n\t [--[no-]3way] [--interactive] [--committer-date-is-author-date]\n\t [--ignore-date] [--ignore-space-change | --ignore-whitespace]\n\t [--whitespace=<option>] [-C<n>] [-p<n>] [--directory=<répertoire>]\n\t [--exclude=<path>] [--include=<path>] [--reject] [-q | --quiet]\n\t [--[no-]scissors] [-S[<idclé>]] [--patch-format=<format>]\n\t [--quoted-cr=<action>]\n\t [(<mbox> | <Maildir>)...]\n'git am' (--continue | --skip | --abort | --quit | --show-current-patch[=(diff|raw)])\n"
 
 #. type: Plain text
 #: en/git-am.txt:27
@@ -7241,17 +7194,15 @@ msgstr "Ignorer les lignes ciseaux (voir linkgit:git-mailinfo[1])."
 
 #. type: Labeled list
 #: en/git-am.txt:63 en/git-mailinfo.txt:94
-#, fuzzy, no-wrap, priority:100
-#| msgid "--whitespace=<action>"
+#, no-wrap, priority:100
 msgid "--quoted-cr=<action>"
-msgstr "--whitespace=<action>"
+msgstr "--quoted-cr=<action>"
 
 #. type: Plain text
 #: en/git-am.txt:65
-#, fuzzy, priority:100
-#| msgid "Pass `-k` flag to 'git mailinfo' (see linkgit:git-mailinfo[1])."
+#, priority:100
 msgid "This flag will be passed down to 'git mailinfo' (see linkgit:git-mailinfo[1])."
-msgstr "Passer l'option `-k` à 'git mailinfo' (voir linkgit:git-mailinfo[1])."
+msgstr "Ce drapeau sera transmis à 'git mailinfo' (voir linkgit:git-mailinfo[1])."
 
 #. type: Labeled list
 #: en/git-am.txt:67 en/git-mailinfo.txt:72
@@ -7815,10 +7766,9 @@ msgstr "Lorsque de l'application de la rustine uniquement à l'arbre de travail,
 
 #. type: Plain text
 #: en/git-apply.txt:94
-#, fuzzy, priority:100
-#| msgid "When the patch does not apply cleanly, fall back on 3-way merge if the patch records the identity of blobs it is supposed to apply to, and we have those blobs available locally, possibly leaving the conflict markers in the files in the working tree for the user to resolve.  This option implies the `--index` option, and is incompatible with the `--reject` and the `--cached` options."
+#, priority:100
 msgid "Attempt 3-way merge if the patch records the identity of blobs it is supposed to apply to and we have those blobs available locally, possibly leaving the conflict markers in the files in the working tree for the user to resolve.  This option implies the `--index` option unless the `--cached` option is used, and is incompatible with the `--reject` option.  When used with the `--cached` option, any conflicts are left at higher stages in the cache."
-msgstr "Lorsque la rustine ne s'applique pas proprement, on a recours à la fusion à trois points si la rustine enregistre l'identité des blobs auxquels elle est censée s'appliquer, et que ces blobs sont disponibles localement, laissant éventuellement les marqueurs de conflit dans les fichiers de l'arbre de travail pour que l'utilisateur puisse les résoudre.  Cette option implique l'option `--index`, et est incompatible avec les options `--reject` et `--cached`."
+msgstr "Tenter une fusion à 3 voies si la rustine enregistre l'identité des blobs auxquels elle est censée s'appliquer et que nous avons ces blobs disponibles localement, laissant éventuellement les marqueurs de conflit dans les fichiers de l'arbre de travail pour que l'utilisateur les résolve.  Cette option implique l'option `--index` sauf si l'option `--cached` est utilisée, et est incompatible avec l'option `--reject`.  Lorsqu'elle est utilisée avec l'option `--cached`, tous les conflits sont laissés à des étapes supérieures dans le cache."
 
 #. type: Labeled list
 #: en/git-apply.txt:95
@@ -11170,31 +11120,27 @@ msgstr "Le nom de l'objet à afficher. Pour une liste plus complète des façons
 
 #. type: Plain text
 #: en/git-cat-file.txt:39
-#, fuzzy, priority:100
-#| msgid "Instead of the content, show the object type identified by <object>."
+#, priority:100
 msgid "Instead of the content, show the object type identified by `<object>`."
-msgstr "Au lieu du contenu, afficher le type d'objet identifié par <objet>."
+msgstr "Au lieu du contenu, afficher le type d'objet identifié par `<objet>`."
 
 #. type: Plain text
 #: en/git-cat-file.txt:43
-#, fuzzy, priority:100
-#| msgid "Instead of the content, show the object size identified by <object>."
+#, priority:100
 msgid "Instead of the content, show the object size identified by `<object>`."
-msgstr "Au lieu du contenu, afficher la taille de l'objet identifié par <objet>."
+msgstr "Au lieu du contenu, afficher la taille de l'objet identifié par `<objet>`."
 
 #. type: Plain text
 #: en/git-cat-file.txt:48
-#, fuzzy, priority:100
-#| msgid "Exit with zero status if <object> exists and is a valid object. If <object> is of an invalid format exit with non-zero and emits an error on stderr."
+#, priority:100
 msgid "Exit with zero status if `<object>` exists and is a valid object. If `<object>` is of an invalid format exit with non-zero and emits an error on stderr."
-msgstr "Sortir avec un statut nul si <objet> existe et est un objet valide. Si <objet> est d'un format invalide, sortir avec un état non-zéro et émettre une erreur sur stderr."
+msgstr "Sortir avec un statut nul si `<objet>` existe et est un objet valide. Si `<objet>` est d'un format invalide, sortir avec un état non-zéro et émettre une erreur sur stderr."
 
 #. type: Plain text
 #: en/git-cat-file.txt:51
-#, fuzzy, priority:100
-#| msgid "Pretty-print the contents of <object> based on its type."
+#, priority:100
 msgid "Pretty-print the contents of `<object>` based on its type."
-msgstr "Formater l'affichage du contenu de <objet> en fonction de son type."
+msgstr "Formater l'affichage du contenu de `<objet>` en fonction de son type."
 
 #. type: Labeled list
 #: en/git-cat-file.txt:52 en/git.txt:392
@@ -11204,17 +11150,15 @@ msgstr "<type>"
 
 #. type: Plain text
 #: en/git-cat-file.txt:59
-#, fuzzy, priority:100
-#| msgid "Typically this matches the real type of <object> but asking for a type that can trivially be dereferenced from the given <object> is also permitted.  An example is to ask for a \"tree\" with <object> being a commit object that contains it, or to ask for a \"blob\" with <object> being a tag object that points at it."
+#, priority:100
 msgid "Typically this matches the real type of `<object>` but asking for a type that can trivially be dereferenced from the given `<object>` is also permitted.  An example is to ask for a \"tree\" with `<object>` being a commit object that contains it, or to ask for a \"blob\" with `<object>` being a tag object that points at it."
-msgstr "Typiquement, cela correspond au type réel de <objet> mais la demande d'un type qui peut trivialement être déréférencé à partir du <objet> donné est également autorisée.  Un exemple est de demander un \"tree\" avec <object> étant un objet commit qui le contient, ou de demander un \"blob\" avec <object> étant un objet tag qui le pointe."
+msgstr "Typiquement, cela correspond au type réel de `<objet>` mais la demande d'un type qui peut trivialement être déréférencé à partir du `<objet>` donné est également autorisée.  Un exemple est de demander un \"tree\" avec `<objet>` étant un objet commit qui le contient, ou de demander un \"blob\" avec `<objet>` étant un objet tag qui le pointe."
 
 #. type: Plain text
 #: en/git-cat-file.txt:65
-#, fuzzy, priority:100
-#| msgid "Show the content as transformed by a textconv filter. In this case, <object> has to be of the form <tree-ish>:<path>, or :<path> in order to apply the filter to the content recorded in the index at <path>."
+#, priority:100
 msgid "Show the content as transformed by a textconv filter. In this case, `<object>` has to be of the form `<tree-ish>:<path>`, or `:<path>` in order to apply the filter to the content recorded in the index at `<path>`."
-msgstr "Afficher le contenu tel que transformé par un filtre textconv. Dans ce cas, <objet> doit être de la forme <arbre-esque>:<chemin>, ou :<chemin> afin d'appliquer le filtre au contenu enregistré dans l'index à <chemin>."
+msgstr "Afficher le contenu tel que transformé par un filtre textconv. Dans ce cas, `<objet>` doit être de la forme `<arbre-esque>:<chemin>`, ou `:<chemin>` afin d'appliquer le filtre au contenu enregistré dans l'index à `<chemin>`."
 
 #. type: Labeled list
 #: en/git-cat-file.txt:66
@@ -11224,10 +11168,9 @@ msgstr "--filters"
 
 #. type: Plain text
 #: en/git-cat-file.txt:71
-#, fuzzy, priority:100
-#| msgid "Show the content as converted by the filters configured in the current working tree for the given <path> (i.e. smudge filters, end-of-line conversion, etc). In this case, <object> has to be of the form <tree-ish>:<path>, or :<path>."
+#, priority:100
 msgid "Show the content as converted by the filters configured in the current working tree for the given `<path>` (i.e. smudge filters, end-of-line conversion, etc). In this case, `<object>` has to be of the form `<tree-ish>:<path>`, or `:<path>`."
-msgstr "Afficher le contenu tel qu'il a été converti par les filtres configurés dans l'arbre de travail actuel pour le <chemin> donné (c'est-à-dire les filtres de maculage, la conversion de fin de ligne, etc). Dans ce cas, <objet> doit être de la forme <arbre-esque>:<chemin>, ou :<chemin>."
+msgstr "Afficher le contenu tel qu'il a été converti par les filtres configurés dans l'arbre de travail actuel pour le `<chemin>` donné (c'est-à-dire les filtres de maculage, la conversion de fin de ligne, etc). Dans ce cas, `<objet>` doit être de la forme `<arbre-esque>:<chemin>`, ou `:<chemin>`."
 
 #. type: Labeled list
 #: en/git-cat-file.txt:72
@@ -11237,10 +11180,9 @@ msgstr "--path=<chemin>"
 
 #. type: Plain text
 #: en/git-cat-file.txt:76
-#, fuzzy, priority:100
-#| msgid "For use with --textconv or --filters, to allow specifying an object name and a path separately, e.g. when it is difficult to figure out the revision from which the blob came."
+#, priority:100
 msgid "For use with `--textconv` or `--filters`, to allow specifying an object name and a path separately, e.g. when it is difficult to figure out the revision from which the blob came."
-msgstr "À utiliser avec --textconv ou --filters, pour permettre de spécifier un nom d'objet et un chemin séparément, par exemple lorsqu'il est difficile de déterminer la révision d'où provient le blob."
+msgstr "À utiliser avec `--textconv` ou `--filters`, pour permettre de spécifier un nom d'objet et un chemin séparément, par exemple lorsqu'il est difficile de déterminer la révision d'où provient le blob."
 
 #. type: Labeled list
 #: en/git-cat-file.txt:77 en/git-mktree.txt:32
@@ -11312,7 +11254,7 @@ msgstr "--unordered"
 #: en/git-cat-file.txt:116
 #, priority:100
 msgid "When `--batch-all-objects` is in use, visit objects in an order which may be more efficient for accessing the object contents than hash order. The exact details of the order are unspecified, but if you do not require a specific order, this should generally result in faster output, especially with `--batch`.  Note that `cat-file` will still show each object only once, even if it is stored multiple times in the repository."
-msgstr ""
+msgstr "Lorsque `--batch-all-objects` est utilisé, visiter les objets dans un ordre qui peut être plus efficace pour accéder au contenu des objets que l'ordre de hachage. Les détails exacts de l'ordre ne sont pas spécifiés, mais si vous n'avez pas besoin d'un ordre spécifique, ceci devrait généralement résulter en une sortie plus rapide, particulièrement avec `--batch`.  Notez que `cat-file` ne montrera chaque objet qu'une seule fois, même s'il est stocké plusieurs fois dans le dépôt."
 
 #. type: Labeled list
 #: en/git-cat-file.txt:117
@@ -11324,7 +11266,7 @@ msgstr "--allow-unknown-type"
 #: en/git-cat-file.txt:119
 #, priority:100
 msgid "Allow `-s` or `-t` to query broken/corrupt objects of unknown type."
-msgstr ""
+msgstr "Permettre à `-s` ou `-t` d'interroger les objets cassés/corrompus de type inconnu."
 
 #. type: Labeled list
 #: en/git-cat-file.txt:120
@@ -11336,25 +11278,25 @@ msgstr "--follow-symlinks"
 #: en/git-cat-file.txt:129
 #, priority:100
 msgid "With `--batch` or `--batch-check`, follow symlinks inside the repository when requesting objects with extended SHA-1 expressions of the form tree-ish:path-in-tree.  Instead of providing output about the link itself, provide output about the linked-to object.  If a symlink points outside the tree-ish (e.g. a link to `/foo` or a root-level link to `../foo`), the portion of the link which is outside the tree will be printed."
-msgstr ""
+msgstr "Avec `--batch` ou `--batch-check`, suivre les liens symboliques à l'intérieur du dépôt lors de la recherche des objets avec des expressions SHA-1 étendues de la forme arbre-esque:chemin-dans-l-arbre.  Au lieu de fournir une sortie sur le lien lui-même, fournir une sortie sur l'objet lié.  Si un lien symbolique pointe en dehors de l'arbre (par exemple un lien vers `/foo` ou un lien au niveau de la racine vers `../foo`), la partie du lien qui est en dehors de l'arbre sera affichée."
 
 #. type: Plain text
 #: en/git-cat-file.txt:133
 #, priority:100
 msgid "This option does not (currently) work correctly when an object in the index is specified (e.g. `:link` instead of `HEAD:link`) rather than one in the tree."
-msgstr ""
+msgstr "Cette option ne fonctionne pas (actuellement) correctement lorsqu'un objet dans l'index est spécifié (par exemple `:link` au lieu de `HEAD:link`) plutôt qu'un objet dans l'arbre."
 
 #. type: Plain text
 #: en/git-cat-file.txt:136
 #, priority:100
 msgid "This option cannot (currently) be used unless `--batch` or `--batch-check` is used."
-msgstr ""
+msgstr "Cette option ne peut (actuellement) être utilisée que si `--batch` ou `--batch-check` est utilisé."
 
 #. type: Plain text
 #: en/git-cat-file.txt:138
 #, priority:100
 msgid "For example, consider a git repository containing:"
-msgstr ""
+msgstr "Par exemple, considérons un dépôt git contenant :"
 
 #. type: Plain text
 #: en/git-cat-file.txt:145
@@ -11365,43 +11307,43 @@ msgid ""
 "\tdir/link: a symlink to ../f\n"
 "\tplink: a symlink to ../f\n"
 "\talink: a symlink to /etc/passwd\n"
-msgstr ""
+msgstr "\tf : un fichier contenant \"hello\\n\".\n\tlink : un lien symbolique vers f\n\tdir/link : un lien symbolique vers ../f\n\tplink : un lien symbolique vers ../f\n\talink : un lien symbolique vers /etc/passwd\n"
 
 #. type: Plain text
 #: en/git-cat-file.txt:148
 #, priority:100
 msgid "For a regular file `f`, `echo HEAD:f | git cat-file --batch` would print"
-msgstr ""
+msgstr "Pour un fichier régulier `f`, `echo HEAD:f | git cat-file --batch` afficherait"
 
 #. type: Plain text
 #: en/git-cat-file.txt:151
 #, no-wrap, priority:100
 msgid "\tce013625030ba8dba906f756967f9e9ca394464a blob 6\n"
-msgstr ""
+msgstr "\tce013625030ba8dba906f756967f9e9ca394464a blob 6\n"
 
 #. type: Plain text
 #: en/git-cat-file.txt:156
 #, priority:100
 msgid "And `echo HEAD:link | git cat-file --batch --follow-symlinks` would print the same thing, as would `HEAD:dir/link`, as they both point at `HEAD:f`."
-msgstr ""
+msgstr "Et `echo HEAD:link | git cat-file --batch --follow-symlinks` imprimerait la même chose, tout comme `HEAD:dir/link`, puisqu'ils pointent tous deux vers `HEAD:f`."
 
 #. type: Plain text
 #: en/git-cat-file.txt:159
 #, priority:100
 msgid "Without `--follow-symlinks`, these would print data about the symlink itself.  In the case of `HEAD:link`, you would see"
-msgstr ""
+msgstr "Sans `--follow-symlinks`, ils afficheraient des données sur le lien symbolique lui-même.  Dans le cas de `HEAD:link`, vous verrez"
 
 #. type: Plain text
 #: en/git-cat-file.txt:162
 #, no-wrap, priority:100
 msgid "\t4d1ae35ba2c8ec712fa2a379db44ad639ca277bd blob 1\n"
-msgstr ""
+msgstr "\t4d1ae35ba2c8ec712fa2a379db44ad639ca277bd blob 1\n"
 
 #. type: Plain text
 #: en/git-cat-file.txt:166
 #, priority:100
 msgid "Both `plink` and `alink` point outside the tree, so they would respectively print:"
-msgstr ""
+msgstr "Les deux `plink` et` alink` pointent en dehors de l'arbre, donc ils afficheraient respectivement :"
 
 #. type: Plain text
 #: en/git-cat-file.txt:170
@@ -11409,7 +11351,7 @@ msgstr ""
 msgid ""
 "\tsymlink 4\n"
 "\t../f\n"
-msgstr ""
+msgstr "\tsymlink 4\n\t../f\n"
 
 #. type: Plain text
 #: en/git-cat-file.txt:173
@@ -11417,7 +11359,7 @@ msgstr ""
 msgid ""
 "\tsymlink 11\n"
 "\t/etc/passwd\n"
-msgstr ""
+msgstr "\tsymlink 11\n\t/etc/passwd\n"
 
 #. type: Title -
 #: en/git-cat-file.txt:177 en/git-check-attr.txt:48 en/git-check-ignore.txt:66 en/git-check-mailmap.txt:32 en/git-cvsimport.txt:188 en/git-fetch.txt:194 en/git-ls-files.txt:198 en/git-push.txt:433 en/git-show-branch.txt:134 en/git-show-ref.txt:97 en/git-status.txt:156 en/git-update-server-info.txt:23
@@ -11429,32 +11371,31 @@ msgstr "SORTIE"
 #: en/git-cat-file.txt:179
 #, priority:100
 msgid "If `-t` is specified, one of the `<type>`."
-msgstr ""
+msgstr "Si `-t` est spécifié, un des `<type>`."
 
 #. type: Plain text
 #: en/git-cat-file.txt:181
 #, priority:100
 msgid "If `-s` is specified, the size of the `<object>` in bytes."
-msgstr ""
+msgstr "Si `-s` est spécifié, la taille de l'`<objet>` en octets."
 
 #. type: Plain text
 #: en/git-cat-file.txt:183
 #, priority:100
 msgid "If `-e` is specified, no output, unless the `<object>` is malformed."
-msgstr ""
+msgstr "Si `-e` est spécifié, aucune sortie, à moins que le `<objet>` soit malformé."
 
 #. type: Plain text
 #: en/git-cat-file.txt:185
-#, fuzzy, priority:100
-#| msgid "Pretty-print the contents of <object> based on its type."
+#, priority:100
 msgid "If `-p` is specified, the contents of `<object>` are pretty-printed."
-msgstr "Formater l'affichage du contenu de <objet> en fonction de son type."
+msgstr "Si `-p` est spécifié, le contenu de `<objet>` est formatté à l'affichage."
 
 #. type: Plain text
 #: en/git-cat-file.txt:188
 #, priority:100
 msgid "If `<type>` is specified, the raw (though uncompressed) contents of the `<object>` will be returned."
-msgstr ""
+msgstr "Si `<type>` est spécifié, le contenu brut (mais non compressé) de l'`<objet>` sera retourné."
 
 #. type: Title -
 #: en/git-cat-file.txt:190
@@ -11466,13 +11407,13 @@ msgstr "SORTIE DE LOT"
 #: en/git-cat-file.txt:196
 #, priority:100
 msgid "If `--batch` or `--batch-check` is given, `cat-file` will read objects from stdin, one per line, and print information about them. By default, the whole line is considered as an object, as if it were fed to linkgit:git-rev-parse[1]."
-msgstr ""
+msgstr "Si `--batch` ou `--batch-check` est donné, `cat-file` lira les objets depuis stdin, un par ligne, et affichera les informations les concernant. Par défaut, la ligne entière est considérée comme un objet, comme si elle était envoyée à linkgit:git-rev-parse[1]."
 
 #. type: Plain text
 #: en/git-cat-file.txt:201
 #, priority:100
 msgid "You can specify the information shown for each object by using a custom `<format>`. The `<format>` is copied literally to stdout for each object, with placeholders of the form `%(atom)` expanded, followed by a newline. The available atoms are:"
-msgstr ""
+msgstr "Vous pouvez spécifier les informations affichées pour chaque objet en utilisant un `<format>` personnalisé. Le `<format>` est copié littéralement sur stdout pour chaque objet, avec des variables de la forme `%(atome)` développés, suivi d'une nouvelle ligne. Les atomes disponibles sont :"
 
 #. type: Labeled list
 #: en/git-cat-file.txt:202
@@ -11484,7 +11425,7 @@ msgstr "`objectname`"
 #: en/git-cat-file.txt:204
 #, priority:100
 msgid "The full hex representation of the object name."
-msgstr ""
+msgstr "La représentation hexadécimale complète du nom de l'objet."
 
 #. type: Labeled list
 #: en/git-cat-file.txt:205
@@ -11496,7 +11437,7 @@ msgstr "`objecttype`"
 #: en/git-cat-file.txt:207
 #, priority:100
 msgid "The type of the object (the same as `cat-file -t` reports)."
-msgstr ""
+msgstr "Le type de l'objet (le même que ce que `cat-file -t` renvoie)."
 
 #. type: Labeled list
 #: en/git-cat-file.txt:208
@@ -11508,19 +11449,19 @@ msgstr "`objectsize`"
 #: en/git-cat-file.txt:211
 #, priority:100
 msgid "The size, in bytes, of the object (the same as `cat-file -s` reports)."
-msgstr ""
+msgstr "La taille, en octets, de l'objet (la même que celle que `cat-file -s` renvoie)."
 
 #. type: Labeled list
 #: en/git-cat-file.txt:212
 #, no-wrap, priority:100
 msgid "`objectsize:disk`"
-msgstr ""
+msgstr "`objectsize:disk`"
 
 #. type: Plain text
 #: en/git-cat-file.txt:215
 #, priority:100
 msgid "The size, in bytes, that the object takes up on disk. See the note about on-disk sizes in the `CAVEATS` section below."
-msgstr ""
+msgstr "La taille, en octets, que l'objet occupe sur le disque. Voir la note sur les tailles sur disque dans la section `MISES EN GARDES` ci-dessous."
 
 #. type: Labeled list
 #: en/git-cat-file.txt:216
@@ -11532,7 +11473,7 @@ msgstr "`deltabase`"
 #: en/git-cat-file.txt:221
 #, priority:100
 msgid "If the object is stored as a delta on-disk, this expands to the full hex representation of the delta base object name.  Otherwise, expands to the null OID (all zeroes). See `CAVEATS` below."
-msgstr ""
+msgstr "Si l'objet est stocké en tant que delta sur le disque, il se développe en représentation hexadécimale complète du nom de l'objet de base delta.  Sinon, il se développe jusqu'à l'OID nul (tout à zéro). Voir `MISES EN GARDE` ci-dessous."
 
 #. type: Labeled list
 #: en/git-cat-file.txt:222
@@ -11544,25 +11485,25 @@ msgstr "`rest`"
 #: en/git-cat-file.txt:228
 #, priority:100
 msgid "If this atom is used in the output string, input lines are split at the first whitespace boundary. All characters before that whitespace are considered to be the object name; characters after that first run of whitespace (i.e., the \"rest\" of the line) are output in place of the `%(rest)` atom."
-msgstr ""
+msgstr "Si cet atome est utilisé dans la chaîne de sortie, les lignes d'entrée sont coupées à la première limite de caractères d'espace. Tous les caractères avant cet espace sont considérés comme le nom de l'objet ; les caractères après ce premier espace (c'est-à-dire le \"reste\" de la ligne) sont émis à la place de l'atome `%(rest)`."
 
 #. type: Plain text
 #: en/git-cat-file.txt:231
 #, priority:100
 msgid "If no format is specified, the default format is `%(objectname)  %(objecttype) %(objectsize)`."
-msgstr ""
+msgstr "Si aucun format n'est spécifié, le format par défaut est `%(objectname) %(objecttype) %(objectsize)`."
 
 #. type: Plain text
 #: en/git-cat-file.txt:235
 #, priority:100
 msgid "If `--batch` is specified, the object information is followed by the object contents (consisting of `%(objectsize)` bytes), followed by a newline."
-msgstr ""
+msgstr "Si `--batch` est spécifié, les informations sur l'objet sont suivies du contenu de l'objet (consistant en `%(objectsize)` octets), suivi d'une nouvelle ligne."
 
 #. type: Plain text
 #: en/git-cat-file.txt:237
 #, priority:100
 msgid "For example, `--batch` without a custom format would produce:"
-msgstr ""
+msgstr "Par exemple, `--batch` sans un format personnalisé produirait :"
 
 #. type: delimited block -
 #: en/git-cat-file.txt:241
@@ -11570,49 +11511,49 @@ msgstr ""
 msgid ""
 "<oid> SP <type> SP <size> LF\n"
 "<contents> LF\n"
-msgstr ""
+msgstr "<oid> SP <type> SP <taille> LF\n<contenu> LF\n"
 
 #. type: Plain text
 #: en/git-cat-file.txt:244
 #, priority:100
 msgid "Whereas `--batch-check='%(objectname) %(objecttype)'` would produce:"
-msgstr ""
+msgstr "Alors que `--batch-check='%(objectname) %(objecttype)'` produirait :"
 
 #. type: delimited block -
 #: en/git-cat-file.txt:247
 #, no-wrap, priority:100
 msgid "<oid> SP <type> LF\n"
-msgstr ""
+msgstr "<oid> SP <type> LF\n"
 
 #. type: Plain text
 #: en/git-cat-file.txt:251
 #, priority:100
 msgid "If a name is specified on stdin that cannot be resolved to an object in the repository, then `cat-file` will ignore any custom format and print:"
-msgstr ""
+msgstr "Si un nom est spécifié sur stdin qui ne peut pas être résolu en un objet dans le dépôt, alors `cat-file` ignorera tout format personnalisé et affichera :"
 
 #. type: delimited block -
 #: en/git-cat-file.txt:254 en/git-cat-file.txt:280
 #, no-wrap, priority:100
 msgid "<object> SP missing LF\n"
-msgstr ""
+msgstr "<objet> SP missing LF\n"
 
 #. type: Plain text
 #: en/git-cat-file.txt:257
 #, priority:100
 msgid "If a name is specified that might refer to more than one object (an ambiguous short sha), then `cat-file` will ignore any custom format and print:"
-msgstr ""
+msgstr "Si un nom est spécifié qui pourrait faire référence à plus d'un objet (un sha court ambigu), alors `cat-file` ignorera tout format personnalisé et affichera :"
 
 #. type: delimited block -
 #: en/git-cat-file.txt:260
 #, no-wrap, priority:100
 msgid "<object> SP ambiguous LF\n"
-msgstr ""
+msgstr "<objet> SP ambiguous LF\n"
 
 #. type: Plain text
 #: en/git-cat-file.txt:265
 #, priority:100
 msgid "If `--follow-symlinks` is used, and a symlink in the repository points outside the repository, then `cat-file` will ignore any custom format and print:"
-msgstr ""
+msgstr "Si `--follow-symlinks` est utilisé, et qu'un lien symbolique dans le dépôt pointe en dehors du dépôt, alors `cat-file` ignorera tout format personnalisé et affichera :"
 
 #. type: delimited block -
 #: en/git-cat-file.txt:269
@@ -11620,25 +11561,25 @@ msgstr ""
 msgid ""
 "symlink SP <size> LF\n"
 "<symlink> LF\n"
-msgstr ""
+msgstr "symlink SP <taille> LF\n<lien-symbolique> LF\n"
 
 #. type: Plain text
 #: en/git-cat-file.txt:274
 #, priority:100
 msgid "The symlink will either be absolute (beginning with a `/`), or relative to the tree root.  For instance, if dir/link points to `../../foo`, then `<symlink>` will be `../foo`.  `<size>` is the size of the symlink in bytes."
-msgstr ""
+msgstr "Le lien symbolique sera soit absolu (commençant par un `/`), soit relatif à la racine de l'arbre.  Par exemple, si rép/lien pointe vers `../../foo`, alors `<lien-symbolique>` sera `../foo`.  `<taille>` est la taille du lien symbolique en octets."
 
 #. type: Plain text
 #: en/git-cat-file.txt:277
 #, priority:100
 msgid "If `--follow-symlinks` is used, the following error messages will be displayed:"
-msgstr ""
+msgstr "Si `--follow-symlinks` est utilisé, les messages d'erreur suivants seront affichés :"
 
 #. type: Plain text
 #: en/git-cat-file.txt:282
 #, priority:100
 msgid "is printed when the initial symlink requested does not exist."
-msgstr ""
+msgstr "est imprimé lorsque le lien symbolique initial demandé n'existe pas."
 
 #. type: delimited block -
 #: en/git-cat-file.txt:286
@@ -11646,13 +11587,13 @@ msgstr ""
 msgid ""
 "dangling SP <size> LF\n"
 "<object> LF\n"
-msgstr ""
+msgstr "dangling SP <taille> LF\n<objet> LF\n"
 
 #. type: Plain text
 #: en/git-cat-file.txt:289
 #, priority:100
 msgid "is printed when the initial symlink exists, but something that it (transitive-of) points to does not."
-msgstr ""
+msgstr "est affiché lorsque le lien symbolique initial existe, mais que ce vers quoi il pointe (transitivement) n'existe pas."
 
 #. type: delimited block -
 #: en/git-cat-file.txt:293
@@ -11660,13 +11601,13 @@ msgstr ""
 msgid ""
 "loop SP <size> LF\n"
 "<object> LF\n"
-msgstr ""
+msgstr "loop SP <taille> LF\n<objet> LF\n"
 
 #. type: Plain text
 #: en/git-cat-file.txt:296
 #, priority:100
 msgid "is printed for symlink loops (or any symlinks that require more than 40 link resolutions to resolve)."
-msgstr ""
+msgstr "est affiché pour les boucles de liens symboliques (ou tous les liens symboliques qui nécessitent plus de 40 résolutions de liens pour être résolus)."
 
 #. type: delimited block -
 #: en/git-cat-file.txt:300
@@ -11674,31 +11615,31 @@ msgstr ""
 msgid ""
 "notdir SP <size> LF\n"
 "<object> LF\n"
-msgstr ""
+msgstr "notdir SP <taille> LF\n<objet> LF\n"
 
 #. type: Plain text
 #: en/git-cat-file.txt:303
 #, priority:100
 msgid "is printed when, during symlink resolution, a file is used as a directory name."
-msgstr ""
+msgstr "est affiché lorsque, pendant la résolution des liens symboliques, un fichier est utilisé comme nom de répertoire."
 
 #. type: Title -
 #: en/git-cat-file.txt:305 en/git-for-each-ref.txt:394 en/git-format-patch.txt:744 en/git-svn.txt:999
 #, no-wrap, priority:100
 msgid "CAVEATS"
-msgstr ""
+msgstr "MISES EN GARDE"
 
 #. type: Plain text
 #: en/git-cat-file.txt:313 en/git-for-each-ref.txt:402
 #, priority:100
 msgid "Note that the sizes of objects on disk are reported accurately, but care should be taken in drawing conclusions about which refs or objects are responsible for disk usage. The size of a packed non-delta object may be much larger than the size of objects which delta against it, but the choice of which object is the base and which is the delta is arbitrary and is subject to change during a repack."
-msgstr ""
+msgstr "Notez que les tailles des objets sur le disque sont rapportées avec précision, mais il faut faire attention avant de tirer des conclusions sur les références ou les objets qui sont responsables de l'utilisation du disque. La taille d'un objet non-delta empaqueté peut être beaucoup plus grande que la taille des objets qui sont delta par rapport à lui, mais le choix de l'objet de base et de l'objet delta est arbitraire et peut être modifié lors d'un repack."
 
 #. type: Plain text
 #: en/git-cat-file.txt:317 en/git-for-each-ref.txt:406
 #, priority:100
 msgid "Note also that multiple copies of an object may be present in the object database; in this case, it is undefined which copy's size or delta base will be reported."
-msgstr ""
+msgstr "Notez également que plusieurs copies d'un objet peuvent être présentes dans la base de données des objets ; dans ce cas, il n'est pas défini quelle taille ou base delta de la copie sera rapportée."
 
 #. type: Title =
 #: en/git-check-attr.txt:2
@@ -11710,7 +11651,7 @@ msgstr "git-check-attr(1)"
 #: en/git-check-attr.txt:7
 #, priority:100
 msgid "git-check-attr - Display gitattributes information"
-msgstr ""
+msgstr "git-check-attr - Affiche les informations gitattributes"
 
 #. type: Plain text
 #: en/git-check-attr.txt:14
@@ -11718,25 +11659,25 @@ msgstr ""
 msgid ""
 "'git check-attr' [-a | --all | <attr>...] [--] <pathname>...\n"
 "'git check-attr' --stdin [-z] [-a | --all | <attr>...]\n"
-msgstr ""
+msgstr "'git check-attr' [-a | --all | <attr>...] [--] <nom-de-chemin>...\n'git check-attr' --stdin [-z] [-a | --all | <attr>...]\n"
 
 #. type: Plain text
 #: en/git-check-attr.txt:19
 #, priority:100
 msgid "For every pathname, this command will list if each attribute is 'unspecified', 'set', or 'unset' as a gitattribute on that pathname."
-msgstr ""
+msgstr "Pour chaque nom de chemin, cette commande listera si chaque attribut est 'unspecified', 'set', ou 'unset' en tant qu'attribut git sur ce nom de chemin."
 
 #. type: Labeled list
 #: en/git-check-attr.txt:22
 #, no-wrap, priority:100
 msgid "-a, --all"
-msgstr ""
+msgstr "-a, --all"
 
 #. type: Plain text
 #: en/git-check-attr.txt:26
 #, priority:100
 msgid "List all attributes that are associated with the specified paths.  If this option is used, then 'unspecified' attributes will not be included in the output."
-msgstr ""
+msgstr "Liste tous les attributs qui sont associés aux chemins spécifiés.  Si cette option est utilisée, les attributs 'unspecified' (non spécifiés) ne seront pas inclus dans la sortie."
 
 #. type: Plain text
 #: en/git-check-attr.txt:29
@@ -11754,43 +11695,43 @@ msgstr "--stdin"
 #: en/git-check-attr.txt:33 en/git-check-ignore.txt:46
 #, priority:100
 msgid "Read pathnames from the standard input, one per line, instead of from the command-line."
-msgstr ""
+msgstr "Lire les noms de chemin depuis l'entrée standard, un par ligne, au lieu de la ligne de commande."
 
 #. type: Plain text
 #: en/git-check-attr.txt:38
 #, priority:100
 msgid "The output format is modified to be machine-parsable.  If `--stdin` is also given, input paths are separated with a NUL character instead of a linefeed character."
-msgstr ""
+msgstr "Le format de sortie est modifié pour être analysable par la machine.  Si `--stdin` est également donné, les chemins d'entrée sont séparés par un caractère NUL au lieu d'un caractère de saut de ligne."
 
 #. type: Plain text
 #: en/git-check-attr.txt:42
 #, priority:100
 msgid "Interpret all preceding arguments as attributes and all following arguments as path names."
-msgstr ""
+msgstr "Interpréter tous les arguments précédents comme des attributs et tous les arguments suivants comme des noms de chemin."
 
 #. type: Plain text
 #: en/git-check-attr.txt:46
 #, priority:100
 msgid "If none of `--stdin`, `--all`, or `--` is used, the first argument will be treated as an attribute and the rest of the arguments as pathnames."
-msgstr ""
+msgstr "Si ni `--stdin`, ni `--all`, ni `--` n'est utilisé, le premier argument sera traité comme un attribut et le reste des arguments comme des noms de chemin."
 
 #. type: Plain text
 #: en/git-check-attr.txt:52
 #, priority:100
 msgid "The output is of the form: <path> COLON SP <attribute> COLON SP <info> LF"
-msgstr ""
+msgstr "La sortie est de la forme : <chemin> COLON SP <attribut> COLON SP <info> LF"
 
 #. type: Plain text
 #: en/git-check-attr.txt:55
 #, priority:100
 msgid "unless `-z` is in effect, in which case NUL is used as delimiter: <path> NUL <attribute> NUL <info> NUL"
-msgstr ""
+msgstr "sauf si `-z` est en vigueur, auquel cas NUL est utilisé comme délimiteur : <chemin> NUL <attribut> NUL <info> NUL"
 
 #. type: Plain text
 #: en/git-check-attr.txt:59
 #, priority:100
 msgid "<path> is the path of a file being queried, <attribute> is an attribute being queried and <info> can be either:"
-msgstr ""
+msgstr "<chemin> est le chemin d'un fichier en cours d'interrogation, <attribut> est un attribut en cours d'interrogation et <info> peut être soit :"
 
 #. type: Labeled list
 #: en/git-check-attr.txt:60
@@ -11802,7 +11743,7 @@ msgstr "'unspecified'"
 #: en/git-check-attr.txt:61
 #, priority:100
 msgid "when the attribute is not defined for the path."
-msgstr ""
+msgstr "lorsque l'attribut n'est pas défini pour le chemin."
 
 #. type: Labeled list
 #: en/git-check-attr.txt:61
@@ -11814,7 +11755,7 @@ msgstr "'unset'"
 #: en/git-check-attr.txt:62
 #, priority:100
 msgid "when the attribute is defined as false."
-msgstr ""
+msgstr "lorsque l'attribut est défini comme faux."
 
 #. type: Labeled list
 #: en/git-check-attr.txt:62
@@ -11826,31 +11767,31 @@ msgstr "'set'"
 #: en/git-check-attr.txt:63
 #, priority:100
 msgid "when the attribute is defined as true."
-msgstr ""
+msgstr "lorsque l'attribut est défini comme vrai."
 
 #. type: Labeled list
 #: en/git-check-attr.txt:63
 #, no-wrap, priority:100
 msgid "<value>"
-msgstr ""
+msgstr "<valeur>"
 
 #. type: Plain text
 #: en/git-check-attr.txt:64
 #, priority:100
 msgid "when a value has been assigned to the attribute."
-msgstr ""
+msgstr "lorsqu'une valeur a été attribuée à l'attribut."
 
 #. type: Plain text
 #: en/git-check-attr.txt:69 en/git-check-ignore.txt:105
 #, priority:100
 msgid "Buffering happens as documented under the `GIT_FLUSH` option in linkgit:git[1].  The caller is responsible for avoiding deadlocks caused by overfilling an input buffer or reading from an empty output buffer."
-msgstr ""
+msgstr "La mise en mémoire tampon se fait comme documenté sous l'option `GIT_FLUSH` dans linkgit:git[1].  L'appelant à la charge d'éviter les blocages causés par le remplissage excessif d'un tampon d'entrée ou la lecture d'un tampon de sortie vide."
 
 #. type: Plain text
 #: en/git-check-attr.txt:74
 #, priority:100
 msgid "In the examples, the following '.gitattributes' file is used:"
-msgstr ""
+msgstr "Dans les exemples, le fichier '.gitattributes' suivant est utilisé :"
 
 #. type: delimited block -
 #: en/git-check-attr.txt:78
@@ -11859,13 +11800,13 @@ msgid ""
 "*.java diff=java -crlf myAttr\n"
 "NoMyAttr.java !myAttr\n"
 "README caveat=unspecified\n"
-msgstr ""
+msgstr "*.java diff=java -crlf myAttr\nNoMyAttr.java !myAttr\nREADME caveat=unspecified\n"
 
 #. type: Plain text
 #: en/git-check-attr.txt:81
 #, priority:100
 msgid "Listing a single attribute:"
-msgstr ""
+msgstr "Lister un seul attribut :"
 
 #. type: delimited block -
 #: en/git-check-attr.txt:84
@@ -11873,13 +11814,13 @@ msgstr ""
 msgid ""
 "$ git check-attr diff org/example/MyClass.java\n"
 "org/example/MyClass.java: diff: java\n"
-msgstr ""
+msgstr "$ git check-attr diff org/example/MyClass.java\norg/example/MyClass.java: diff: java\n"
 
 #. type: Plain text
 #: en/git-check-attr.txt:87
 #, priority:100
 msgid "Listing multiple attributes for a file:"
-msgstr ""
+msgstr "Lister plusieurs attributs pour un fichier :"
 
 #. type: delimited block -
 #: en/git-check-attr.txt:92
@@ -11889,13 +11830,13 @@ msgid ""
 "org/example/MyClass.java: crlf: unset\n"
 "org/example/MyClass.java: diff: java\n"
 "org/example/MyClass.java: myAttr: set\n"
-msgstr ""
+msgstr "$ git check-attr crlf diff myAttr -- org/example/MyClass.java\norg/example/MyClass.java: crlf: unset\norg/example/MyClass.java: diff: java\norg/example/MyClass.java: myAttr: set\n"
 
 #. type: Plain text
 #: en/git-check-attr.txt:95
 #, priority:100
 msgid "Listing all attributes for a file:"
-msgstr ""
+msgstr "Liste de tous les attributs d'un fichier :"
 
 #. type: delimited block -
 #: en/git-check-attr.txt:99
@@ -11904,13 +11845,13 @@ msgid ""
 "$ git check-attr --all -- org/example/MyClass.java\n"
 "org/example/MyClass.java: diff: java\n"
 "org/example/MyClass.java: myAttr: set\n"
-msgstr ""
+msgstr "$ git check-attr --all -- org/example/MyClass.java\norg/example/MyClass.java: diff: java\norg/example/MyClass.java: myAttr: set\n"
 
 #. type: Plain text
 #: en/git-check-attr.txt:102
 #, priority:100
 msgid "Listing an attribute for multiple files:"
-msgstr ""
+msgstr "Lister un attribut pour plusieurs fichiers :"
 
 #. type: delimited block -
 #: en/git-check-attr.txt:106
@@ -11919,13 +11860,13 @@ msgid ""
 "$ git check-attr myAttr -- org/example/MyClass.java org/example/NoMyAttr.java\n"
 "org/example/MyClass.java: myAttr: set\n"
 "org/example/NoMyAttr.java: myAttr: unspecified\n"
-msgstr ""
+msgstr "$ git check-attr myAttr -- org/example/MyClass.java org/example/NoMyAttr.java\norg/example/MyClass.java: myAttr: set\norg/example/NoMyAttr.java: myAttr: unspecified\n"
 
 #. type: Plain text
 #: en/git-check-attr.txt:109
 #, priority:100
 msgid "Not all values are equally unambiguous:"
-msgstr ""
+msgstr "Toutes les valeurs ne sont pas également univoques :"
 
 #. type: delimited block -
 #: en/git-check-attr.txt:112
@@ -11933,7 +11874,7 @@ msgstr ""
 msgid ""
 "$ git check-attr caveat README\n"
 "README: caveat: unspecified\n"
-msgstr ""
+msgstr "$ git check-attr caveat README\nREADME: caveat: unspecified\n"
 
 #. type: Plain text
 #: en/git-check-attr.txt:117
@@ -11951,7 +11892,7 @@ msgstr "git-check-ignore(1)"
 #: en/git-check-ignore.txt:7
 #, priority:100
 msgid "git-check-ignore - Debug gitignore / exclude files"
-msgstr ""
+msgstr "git-check-ignore - Débogue les fichiers gitignore / exclude"
 
 #. type: Plain text
 #: en/git-check-ignore.txt:14
@@ -11959,67 +11900,67 @@ msgstr ""
 msgid ""
 "'git check-ignore' [<options>] <pathname>...\n"
 "'git check-ignore' [<options>] --stdin\n"
-msgstr ""
+msgstr "'git check-ignore' [<options>] <nom-de-chemin>...\n'git check-ignore' [<options>] --stdin\n"
 
 #. type: Plain text
 #: en/git-check-ignore.txt:22
 #, priority:100
 msgid "For each pathname given via the command-line or from a file via `--stdin`, check whether the file is excluded by .gitignore (or other input files to the exclude mechanism) and output the path if it is excluded."
-msgstr ""
+msgstr "Pour chaque nom de chemin donné via la ligne de commande ou depuis un fichier via `--stdin`, vérifie si le fichier est exclu par .gitignore (ou d'autres fichiers d'entrée du mécanisme d'exclusion) et affiche le chemin s'il est exclu."
 
 #. type: Plain text
 #: en/git-check-ignore.txt:25
 #, priority:100
 msgid "By default, tracked files are not shown at all since they are not subject to exclude rules; but see `--no-index'."
-msgstr ""
+msgstr "Par défaut, les fichiers suivis ne sont pas affichés du tout puisqu'ils ne sont pas soumis aux règles d'exclusion ; mais voyez `--no-index'."
 
 #. type: Labeled list
 #: en/git-check-ignore.txt:28
 #, no-wrap, priority:100
 msgid "-q, --quiet"
-msgstr ""
+msgstr "-q, --quiet"
 
 #. type: Plain text
 #: en/git-check-ignore.txt:31
 #, priority:100
 msgid "Don't output anything, just set exit status.  This is only valid with a single pathname."
-msgstr ""
+msgstr "Ne pas émettre de message, définir juste le statut de sortie.  Ceci n'est valable qu'avec un seul chemin d'accès."
 
 #. type: Labeled list
 #: en/git-check-ignore.txt:32
 #, no-wrap, priority:100
 msgid "-v, --verbose"
-msgstr ""
+msgstr "-v, --verbose"
 
 #. type: Plain text
 #: en/git-check-ignore.txt:39
 #, priority:100
 msgid "Instead of printing the paths that are excluded, for each path that matches an exclude pattern, print the exclude pattern together with the path.  (Matching an exclude pattern usually means the path is excluded, but if the pattern begins with '!' then it is a negated pattern and matching it means the path is NOT excluded.)"
-msgstr ""
+msgstr "Au lieu d'afficher les chemins qui sont exclus, pour chaque chemin qui correspond à un motif d'exclusion, imprimer le motif d'exclusion avec le chemin.  (La correspondance d'un motif d'exclusion signifie généralement que le chemin est exclu, mais si le motif commence par '!', il s'agit alors d'un motif négatif et sa correspondance signifie que le chemin n'est PAS exclu)."
 
 #. type: Plain text
 #: en/git-check-ignore.txt:42
 #, priority:100
 msgid "For precedence rules within and between exclude sources, see linkgit:gitignore[5]."
-msgstr ""
+msgstr "Pour les règles de préséance dans et entre les sources d'exclusion, voir linkgit:gitignore[5]."
 
 #. type: Plain text
 #: en/git-check-ignore.txt:51
 #, priority:100
 msgid "The output format is modified to be machine-parsable (see below).  If `--stdin` is also given, input paths are separated with a NUL character instead of a linefeed character."
-msgstr ""
+msgstr "Le format de sortie est modifié pour être analysable par une machine.  Si `--stdin` est également donné, les chemins d'entrée sont séparés par un caractère NUL au lieu d'un caractère de saut de ligne."
 
 #. type: Labeled list
 #: en/git-check-ignore.txt:52
 #, no-wrap, priority:100
 msgid "-n, --non-matching"
-msgstr ""
+msgstr "-n, --non-matching"
 
 #. type: Plain text
 #: en/git-check-ignore.txt:57
 #, priority:100
 msgid "Show given paths which don't match any pattern.\t This only makes sense when `--verbose` is enabled, otherwise it would not be possible to distinguish between paths which match a pattern and those which don't."
-msgstr ""
+msgstr "Afficher les chemins donnés qui ne correspondent à aucun motif. Cela n'a de sens que si `--verbose` est activé, sinon il ne serait pas possible de distinguer les chemins qui correspondent à un motif de ceux qui ne le correspondent pas."
 
 #. type: Labeled list
 #: en/git-check-ignore.txt:58 en/git-grep.txt:47
@@ -12031,49 +11972,49 @@ msgstr "--no-index"
 #: en/git-check-ignore.txt:64
 #, priority:100
 msgid "Don't look in the index when undertaking the checks. This can be used to debug why a path became tracked by e.g. `git add .` and was not ignored by the rules as expected by the user or when developing patterns including negation to match a path previously added with `git add -f`."
-msgstr ""
+msgstr "Ne pas regarder dans l'index lors des vérifications. Cela peut être utilisé pour déboguer la raison pour laquelle un chemin est devenu suivi par exemple par `git add .` et n'a pas été ignoré par les règles comme prévu par l'utilisateur ou lors du développement de motifs incluant la négation pour correspondre à un chemin précédemment ajouté avec `git add -f`."
 
 #. type: Plain text
 #: en/git-check-ignore.txt:72
 #, priority:100
 msgid "By default, any of the given pathnames which match an ignore pattern will be output, one per line.  If no pattern matches a given path, nothing will be output for that path; this means that path will not be ignored."
-msgstr ""
+msgstr "Par défaut, tous les noms de chemin donnés qui correspondent à un motif négatif seront affichés, un par ligne.  Si aucun motif ne correspond à un chemin donné, rien ne sera affiché pour ce chemin ; cela signifie que ce chemin ne sera pas ignoré."
 
 #. type: Plain text
 #: en/git-check-ignore.txt:74
 #, priority:100
 msgid "If `--verbose` is specified, the output is a series of lines of the form:"
-msgstr ""
+msgstr "Si `--verbose` est spécifié, la sortie est une série de lignes de la forme :"
 
 #. type: Plain text
 #: en/git-check-ignore.txt:76
 #, priority:100
 msgid "<source> <COLON> <linenum> <COLON> <pattern> <HT> <pathname>"
-msgstr ""
+msgstr "<source> <DEUX-POINTS> <num-ligne> <DEUX-POINTS> <motif> <HT> <nom-de-chemin>"
 
 #. type: Plain text
 #: en/git-check-ignore.txt:84
 #, priority:100
 msgid "<pathname> is the path of a file being queried, <pattern> is the matching pattern, <source> is the pattern's source file, and <linenum> is the line number of the pattern within that source.  If the pattern contained a `!` prefix or `/` suffix, it will be preserved in the output.  <source> will be an absolute path when referring to the file configured by `core.excludesFile`, or relative to the repository root when referring to `.git/info/exclude` or a per-directory exclude file."
-msgstr ""
+msgstr "<nom-de-chemin> est le chemin d'un fichier interrogé, <motif> est le motif correspondant, <source> est le fichier source du motif, et <num-ligne> est le numéro de ligne du motif dans cette source.  Si le motif contenait un préfixe `!` ou un suffixe `/`, il sera préservé dans la sortie.  <source> sera un chemin absolu quand il se réfère au fichier configuré par `core.excludesFile`, ou relatif à la racine du dépôt quand il se réfère à `.git/info/exclude` ou à un fichier d'exclusion par répertoire."
 
 #. type: Plain text
 #: en/git-check-ignore.txt:88
 #, priority:100
 msgid "If `-z` is specified, the pathnames in the output are delimited by the null character; if `--verbose` is also specified then null characters are also used instead of colons and hard tabs:"
-msgstr ""
+msgstr "Si `-z` est spécifié, les noms de chemin dans la sortie sont délimités par le caractère nul ; si `--verbose` est également spécifié, les caractères nuls sont également utilisés à la place des deux-points et des tabulations :"
 
 #. type: Plain text
 #: en/git-check-ignore.txt:90
 #, priority:100
 msgid "<source> <NULL> <linenum> <NULL> <pattern> <NULL> <pathname> <NULL>"
-msgstr ""
+msgstr "<source> <NULL> <num-ligne> <NULL> <motif> <NULL> <nome-de-chemin> <NULL>"
 
 #. type: Plain text
 #: en/git-check-ignore.txt:100
 #, priority:100
 msgid "If `-n` or `--non-matching` are specified, non-matching pathnames will also be output, in which case all fields in each output record except for <pathname> will be empty.  This can be useful when running non-interactively, so that files can be incrementally streamed to STDIN of a long-running check-ignore process, and for each of these files, STDOUT will indicate whether that file matched a pattern or not.  (Without this option, it would be impossible to tell whether the absence of output for a given file meant that it didn't match any pattern, or that the output hadn't been generated yet.)"
-msgstr ""
+msgstr "Si `-n` ou `--non-matching` sont spécifiés, les noms de chemin non-matching seront aussi sortis, dans ce cas tous les champs dans chaque enregistrement de sortie sauf pour <nom-de-chemin> seront vides.  Cela peut être utile lors d'une exécution non-interactive, de sorte que les fichiers peuvent être envoyés incrémentalement sur STDIN d'un processus check-ignore au long cours, et pour chacun de ces fichiers, STDOUT indiquera si ce fichier correspond à un motif ou non.  (Sans cette option, il serait impossible de dire si l'absence de sortie pour un fichier donné signifie qu'il ne correspond à aucun motif, ou que la sortie n'a pas encore été générée)."
 
 #. type: Title -
 #: en/git-check-ignore.txt:107 en/git-filter-branch.txt:239 en/git-remote.txt:207
@@ -12085,37 +12026,37 @@ msgstr "STATUT DE SORTIE"
 #: en/git-check-ignore.txt:109
 #, no-wrap, priority:100
 msgid "0"
-msgstr ""
+msgstr "0"
 
 #. type: Plain text
 #: en/git-check-ignore.txt:111
 #, priority:100
 msgid "One or more of the provided paths is ignored."
-msgstr ""
+msgstr "Un ou plusieurs des chemins fournis sont ignorés."
 
 #. type: Labeled list
 #: en/git-check-ignore.txt:112
 #, no-wrap, priority:100
 msgid "1"
-msgstr ""
+msgstr "1"
 
 #. type: Plain text
 #: en/git-check-ignore.txt:114
 #, priority:100
 msgid "None of the provided paths are ignored."
-msgstr ""
+msgstr "Aucun des chemins fournis n'est ignoré."
 
 #. type: Labeled list
 #: en/git-check-ignore.txt:115
 #, no-wrap, priority:100
 msgid "128"
-msgstr ""
+msgstr "128"
 
 #. type: Plain text
 #: en/git-check-ignore.txt:117
 #, priority:100
 msgid "A fatal error was encountered."
-msgstr ""
+msgstr "Une erreur fatale a été rencontrée."
 
 #. type: Plain text
 #: en/git-check-ignore.txt:123
@@ -12133,7 +12074,7 @@ msgstr "git-check-mailmap(1)"
 #: en/git-check-mailmap.txt:7
 #, priority:100
 msgid "git-check-mailmap - Show canonical names and email addresses of contacts"
-msgstr ""
+msgstr "git-check-mailmap - Affiche les noms canoniques et les adresses de courriel des contacts"
 
 #. type: Plain text
 #: en/git-check-mailmap.txt:13
@@ -12145,25 +12086,25 @@ msgstr "'git check-mailmap' [<options>] <contact>...\n"
 #: en/git-check-mailmap.txt:22
 #, priority:100
 msgid "For each ``Name $$<user@host>$$'' or ``$$<user@host>$$'' from the command-line or standard input (when using `--stdin`), look up the person's canonical name and email address (see \"Mapping Authors\" below). If found, print them; otherwise print the input as-is."
-msgstr ""
+msgstr "Pour chaque \"Nom $$<utilisateur@hote>$$\" ou \"$$<utilisateur@hote>$$\" de la ligne de commande ou de l'entrée standard (si vous utilisez `--stdin`), rechercher le nom canonique et l'adresse électronique de la personne (voir \"Convertir les auteurs\" ci-dessous). S'ils sont trouvés, les afficher, sinon afficher l'entrée telle quelle."
 
 #. type: Plain text
 #: en/git-check-mailmap.txt:29
 #, priority:100
 msgid "Read contacts, one per line, from the standard input after exhausting contacts provided on the command-line."
-msgstr ""
+msgstr "Lire les contacts, un par ligne, à partir de l'entrée standard après avoir épuisé les contacts fournis sur la ligne de commande."
 
 #. type: Plain text
 #: en/git-check-mailmap.txt:37
 #, priority:100
 msgid "For each contact, a single line is output, terminated by a newline.  If the name is provided or known to the 'mailmap', ``Name $$<user@host>$$'' is printed; otherwise only ``$$<user@host>$$'' is printed."
-msgstr ""
+msgstr "Pour chaque contact, une seule ligne est sortie, terminée par un saut de ligne.  Si le nom est fourni ou connu de la 'mailmap', \"Nom $$<utilisateur@hote>$$\" est affiché ; sinon, seul \"$$<utilisateur@hote>$$\" est affiché."
 
 #. type: Plain text
 #: en/git-check-mailmap.txt:44
 #, priority:100
 msgid "See `mailmap.file` and `mailmap.blob` in linkgit:git-config[1] for how to specify a custom `.mailmap` target file or object."
-msgstr ""
+msgstr "Voir `mailmap.file` et `mailmap.blob` dans linkgit:git-config[1] pour savoir comment spécifier un fichier ou un objet cible `.mailmap` personnalisé."
 
 #. type: Title =
 #: en/git-checkout-index.txt:2
@@ -12186,7 +12127,7 @@ msgid ""
 "\t\t   [--temp]\n"
 "\t\t   [-z] [--stdin]\n"
 "\t\t   [--] [<file>...]\n"
-msgstr ""
+msgstr "git checkout-index' [-u] [-q] [-a] [-f] [-n] [--prefix=<chaine>]\n\t\t   [--stage=<numéro>|all]\n\t\t   [--temp]\n\t\t   [-z] [--stdin]\n\t\t   [--] [<fichier>...]\n"
 
 #. type: Plain text
 #: en/git-checkout-index.txt:22
@@ -12198,7 +12139,7 @@ msgstr "Va copier tous les fichiers indiqués depuis l'index dans l'arbre de tra
 #: en/git-checkout-index.txt:29
 #, priority:100
 msgid "update stat information for the checked out entries in the index file."
-msgstr ""
+msgstr "mettre à jour les informations sur les statuts des entrées extraites dans le fichier d'index."
 
 #. type: Plain text
 #: en/git-checkout-index.txt:33
@@ -12216,7 +12157,7 @@ msgstr "forcer l'écrasement de fichiers existants"
 #: en/git-checkout-index.txt:42
 #, priority:100
 msgid "checks out all files in the index.  Cannot be used together with explicit filenames."
-msgstr ""
+msgstr "vérifier tous les fichiers de l'index.  Ne peut pas être utilisé avec des noms de fichiers explicites."
 
 #. type: Labeled list
 #: en/git-checkout-index.txt:44
@@ -12228,7 +12169,7 @@ msgstr "--no-create"
 #: en/git-checkout-index.txt:47
 #, priority:100
 msgid "Don't checkout new files, only refresh files already checked out."
-msgstr ""
+msgstr "Ne pas extraire de nouveaux fichiers, seulement rafraîchir les fichiers déjà extraits."
 
 #. type: Labeled list
 #: en/git-checkout-index.txt:48
@@ -12240,19 +12181,19 @@ msgstr "--prefix=<chaîne>"
 #: en/git-checkout-index.txt:51
 #, priority:100
 msgid "When creating files, prepend <string> (usually a directory including a trailing /)"
-msgstr ""
+msgstr "Lors de la création de fichiers, les préfixer avec <chaine> (généralement un répertoire incluant une terminaison /)"
 
 #. type: Labeled list
 #: en/git-checkout-index.txt:52
 #, no-wrap, priority:100
 msgid "--stage=<number>|all"
-msgstr ""
+msgstr "--stage=<nombre>|all"
 
 #. type: Plain text
 #: en/git-checkout-index.txt:56
 #, priority:100
 msgid "Instead of checking out unmerged entries, copy out the files from named stage.  <number> must be between 1 and 3.  Note: --stage=all automatically implies --temp."
-msgstr ""
+msgstr "Au lieu de vérifier les entrées non fusionnées, copier les fichiers de l'étape nommée.  <numéro> doit être compris entre 1 et 3.  Note : --stage=all implique automatiquement --temp."
 
 #. type: Labeled list
 #: en/git-checkout-index.txt:57
@@ -12264,19 +12205,19 @@ msgstr "--temp"
 #: en/git-checkout-index.txt:61
 #, priority:100
 msgid "Instead of copying the files to the working directory write the content to temporary files.  The temporary name associations will be written to stdout."
-msgstr ""
+msgstr "Au lieu de copier les fichiers dans le répertoire de travail, écrire le contenu dans des fichiers temporaires.  Les associations de noms temporaires seront écrites sur stdout."
 
 #. type: Plain text
 #: en/git-checkout-index.txt:66 en/git-update-index.txt:157
 #, priority:100
 msgid "Instead of taking list of paths from the command line, read list of paths from the standard input.  Paths are separated by LF (i.e. one path per line) by default."
-msgstr ""
+msgstr "Au lieu de prendre la liste des chemins à partir de la ligne de commande, lire la liste des chemins à partir de l'entrée standard.  Les chemins sont séparés par LF (c'est-à-dire un chemin par ligne) par défaut."
 
 #. type: Plain text
 #: en/git-checkout-index.txt:70
 #, priority:100
 msgid "Only meaningful with `--stdin`; paths are separated with NUL character instead of LF."
-msgstr ""
+msgstr "N'a de sens qu'avec `--stdin` ; les chemins sont séparés par le caractère NUL au lieu de LF."
 
 #. type: Plain text
 #: en/git-checkout-index.txt:73 en/git-checkout.txt:364 en/git-commit.txt:399 en/git-ls-files.txt:192 en/git-merge-index.txt:25 en/git-prune.txt:53 en/git-reset.txt:127 en/git-restore.txt:144 en/git-update-index.txt:228 en/git-verify-pack.txt:38
@@ -12288,31 +12229,31 @@ msgstr "Ne pas interpréter les arguments qui suivent comme options."
 #: en/git-checkout-index.txt:75
 #, priority:100
 msgid "The order of the flags used to matter, but not anymore."
-msgstr ""
+msgstr "L'ordre des drapeaux était autrefois important, mais plus maintenant."
 
 #. type: Plain text
 #: en/git-checkout-index.txt:79
 #, priority:100
 msgid "Just doing `git checkout-index` does nothing. You probably meant `git checkout-index -a`. And if you want to force it, you want `git checkout-index -f -a`."
-msgstr ""
+msgstr "Faire simplement `git checkout-index` ne fait rien. Vous vouliez probablement dire `git checkout-index -a`. Et si vous voulez le forcer, il faut faire `git checkout-index -f -a`."
 
 #. type: Plain text
 #: en/git-checkout-index.txt:83
 #, priority:100
 msgid "Intuitiveness is not the goal here. Repeatability is. The reason for the \"no arguments means no work\" behavior is that from scripts you are supposed to be able to do:"
-msgstr ""
+msgstr "L'intuitivité n'est pas le but ici. La répétabilité l'est. La raison du comportement \"pas d'arguments signifie pas de travail\" est que, à partir de scripts, vous êtes censé être capable de faire :"
 
 #. type: delimited block -
 #: en/git-checkout-index.txt:86
 #, no-wrap, priority:100
 msgid "$ find . -name '*.h' -print0 | xargs -0 git checkout-index -f --\n"
-msgstr ""
+msgstr "$ find . -name '*.h' -print0 | xargs -0 git checkout-index -f --\n"
 
 #. type: Plain text
 #: en/git-checkout-index.txt:92
 #, priority:100
 msgid "which will force all existing `*.h` files to be replaced with their cached copies. If an empty command line implied \"all\", then this would force-refresh everything in the index, which was not the point.  But since 'git checkout-index' accepts --stdin it would be faster to use:"
-msgstr ""
+msgstr "qui forcera tous les fichiers `*.h` existants à être remplacés par leurs copies en cache. Si une ligne de commande vide impliquait \"all\", alors cela forcerait le rafraîchissement de tous les fichiers de l'index, ce qui n'était pas le but.  Mais puisque 'git checkout-index' accepte --stdin, il serait plus rapide d'utiliser :"
 
 #. type: delimited block -
 #: en/git-checkout-index.txt:95
@@ -14454,17 +14395,7 @@ msgstr "git-clone - Clone un dépôt dans un nouveau répertoire"
 
 #. type: Plain text
 #: en/git-clone.txt:21
-#, fuzzy, no-wrap, priority:300
-#| msgid ""
-#| "'git clone' [--template=<template_directory>]\n"
-#| "\t  [-l] [-s] [--no-hardlinks] [-q] [-n] [--bare] [--mirror]\n"
-#| "\t  [-o <name>] [-b <name>] [-u <upload-pack>] [--reference <repository>]\n"
-#| "\t  [--dissociate] [--separate-git-dir <git dir>]\n"
-#| "\t  [--depth <depth>] [--[no-]single-branch] [--no-tags]\n"
-#| "\t  [--recurse-submodules[=<pathspec>]] [--[no-]shallow-submodules]\n"
-#| "\t  [--[no-]remote-submodules] [--jobs <n>] [--sparse]\n"
-#| "\t  [--filter=<filter>] [--] <repository>\n"
-#| "\t  [<directory>]\n"
+#, no-wrap, priority:300
 msgid ""
 "'git clone' [--template=<template_directory>]\n"
 "\t  [-l] [-s] [--no-hardlinks] [-q] [-n] [--bare] [--mirror]\n"
@@ -14475,16 +14406,7 @@ msgid ""
 "\t  [--[no-]remote-submodules] [--jobs <n>] [--sparse] [--[no-]reject-shallow]\n"
 "\t  [--filter=<filter>] [--] <repository>\n"
 "\t  [<directory>]\n"
-msgstr ""
-"'git clone' [--template=<répertoire_de_modèles>]\n"
-"\t  [-l] [-s] [--no-hardlinks] [-q] [-n] [--bare] [--mirror]\n"
-"\t  [-o <nom>] [-b <nom>] [-u <upload-pack>] [--reference <dépôt>]\n"
-"\t  [--dissociate] [--separate-git-dir <répertoire git>]\n"
-"\t  [--depth <profondeur>] [--[no-]single-branch] [--no-tags]\n"
-"\t  [--recurse-submodules[=<spéc.de chemin>]] [--[no-]shallow-submodules]\n"
-"\t  [--[no-]remote-submodules] [--jobs <n>] [--sparse]\n"
-"\t  [--filter=<filter>] [--] <dépôt>\n"
-"\t  [<répertoire>]\n"
+msgstr "'git clone' [--template=<répertoire_de_modèles>]\n\t  [-l] [-s] [--no-hardlinks] [-q] [-n] [--bare] [--mirror]\n\t  [-o <nom>] [-b <nom>] [-u <upload-pack>] [--reference <dépôt>]\n\t  [--dissociate] [--separate-git-dir <répertoire git>]\n\t  [--depth <profondeur>] [--[no-]single-branch] [--no-tags]\n\t  [--recurse-submodules[=<spéc.de chemin>]] [--[no-]shallow-submodules]\n\t  [--[no-]remote-submodules] [--jobs <n>] [--sparse] [--[no-]reject-shallow]\n\t  [--filter=<filter>] [--] <dépôt>\n\t  [<répertoire>]\n"
 
 #. type: Plain text
 #: en/git-clone.txt:30
@@ -14662,7 +14584,7 @@ msgstr "--[no-]reject-shallow"
 #: en/git-clone.txt:156
 #, priority:300
 msgid "Fail if the source repository is a shallow repository.  The 'clone.rejectShallow' configuration variable can be used to specify the default."
-msgstr ""
+msgstr "Échouer si le dépôt source est un dépôt superficiel.  La variable de configuration 'clone.rejectShallow' peut être utilisée pour spécifier la valeur par défaut."
 
 #. type: Labeled list
 #: en/git-clone.txt:157 en/git-init.txt:48 en/git-p4.txt:305 en/git.txt:171
@@ -15352,15 +15274,7 @@ msgstr "git-commit - Enregistrer les modifications dans le dépôt"
 
 #. type: Plain text
 #: en/git-commit.txt:19
-#, fuzzy, ignore-ellipsis, no-wrap, priority:280
-#| msgid ""
-#| "'git commit' [-a | --interactive | --patch] [-s] [-v] [-u<mode>] [--amend]\n"
-#| "\t   [--dry-run] [(-c | -C | --fixup | --squash) <commit>]\n"
-#| "\t   [-F <file> | -m <msg>] [--reset-author] [--allow-empty]\n"
-#| "\t   [--allow-empty-message] [--no-verify] [-e] [--author=<author>]\n"
-#| "\t   [--date=<date>] [--cleanup=<mode>] [--[no-]status]\n"
-#| "\t   [-i | -o] [--pathspec-from-file=<file> [--pathspec-file-nul]]\n"
-#| "\t   [-S[<keyid>]] [--] [<pathspec>...]\n"
+#, ignore-ellipsis, no-wrap, priority:280
 msgid ""
 "'git commit' [-a | --interactive | --patch] [-s] [-v] [-u<mode>] [--amend]\n"
 "\t   [--dry-run] [(-c | -C | --squash) <commit> | --fixup [(amend|reword):]<commit>)]\n"
@@ -15370,14 +15284,7 @@ msgid ""
 "\t   [-i | -o] [--pathspec-from-file=<file> [--pathspec-file-nul]]\n"
 "\t   [(--trailer <token>[(=|:)<value>])...] [-S[<keyid>]]\n"
 "\t   [--] [<pathspec>...]\n"
-msgstr ""
-"'git commit' [-a | --interactive | --patch] [-s] [-v] [-u<mode>] [--amend]\n"
-"\t   [--dry-run] [(-c | -C | --fixup | --squash) <commit>]\n"
-"\t   [-F <fichier> | -m <msg>] [--reset-author] [--allow-empty]\n"
-"\t   [--allow-empty-message] [--no-verify] [-e] [--author=<auteur>]\n"
-"\t   [--date=<date>] [--cleanup=<mode>] [--[no-]status]\n"
-"\t   [-i | -o] [--pathspec-from-file=<fichier> [--pathspec-file-nul]]\n"
-"\t   [-S[<idclé>]] [--] [<spec-de-chemin>...]\n"
+msgstr "'git commit' [-a | --interactive | --patch] [-s] [-v] [-u<mode>] [--amend]\n\t   [--dry-run] [(-c | -C | -squash) <commit>] | --fixup [(amend|reword):]<commit>)]\n\t   [-F <fichier> | -m <msg>] [--reset-author] [--allow-empty]\n\t   [--allow-empty-message] [--no-verify] [-e] [--author=<auteur>]\n\t   [--date=<date>] [--cleanup=<mode>] [--[no-]status]\n\t   [-i | -o] [--pathspec-from-file=<fichier> [--pathspec-file-nul]]\n\t   [(--trailer <token>[(=|:)<valeur>])...] [-S[<idclé>]] \n\t[--] [<spec-de-chemin>...]\n"
 
 #. type: Plain text
 #: en/git-commit.txt:28
@@ -15483,40 +15390,39 @@ msgstr "Comme '-C', mais avec '-c', l'éditeur est appelé pour permettre à l'u
 
 #. type: Labeled list
 #: en/git-commit.txt:90
-#, fuzzy, no-wrap, priority:280
-#| msgid "--fixup=<commit>"
+#, no-wrap, priority:280
 msgid "--fixup=[(amend|reword):]<commit>"
-msgstr "--fixup=<commit>"
+msgstr "--fixup=[(amend|reword):]<commit>"
 
 #. type: Plain text
 #: en/git-commit.txt:100
 #, priority:280
 msgid "Create a new commit which \"fixes up\" `<commit>` when applied with `git rebase --autosquash`. Plain `--fixup=<commit>` creates a \"fixup!\" commit which changes the content of `<commit>` but leaves its log message untouched. `--fixup=amend:<commit>` is similar but creates an \"amend!\" commit which also replaces the log message of `<commit>` with the log message of the \"amend!\" commit.  `--fixup=reword:<commit>` creates an \"amend!\" commit which replaces the log message of `<commit>` with its own log message but makes no changes to the content of `<commit>`."
-msgstr ""
+msgstr "Créer un nouveau commit qui « répare » `<commit>` quand il est appliqué avec `git rebase --autosquash``. Un simple `--fixup=<commit>` crée un commit \"fixup !\" qui change le contenu de `<commit>` mais laisse son message de validation inchangé. `-fixup=amend:<commit>` est similaire mais crée un commit \"amend !\" qui remplace aussi le message de validation de `<commit>` par le message de validation du commit \"amend !\".  `--fixup=reword:<commit>` crée un commit \"amend !\" qui remplace le message de validation de `<commit>` par son propre message de log mais ne fait aucun changement au contenu de `<commit>`."
 
 #. type: Plain text
 #: en/git-commit.txt:108
 #, priority:280
 msgid "The commit created by plain `--fixup=<commit>` has a subject composed of \"fixup!\" followed by the subject line from <commit>, and is recognized specially by `git rebase --autosquash`. The `-m` option may be used to supplement the log message of the created commit, but the additional commentary will be thrown away once the \"fixup!\" commit is squashed into `<commit>` by `git rebase --autosquash`."
-msgstr ""
+msgstr "Le commit créé par le simple `--fixup=<commit>` a un sujet composé de \"fixup !\" suivi de la ligne de sujet de <commit>, et est reconnu spécialement par `git rebase --autosquash`. L'option `-m` peut être utilisée pour compléter le message du journal du commit créé, mais le commentaire supplémentaire sera jeté une fois que le commit \"fixup !\" sera écrasé dans `<commit>` par `git rebase --autosquash`."
 
 #. type: Plain text
 #: en/git-commit.txt:118
 #, priority:280
 msgid "The commit created by `--fixup=amend:<commit>` is similar but its subject is instead prefixed with \"amend!\". The log message of <commit> is copied into the log message of the \"amend!\" commit and opened in an editor so it can be refined. When `git rebase --autosquash` squashes the \"amend!\" commit into `<commit>`, the log message of `<commit>` is replaced by the refined log message from the \"amend!\" commit. It is an error for the \"amend!\" commit's log message to be empty unless `--allow-empty-message` is specified."
-msgstr ""
+msgstr "Le commit créé par `--fixup=amend:<commit>` est similaire mais son sujet est à la place préfixé par \"amend !\". Le message de validation de <commit> est copié dans le message de validation du commit \"amend !\" et ouvert dans un éditeur afin qu'il puisse être affiné. Lorsque `git rebase --autosquash` écrase le commit \"amend !\" dans `<commit>`, le message de validation de `<commit>` est remplacé par le message de validation raffiné du commit \"amend !\". C'est une erreur si le message du journal du commit \"amend !\" est vide, à moins que `--allow-empty-message` soit spécifié."
 
 #. type: Plain text
 #: en/git-commit.txt:124
 #, priority:280
 msgid "`--fixup=reword:<commit>` is shorthand for `--fixup=amend:<commit> --only`. It creates an \"amend!\" commit with only a log message (ignoring any changes staged in the index). When squashed by `git rebase --autosquash`, it replaces the log message of `<commit>` without making any other changes."
-msgstr ""
+msgstr "`--fixup=reword:<commit>` est un raccourci pour `--fixup=amend:<commit> --only`. Il crée un commit \"amend !\" qui touche seulement au message de validation (en ignorant les changements mis en place dans l'index). Lorsqu'il est écrasé par `git rebase --autosquash`, il remplace le message du validation de `<commit>` sans faire d'autres changements."
 
 #. type: Plain text
 #: en/git-commit.txt:128
 #, priority:280
 msgid "Neither \"fixup!\" nor \"amend!\" commits change authorship of `<commit>` when applied by `git rebase --autosquash`.  See linkgit:git-rebase[1] for details."
-msgstr ""
+msgstr "Ni les commits \"fixup !\" ni les commits \"amend !\" ne changent la paternité de `<commit>` quand ils sont appliqués par `git rebase --autosquash`.  Voir linkgit:git-rebase[1] pour plus de détails."
 
 #. type: Labeled list
 #: en/git-commit.txt:129
@@ -15678,13 +15584,13 @@ msgstr "À l'édition du message de validation, démarrer l'éditeur avec le con
 #: en/git-commit.txt:203 en/git-interpret-trailers.txt:82
 #, no-wrap, priority:280
 msgid "--trailer <token>[(=|:)<value>]"
-msgstr ""
+msgstr "--trailer <jeton>[(=| :)<valeur>]"
 
 #. type: Plain text
 #: en/git-commit.txt:213
 #, priority:280
 msgid "Specify a (<token>, <value>) pair that should be applied as a trailer. (e.g. `git commit --trailer \"Signed-off-by:C O Mitter \\ <committer@example.com>\" --trailer \"Helped-by:C O Mitter \\ <committer@example.com>\"` will add the \"Signed-off-by\" trailer and the \"Helped-by\" trailer to the commit message.)  The `trailer.*` configuration variables (linkgit:git-interpret-trailers[1]) can be used to define if a duplicated trailer is omitted, where in the run of trailers each trailer would appear, and other details."
-msgstr ""
+msgstr "Spécifier une paire (<jeton>, <valeur>) qui doit être appliquée comme une ligne terminale (par exemple, `git commit --trailer \"Signed-off-by:C O Mitter \\ <committer@example.com>\" --trailer \"Helped-by:C O Mitter \\ <committer@example.com>\"` ajoutera la ligne terminale \"Signed-off-by\" et la ligne terminale \"Helped-by\" au message de validation). Les variables de configuration `trailer.*` (linkgit:git-interpret-trailers[1]) peuvent être utilisées pour définir si une ligne terminale dupliquée est omise, ou où chaque ligne terminale apparaîtrait dans la série de lignes terminales, et d'autres détails."
 
 #. type: Labeled list
 #: en/git-commit.txt:215 en/git-rebase.txt:407 en/merge-options.txt:106
@@ -29967,10 +29873,9 @@ msgstr ""
 
 #. type: Labeled list
 #: en/git-http-fetch.txt:52
-#, fuzzy, no-wrap, priority:100
-#| msgid "--include-paths=<regex>"
+#, no-wrap, priority:100
 msgid "--index-pack-args=<args>"
-msgstr "--include-paths=<regex>"
+msgstr "--index-pack-args=<args>"
 
 #. type: Plain text
 #: en/git-http-fetch.txt:55
@@ -33107,10 +33012,9 @@ msgstr ""
 
 #. type: Plain text
 #: en/git-mailinfo.txt:100
-#, fuzzy, priority:100
-#| msgid "The possible options are:"
+#, priority:100
 msgid "The valid actions are:"
-msgstr "Les options possibles sont :"
+msgstr "Les actions valides sont :"
 
 #. type: Plain text
 #: en/git-mailinfo.txt:103
@@ -39274,10 +39178,9 @@ msgstr "`git push origin`"
 
 #. type: Plain text
 #: en/git-push.txt:606
-#, fuzzy, priority:220
-#| msgid "Without additional configuration, pushes the current branch to the configured upstream (`remote.origin.merge` configuration variable) if it has the same name as the current branch, and errors out without pushing otherwise."
+#, priority:220
 msgid "Without additional configuration, pushes the current branch to the configured upstream (`branch.<name>.merge` configuration variable) if it has the same name as the current branch, and errors out without pushing otherwise."
-msgstr "Sans configuration supplémentaire, pousse la branche en cours vers l'amont configuré (variable de configuration `remote.origin.merge`) si elle a le même nom que la branche actuelle et génère des erreurs sans pousser autrement."
+msgstr "Sans configuration supplémentaire, pousse la branche en cours vers l'amont configuré (variable de configuration `branch.<nom>.merge`) si elle a le même nom que la branche actuelle et génère des erreurs sans pousser autrement."
 
 #. type: Plain text
 #: en/git-push.txt:610
@@ -47178,10 +47081,9 @@ msgstr ""
 
 #. type: Plain text
 #: en/git-rm.txt:29
-#, fuzzy, priority:280
-#| msgid "Remove files matching pathspec from the index, or from the working tree and the index. `git rm` will not remove a file from just your working directory. (There is no option to remove a file only from the working tree and yet keep it in the index; use `/bin/rm` if you want to do that.) The files being removed have to be identical to the tip of the branch, and no updates to their contents can be staged in the index, though that default behavior can be overridden with the `-f` option.  When `--cached` is given, the staged content has to match either the tip of the branch or the file on disk, allowing the file to be removed from just the index."
+#, priority:280
 msgid "Remove files matching pathspec from the index, or from the working tree and the index. `git rm` will not remove a file from just your working directory. (There is no option to remove a file only from the working tree and yet keep it in the index; use `/bin/rm` if you want to do that.) The files being removed have to be identical to the tip of the branch, and no updates to their contents can be staged in the index, though that default behavior can be overridden with the `-f` option.  When `--cached` is given, the staged content has to match either the tip of the branch or the file on disk, allowing the file to be removed from just the index. When sparse-checkouts are in use (see linkgit:git-sparse-checkout[1]), `git rm` will only remove paths within the sparse-checkout patterns."
-msgstr "Supprime les fichiers correspondant à spec-de-fichier de l'index, ou de l'arbre de travail et de l'index. `git rm` ne supprimera pas un fichier seulement de votre répertoire de travail (il n'y a aucune option pour supprimer un fichier seulement depuis l'arbre de travail et le conserver dans l'index ; utilisez `/bin/rm` si c'est ce que vous souhaitez faire). Les fichiers à supprimer doivent être identiques à ceux du sommet de la branche, et avec aucune mise à jour indexée, mais ce comportement par défaut peut être outrepassé avec l'option `-f`. Quand `--cached` est fourni, le contenu indexé doit correspondre soit au sommet de la branche soit au fichier sur disque, de sorte que le fichier puisse n'être supprimé que de l'index."
+msgstr "Supprime les fichiers correspondant à spec-de-fichier de l'index, ou de l'arbre de travail et de l'index. `git rm` ne supprimera pas un fichier seulement de votre répertoire de travail (il n'y a aucune option pour supprimer un fichier seulement depuis l'arbre de travail et le conserver dans l'index ; utilisez `/bin/rm` si c'est ce que vous souhaitez faire). Les fichiers à supprimer doivent être identiques à ceux du sommet de la branche, et avec aucune mise à jour indexée, mais ce comportement par défaut peut être outrepassé avec l'option `-f`. Quand `--cached` est fourni, le contenu indexé doit correspondre soit au sommet de la branche soit au fichier sur disque, de sorte que le fichier puisse n'être supprimé que de l'index. Lorsque des extractions partielles sont utilisées (voir linkgit:git-sparse-checkout[1]), `git rm` ne supprimera que les chemins qui correspondent aux motifs d'extraction partielle."
 
 #. type: Plain text
 #: en/git-rm.txt:38
@@ -49974,20 +49876,7 @@ msgstr "git-stash - Remiser les modifications d'un répertoire de travail sale"
 
 #. type: Plain text
 #: en/git-stash.txt:23
-#, fuzzy, ignore-ellipsis, no-wrap, priority:240
-#| msgid ""
-#| "'git stash' list [<log-options>]\n"
-#| "'git stash' show [<diff-options>] [<stash>]\n"
-#| "'git stash' drop [-q|--quiet] [<stash>]\n"
-#| "'git stash' ( pop | apply ) [--index] [-q|--quiet] [<stash>]\n"
-#| "'git stash' branch <branchname> [<stash>]\n"
-#| "'git stash' [push [-p|--patch] [-k|--[no-]keep-index] [-q|--quiet]\n"
-#| "\t     [-u|--include-untracked] [-a|--all] [-m|--message <message>]\n"
-#| "\t     [--pathspec-from-file=<file> [--pathspec-file-nul]]\n"
-#| "\t     [--] [<pathspec>...]]\n"
-#| "'git stash' clear\n"
-#| "'git stash' create [<message>]\n"
-#| "'git stash' store [-m|--message <message>] [-q|--quiet] <commit>\n"
+#, ignore-ellipsis, no-wrap, priority:240
 msgid ""
 "'git stash' list [<log-options>]\n"
 "'git stash' show [-u|--include-untracked|--only-untracked] [<diff-options>] [<stash>]\n"
@@ -50001,19 +49890,7 @@ msgid ""
 "'git stash' clear\n"
 "'git stash' create [<message>]\n"
 "'git stash' store [-m|--message <message>] [-q|--quiet] <commit>\n"
-msgstr ""
-"'git stash' list [<options-de-log>]\n"
-"'git stash' show [<options-de-diff>] [<remisage>]\n"
-"'git stash' drop [-q|--quiet] [<remisage>]\n"
-"'git stash' ( pop | apply ) [--index] [-q|--quiet] [<remisage>]\n"
-"'git stash' branch <nom-de-branche> [<remisage>]\n"
-"'git stash' [push [-p|--patch] [-k|--[no-]keep-index] [-q|--quiet]\n"
-"\t     [-u|--include-untracked] [-a|--all] [-m|--message <message>]\n"
-"\t     [--pathspec-from-file=<fichier> [--pathspec-file-nul]]\n"
-"\t     [--] [<spéc-de-chemin>...]]\n"
-"'git stash' clear\n"
-"'git stash' create [<message>]\n"
-"'git stash' store [-m|--message <message>] [-q|--quiet] <commit>\n"
+msgstr "'git stash' list [<options-de-log>]\n'git stash' show [-u|--include-untracked|--only-untracked] [<options-de-diff>] [<remisage>]\n'git stash' drop [-q|--quiet] [<remisage>]\n'git stash' ( pop | apply ) [--index] [-q|--quiet] [<remisage>]\n'git stash' branch <nom-de-branche> [<remisage>]\n'git stash' [push [-p|--patch] [-k|--[no-]keep-index] [-q|--quiet]\n\t     [-u|--include-untracked] [-a|--all] [-m|--message <message>]\n\t     [--pathspec-from-file=<fichier> [--pathspec-file-nul]]\n\t     [--] [<spéc-de-chemin>...]]\n'git stash' clear\n'git stash' create [<message>]\n'git stash' store [-m|--message <message>] [-q|--quiet] <commit>\n"
 
 #. type: Plain text
 #: en/git-stash.txt:31
@@ -50095,14 +49972,13 @@ msgstr "La commande prend les options applicables à la commande 'git log' pour 
 #: en/git-stash.txt:86
 #, no-wrap, priority:240
 msgid "show [-u|--include-untracked|--only-untracked] [<diff-options>] [<stash>]"
-msgstr ""
+msgstr "show [-u|--include-untracked|--only-untracked] [<options-diff>] [<remisage>]"
 
 #. type: Plain text
 #: en/git-stash.txt:96
-#, fuzzy, priority:240
-#| msgid "Show the changes recorded in the stash entry as a diff between the stashed contents and the commit back when the stash entry was first created.  By default, the command shows the diffstat, but it will accept any format known to 'git diff' (e.g., `git stash show -p stash@{1}` to view the second most recent entry in patch form).  You can use stash.showStat and/or stash.showPatch config variables to change the default behavior."
+#, priority:240
 msgid "Show the changes recorded in the stash entry as a diff between the stashed contents and the commit back when the stash entry was first created.  By default, the command shows the diffstat, but it will accept any format known to 'git diff' (e.g., `git stash show -p stash@{1}` to view the second most recent entry in patch form).  You can use stash.showIncludeUntracked, stash.showStat, and stash.showPatch config variables to change the default behavior."
-msgstr "Afficher les modifications enregistrées dans l'entrée de remisage comme une différence entre le contenu du remisage et le commit tel qu'il était quand l'entrée de remisag a été créée pour la première fois.  Par défaut, la commande affiche le diffstat, mais elle accepte tout format connu de 'git diff' (par exemple, `git stash show -p stash@{1}` pour afficher la deuxième entrée la plus récente sous forme de rustine).  Vous pouvez utiliser les variables de configuration stash.showStat et/ou stash.showPatch pour modifier le comportement par défaut."
+msgstr "Afficher les modifications enregistrées dans l'entrée de remisage comme une différence entre le contenu du remisage et le commit tel qu'il était quand l'entrée de remisag a été créée pour la première fois.  Par défaut, la commande affiche le diffstat, mais elle accepte tout format connu de 'git diff' (par exemple, `git stash show -p stash@{1}` pour afficher la deuxième entrée la plus récente sous forme de rustine).  Vous pouvez utiliser les variables de configuration  stash.showIncludeUntracked, stash.showStat et stash.showPatch pour modifier le comportement par défaut."
 
 #. type: Labeled list
 #: en/git-stash.txt:97
@@ -50226,16 +50102,15 @@ msgstr "--no-include-untracked"
 
 #. type: Plain text
 #: en/git-stash.txt:167
-#, fuzzy, priority:240
-#| msgid "All ignored and untracked files are also stashed and then cleaned up with `git clean`."
+#, priority:240
 msgid "When used with the `push` and `save` commands, all untracked files are also stashed and then cleaned up with `git clean`."
-msgstr "Tous les fichiers ignorés et non tracés sont également remisés puis nettoyés avec `git clean`."
+msgstr "Lorsqu'elle est utilisée avec les commandes `push` et `save`, tous les fichiers non suivis sont également stockés et ensuite nettoyés avec `git clean`."
 
 #. type: Plain text
 #: en/git-stash.txt:170
 #, priority:240
 msgid "When used with the `show` command, show the untracked files in the stash entry as part of the diff."
-msgstr ""
+msgstr "Utilisé avec la commande `show`, montrer les fichiers non suivis dans l'entrée de remisage comme faisant partie du diff."
 
 #. type: Labeled list
 #: en/git-stash.txt:171
@@ -50245,16 +50120,15 @@ msgstr "--only-untracked"
 
 #. type: Plain text
 #: en/git-stash.txt:173
-#, fuzzy, priority:240
-#| msgid "This option is only valid for `push` command."
+#, priority:240
 msgid "This option is only valid for the `show` command."
-msgstr "Cette option n'est valide que pour la commande `push`."
+msgstr "Cette option n'est valide que pour la commande `show`."
 
 #. type: Plain text
 #: en/git-stash.txt:175
 #, priority:240
 msgid "Show only the untracked files in the stash entry as part of the diff."
-msgstr ""
+msgstr "Afficher uniquement les fichiers non suivis dans l'entrée de remisage en tant que partie du diff."
 
 #. type: Plain text
 #: en/git-stash.txt:178
@@ -54987,14 +54861,7 @@ msgstr "git - le traqueur de contenu stupide"
 
 #. type: Plain text
 #: en/git.txt:18
-#, fuzzy, no-wrap, priority:100
-#| msgid ""
-#| "'git' [--version] [--help] [-C <path>] [-c <name>=<value>]\n"
-#| "    [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]\n"
-#| "    [-p|--paginate|-P|--no-pager] [--no-replace-objects] [--bare]\n"
-#| "    [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]\n"
-#| "    [--super-prefix=<path>] [--config-env <name>=<envvar>]\n"
-#| "    <command> [<args>]\n"
+#, no-wrap, priority:100
 msgid ""
 "'git' [--version] [--help] [-C <path>] [-c <name>=<value>]\n"
 "    [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]\n"
@@ -55002,13 +54869,7 @@ msgid ""
 "    [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]\n"
 "    [--super-prefix=<path>] [--config-env=<name>=<envvar>]\n"
 "    <command> [<args>]\n"
-msgstr ""
-"'git' [--version] [--help] [-C <chemin>] [-c <nom>=<valeur>]\n"
-"    [--exec-path[=<chemin>]] [--html-path] [--man-path] [--info-path]\n"
-"    [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--bare]\n"
-"    [--git-dir=<chemin>] [--work-tree=<chemin>] [--namespace=<nom>]\n"
-"    [--super-prefix=<path>] [--config-env <nom>=<var-env>]\n"
-"    <commande> [<args>]\n"
+msgstr "'git' [--version] [--help] [-C <chemin>] [-c <nom>=<valeur>]\n    [--exec-path[=<chemin>]] [--html-path] [--man-path] [--info-path]\n    [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--bare]\n    [--git-dir=<chemin>] [--work-tree=<chemin>] [--namespace=<nom>]\n    [--super-prefix=<path>] [--config-env =<nom>=<var-env>]\n    <commande> [<args>]\n"
 
 #. type: Plain text
 #: en/git.txt:24
@@ -62312,10 +62173,9 @@ msgstr "'%ah'"
 
 #. type: Plain text
 #: en/pretty-formats.txt:195
-#, fuzzy, priority:260
-#| msgid "ref names, like the --decorate option of linkgit:git-log[1]"
+#, priority:260
 msgid "author date, human style (like the `--date=human` option of linkgit:git-rev-list[1])"
-msgstr "les noms de ref, comme l'option --decorate de linkgit:git-log[1]."
+msgstr "date de l'auteur, style humain (comme l'option `--date=human` de linkgit:git-rev-list[1])"
 
 #. type: Labeled list
 #: en/pretty-formats.txt:195
@@ -62481,10 +62341,9 @@ msgstr "'%ch'"
 
 #. type: Plain text
 #: en/pretty-formats.txt:213
-#, fuzzy, priority:260
-#| msgid "ref names, like the --decorate option of linkgit:git-log[1]"
+#, priority:260
 msgid "committer date, human style (like the `--date=human` option of linkgit:git-rev-list[1])"
-msgstr "les noms de ref, comme l'option --decorate de linkgit:git-log[1]."
+msgstr "date du validateur, style humain (comme l'option `--date=human` de linkgit:git-rev-list[1])"
 
 #. type: Labeled list
 #: en/pretty-formats.txt:213
@@ -62512,28 +62371,27 @@ msgstr "les noms des refs, sans encadrement par « ( » et « ) »."
 
 #. type: Labeled list
 #: en/pretty-formats.txt:215
-#, fuzzy, no-wrap, priority:260
-#| msgid "'%(trailers[:options])'"
+#, no-wrap, priority:260
 msgid "'%(describe[:options])'"
-msgstr "'%(trailers[:options])'"
+msgstr "'%(describe[:options])'"
 
 #. type: Plain text
 #: en/pretty-formats.txt:222
 #, priority:260
 msgid "human-readable name, like linkgit:git-describe[1]; empty string for undescribable commits.  The `describe` string may be followed by a colon and zero or more comma-separated options.  Descriptions can be inconsistent when tags are added or removed at the same time."
-msgstr ""
+msgstr "nom lisible par l'homme, comme linkgit:git-describe[1] ; chaîne vide pour les commits non descriptibles.  La chaîne `describe` peut être suivie de deux points et de zéro ou plusieurs options séparées par des virgules.  Les descriptions peuvent être incohérentes lorsque des étiquettes sont ajoutées ou supprimées en même temps."
 
 #. type: Plain text
 #: en/pretty-formats.txt:225
 #, priority:260
 msgid "'match=<pattern>': Only consider tags matching the given `glob(7)` pattern, excluding the \"refs/tags/\" prefix."
-msgstr ""
+msgstr "'match=<motif>' : Ne considère que les étiquettes correspondant au motif `glob(7)` donné, à l'exclusion du préfixe \"refs/tags/\"."
 
 #. type: Plain text
 #: en/pretty-formats.txt:227
 #, priority:260
 msgid "'exclude=<pattern>': Do not consider tags matching the given `glob(7)` pattern, excluding the \"refs/tags/\" prefix."
-msgstr ""
+msgstr "exclude=<motif>' : Ne pas prendre en compte les étiquettes correspondant au motif `glob(7)` donné, en excluant le préfixe \"refs/tags/\"."
 
 #. type: Plain text
 #: en/pretty-formats.txt:230
@@ -62783,8 +62641,7 @@ msgstr "'%(trailers[:options])'"
 
 #. type: Plain text
 #: en/pretty-formats.txt:275
-#, fuzzy, priority:260
-#| msgid "display the trailers of the body as interpreted by linkgit:git-interpret-trailers[1]. The `trailers` string may be followed by a colon and zero or more comma-separated options.  If any option is provided multiple times the last occurance wins."
+#, priority:260
 msgid "display the trailers of the body as interpreted by linkgit:git-interpret-trailers[1]. The `trailers` string may be followed by a colon and zero or more comma-separated options.  If any option is provided multiple times the last occurrence wins."
 msgstr "afficher les lignes ajoutées du corps comme interprétées par linkgit:git-interpret-trailers[1]. La chaîne `trailers` peut être suivie de deux-points et de zéro ou plus d'options séparées par des virgules. Si une option est fournie plusieurs fois la dernière option l'emporte."
 
@@ -65425,7 +65282,7 @@ msgstr "La forme'--filter=blob:limit=<n>[kmg]' omet les blobls plus gros que n o
 #: en/rev-list-options.txt:897
 #, priority:260
 msgid "The form '--filter=object:type=(tag|commit|tree|blob)' omits all objects which are not of the requested type."
-msgstr ""
+msgstr "La forme '--filter=object:type=(tag|commit|tree|blob)' permet d'omettre tous les objets qui ne sont pas du type demandé."
 
 #. type: Plain text
 #: en/rev-list-options.txt:902
@@ -65479,7 +65336,7 @@ msgstr "--filter-provided-objects"
 #: en/rev-list-options.txt:940
 #, priority:260
 msgid "Filter the list of explicitly provided objects, which would otherwise always be printed even if they did not match any of the filters. Only useful with `--filter=`."
-msgstr ""
+msgstr "Filtrer la liste des objets explicitement fournis, qui autrement seraient toujours imprimés même s'ils ne correspondent à aucun des filtres. Seulement utile avec `--filter=`."
 
 #. type: Labeled list
 #: en/rev-list-options.txt:941

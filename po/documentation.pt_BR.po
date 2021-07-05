@@ -3,18 +3,7 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
 msgid ""
-msgstr ""
-"Report-Msgid-Bugs-To: jn.avila@free.fr\n"
-"POT-Creation-Date: 2021-05-17 17:03+0200\n"
-"PO-Revision-Date: 2021-03-27 08:29+0000\n"
-"Last-Translator: Wellington Terumi Uemura <wellingtonuemura@gmail.com>\n"
-"Language-Team: none\n"
-"Language: pt_BR\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 4.6-dev\n"
+msgstr "Report-Msgid-Bugs-To: jn.avila@free.fr\nPOT-Creation-Date: 2021-05-17 17:03+0200\nPO-Revision-Date: 2021-05-23 20:32+0000\nLast-Translator: Wellington Terumi Uemura <wellingtonuemura@gmail.com>\nLanguage-Team: none\nLanguage: pt_BR\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=n > 1;\nX-Generator: Weblate 4.7-dev\n"
 
 #. type: Labeled list
 #: en/blame-options.txt:1 en/diff-options.txt:748 en/git-instaweb.txt:45 en/git-mailinfo.txt:49 en/git-mailsplit.txt:35 en/git-repack.txt:126 en/git-status.txt:31
@@ -2364,10 +2353,9 @@ msgstr "\t[seção \"subseção\"]\n"
 
 #. type: Plain text
 #: en/config.txt:53
-#, fuzzy, priority:100
-#| msgid "Subsection names are case sensitive and can contain any characters except newline and the null byte. Doublequote `\"` and backslash can be included by escaping them as `\\\"` and `\\\\`, respectively. Backslashes preceding other characters are dropped when reading; for example, `\\t` is read as `t` and `\\0` is read as `0` Section headers cannot span multiple lines.  Variables may belong directly to a section or to a given subsection. You can have `[section]` if you have `[section \"subsection\"]`, but you don't need to."
+#, priority:100
 msgid "Subsection names are case sensitive and can contain any characters except newline and the null byte. Doublequote `\"` and backslash can be included by escaping them as `\\\"` and `\\\\`, respectively. Backslashes preceding other characters are dropped when reading; for example, `\\t` is read as `t` and `\\0` is read as `0`. Section headers cannot span multiple lines.  Variables may belong directly to a section or to a given subsection. You can have `[section]` if you have `[section \"subsection\"]`, but you don't need to."
-msgstr "Os nomes das subseções diferenciam as maiúsculas das minúsculas, podem conter qualquer caractere, exceto os que definem uma nova linha e um byte nulo. As aspas duplas `\"` e a barra invertida podem ser incluídas escapando-as como` \\\"` e `\\\\` respectivamente. As barras invertidas anteriores aos outros caracteres são descartadas durante a leitura; `\\t` é lido como` t` e `\\0` é lido como `0` cabeçalhos da seção por exemplo e não podem abranger várias linhas.  As variáveis podem pertencer diretamente a uma seção ou a uma determinada subseção. Você pode ter `[section]` caso tenha `[section \"subsection\"]`, mas não é necessário."
+msgstr "Os nomes das subseções diferenciam as maiúsculas das minúsculas, podem conter qualquer caractere, exceto os que definem uma nova linha e um byte nulo. As aspas duplas `\"` e a barra invertida podem ser incluídas escapando-as como` \\\"` e `\\\\` respectivamente. As barras invertidas anteriores aos outros caracteres são descartadas durante a leitura; por exemplo, `\\t` é lido como` t` e `\\0` é lido como `0`. Os cabeçalhos da seção não podem abranger várias linhas.  As variáveis podem pertencer diretamente a uma seção ou a uma determinada subseção. Você pode ter `[section]` caso tenha `[section \"subsection\"]`, mas não é necessário."
 
 #. type: Plain text
 #: en/config.txt:58
@@ -2727,10 +2715,9 @@ msgstr "verdadeiro"
 
 #. type: Plain text
 #: en/config.txt:247
-#, fuzzy, priority:100
-#| msgid "Boolean true literals are `yes`, `on`, `true`, and `1`.  Also, a variable defined without `= <value>` is taken as true."
+#, priority:100
 msgid "Boolean true literals are `yes`, `on`, `true`, and `1`.  Also, a variable defined without `= <value>` is taken as true."
-msgstr "Os verdadeiros literais booleanos são `yes, `on`, `true` e `1`.  Além disso é considerada como verdadeira uma variável definida sem `= <valor>`."
+msgstr "Os verdadeiros literais booleanos são `yes`, `on`, `true` e `1`.  Além disso, é considerada como verdadeira uma variável definida sem `= <valor>`."
 
 #. type: Labeled list
 #: en/config.txt:248
@@ -2740,8 +2727,7 @@ msgstr "falso"
 
 #. type: Plain text
 #: en/config.txt:250
-#, fuzzy, priority:100
-#| msgid "Boolean false literals are `no`, `off`, `false`, `0` and the empty string."
+#, priority:100
 msgid "Boolean false literals are `no`, `off`, `false`, `0` and the empty string."
 msgstr "Os falsos literais booleanos são `no`, `off`, `false`, `0` e a string vazia."
 
@@ -3613,10 +3599,9 @@ msgstr "Gerando a correção em um formato texto com a opção `-p`"
 
 #. type: Plain text
 #: en/diff-generate-patch.txt:15
-#, fuzzy, priority:280
-#| msgid "Running linkgit:git-diff[1], linkgit:git-log[1], linkgit:git-show[1], linkgit:git-diff-index[1], linkgit:git-diff-tree[1], or linkgit:git-diff-files[1] with the `-p` option produces patch text.  You can customize the creation of patch text via the `GIT_EXTERNAL_DIFF` and the `GIT_DIFF_OPTS` environment variables (see linkgit:git[1])."
+#, priority:280
 msgid "Running linkgit:git-diff[1], linkgit:git-log[1], linkgit:git-show[1], linkgit:git-diff-index[1], linkgit:git-diff-tree[1], or linkgit:git-diff-files[1] with the `-p` option produces patch text.  You can customize the creation of patch text via the `GIT_EXTERNAL_DIFF` and the `GIT_DIFF_OPTS` environment variables (see linkgit:git[1]), and the `diff` attribute (see linkgit:gitattributes[5])."
-msgstr "Executando linkgit:git-diff[1], linkgit:git-log[1], linkgit:git-show[1], linkgit:git-diff-index[1], linkgit:git-diff-tree[1], ou linkgit:git-diff-files[1] com a opção `-p` produz um patch em formato texto.  É possível personalizar a criação do patch em um formato texto através das variáveis de ambiente `GIT_EXTERNAL_DIFF` e `GIT_DIFF_OPTS` (consulte linkgit:git[1])."
+msgstr "Executando linkgit:git-diff[1], linkgit:git-log[1], linkgit:git-show[1], linkgit:git-diff-index[1], linkgit:git-diff-tree[1], ou linkgit:git-diff-files[1] com a opção `-p` produz um patch em formato texto.  É possível personalizar a criação do patch em um formato texto através das variáveis de ambiente `GIT_EXTERNAL_DIFF`, `GIT_DIFF_OPTS` (consulte linkgit:git[1]) e o atributo `diff` (consulte linkgit:gitattributes[5])."
 
 #. type: Plain text
 #: en/diff-generate-patch.txt:18
@@ -3740,7 +3725,7 @@ msgstr ""
 #: en/diff-generate-patch.txt:81
 #, priority:280
 msgid "Hunk headers mention the name of the function to which the hunk applies.  See \"Defining a custom hunk-header\" in linkgit:gitattributes[5] for details of how to tailor to this to specific languages."
-msgstr ""
+msgstr "Os cabeçalhos \"hunk\" mencionam o nome da função à qual o \"hunk\" se aplica.  Consulte \"Definindo um cabeçalho personalizado do hunk\" em linkgit:gitattributes[5] para detalhes de como adaptar a isto e para linguagens específicas."
 
 #. type: Title -
 #: en/diff-generate-patch.txt:84
@@ -4012,10 +3997,9 @@ msgstr "Suprime a saída diff. Útil para comandos como `git show` que por prede
 
 #. type: Labeled list
 #: en/diff-options.txt:37
-#, fuzzy, no-wrap, priority:280
-#| msgid "--diff-merges=(off|none|first-parent|1|separate|m|combined|c|dense-combined|cc)"
+#, no-wrap, priority:280
 msgid "--diff-merges=(off|none|on|first-parent|1|separate|m|combined|c|dense-combined|cc)"
-msgstr "--diff-merges=(off|none|first-parent|1|separate|m|combined|c|dense-combined|cc)"
+msgstr "--diff-merges=(off|none|on|first-parent|1|separate|m|combined|c|dense-combined|cc)"
 
 #. type: Labeled list
 #: en/diff-options.txt:38 en/diff-options.txt:44
@@ -4031,10 +4015,9 @@ msgstr "Define o formato diff que será usado para a mesclagem dos commits. A pr
 
 #. type: Labeled list
 #: en/diff-options.txt:43
-#, fuzzy, no-wrap, priority:280
-#| msgid "--diff-merges=(off|none):"
+#, no-wrap, priority:280
 msgid "--diff-merges=(off|none)"
-msgstr "--diff-merges=(off|none):"
+msgstr "--diff-merges=(off|none)"
 
 #. type: Plain text
 #: en/diff-options.txt:47
@@ -4044,17 +4027,15 @@ msgstr "Desativa a saída dos diffs para a mesclagem dos commits. Útil para sub
 
 #. type: Labeled list
 #: en/diff-options.txt:48
-#, fuzzy, no-wrap, priority:280
-#| msgid "--diff-merges=1:"
+#, no-wrap, priority:280
 msgid "--diff-merges=on"
-msgstr "--diff-merges=1:"
+msgstr "--diff-merges=on"
 
 #. type: Labeled list
 #: en/diff-options.txt:49
-#, fuzzy, no-wrap, priority:280
-#| msgid "--diff-merges=m:"
+#, no-wrap, priority:280
 msgid "--diff-merges=m"
-msgstr "--diff-merges=m:"
+msgstr "--diff-merges=m"
 
 #. type: Labeled list
 #: en/diff-options.txt:50 en/git-am.txt:66 en/git-branch.txt:125 en/git-checkout.txt:243 en/git-cvsexportcommit.txt:60 en/git-cvsimport.txt:118 en/git-diff-index.txt:37 en/git-diff-tree.txt:71 en/git-help.txt:69 en/git-instaweb.txt:36 en/git-ls-files.txt:43 en/git-mailinfo.txt:71 en/git-read-tree.txt:34 en/git-rebase.txt:341 en/git-restore.txt:86 en/git-svn.txt:308 en/git-svn.txt:675 en/git-switch.txt:121 en/git-symbolic-ref.txt:49
@@ -4066,21 +4047,19 @@ msgstr "-m"
 #: en/diff-options.txt:56
 #, priority:280
 msgid "This option makes diff output for merge commits to be shown in the default format. `-m` will produce the output only if `-p` is given as well. The default format could be changed using `log.diffMerges` configuration parameter, which default value is `separate`."
-msgstr ""
+msgstr "Essa opção faz com que o diff gerado para a mesclagem dos commits seja mostrada no formato padrão. A opção `-m` será gerada apenas se a opção `-p` também for usada. O formato predefinido pode ser alterado usando o parâmetro de configuração `log.diffMerges`, onde o valor predefinido é `separate`."
 
 #. type: Labeled list
 #: en/diff-options.txt:57
-#, fuzzy, no-wrap, priority:280
-#| msgid "--diff-merges=first-parent:"
+#, no-wrap, priority:280
 msgid "--diff-merges=first-parent"
-msgstr "--diff-merges=first-parent:"
+msgstr "--diff-merges=first-parent"
 
 #. type: Labeled list
 #: en/diff-options.txt:58
-#, fuzzy, no-wrap, priority:280
-#| msgid "--diff-merges=1:"
+#, no-wrap, priority:280
 msgid "--diff-merges=1"
-msgstr "--diff-merges=1:"
+msgstr "--diff-merges=1"
 
 #. type: Plain text
 #: en/diff-options.txt:61
@@ -4090,31 +4069,27 @@ msgstr "Esta opção faz com que os commits mesclados mostrem a diferença total
 
 #. type: Labeled list
 #: en/diff-options.txt:62
-#, fuzzy, no-wrap, priority:280
-#| msgid "--diff-merges=separate:"
+#, no-wrap, priority:280
 msgid "--diff-merges=separate"
-msgstr "--diff-merges=separate:"
+msgstr "--diff-merges=separate"
 
 #. type: Plain text
 #: en/diff-options.txt:66
-#, fuzzy, priority:280
-#| msgid "This makes merge commits show the full diff with respect to each of the parents. Separate log entry and diff is generated for each parent. `-m` doesn't produce any output without `-p`."
+#, priority:280
 msgid "This makes merge commits show the full diff with respect to each of the parents. Separate log entry and diff is generated for each parent."
-msgstr "Faz com que os commits mesclados mostrem a diferença total com relação a cada uma das suas origens. É gerado uma entrada de registro separada e um diff para cada um dos commits relacionados. O `-m` não gera nenhuma saída sem `-p`."
+msgstr "Faz com que os commits mesclados mostrem a diferença total com relação a cada uma das suas origens. É gerado uma entrada de registro separada e um diff para cada um dos commits relacionados."
 
 #. type: Labeled list
 #: en/diff-options.txt:67
-#, fuzzy, no-wrap, priority:280
-#| msgid "--diff-merges=combined:"
+#, no-wrap, priority:280
 msgid "--diff-merges=combined"
-msgstr "--diff-merges=combined:"
+msgstr "--diff-merges=combined"
 
 #. type: Labeled list
 #: en/diff-options.txt:68
-#, fuzzy, no-wrap, priority:280
-#| msgid "--diff-merges=c:"
+#, no-wrap, priority:280
 msgid "--diff-merges=c"
-msgstr "--diff-merges=c:"
+msgstr "--diff-merges=c"
 
 #. type: Labeled list
 #: en/diff-options.txt:69 en/git-am.txt:54 en/git-blame.txt:53 en/git-branch.txt:132 en/git-cvsexportcommit.txt:37 en/git-diff-files.txt:37 en/git-diff-tree.txt:93 en/git-grep.txt:187 en/git-help.txt:54 en/git-ls-files.txt:35 en/git-shortlog.txt:79 en/git-stripspace.txt:42
@@ -4130,17 +4105,15 @@ msgstr "Com esta opção, a saída \"diff\" para um commit de mesclagem exibe as
 
 #. type: Labeled list
 #: en/diff-options.txt:77
-#, fuzzy, no-wrap, priority:280
-#| msgid "--diff-merges=dense-combined:"
+#, no-wrap, priority:280
 msgid "--diff-merges=dense-combined"
-msgstr "--diff-merges=dense-combined:"
+msgstr "--diff-merges=dense-combined"
 
 #. type: Labeled list
 #: en/diff-options.txt:78
-#, fuzzy, no-wrap, priority:280
-#| msgid "--diff-merges=cc:"
+#, no-wrap, priority:280
 msgid "--diff-merges=cc"
-msgstr "--diff-merges=cc:"
+msgstr "--diff-merges=cc"
 
 #. type: Labeled list
 #: en/diff-options.txt:79 en/git-diff-files.txt:38 en/git-diff-tree.txt:103
@@ -4644,10 +4617,9 @@ msgstr "--name-only"
 
 #. type: Plain text
 #: en/diff-options.txt:306
-#, fuzzy, priority:280
-#| msgid "Specifies the encoding used to output author names and commit summaries. Setting it to `none` makes blame output unconverted data. For more information see the discussion about encoding in the linkgit:git-log[1] manual page."
+#, priority:280
 msgid "Show only names of changed files. The file names are often encoded in UTF-8.  For more information see the discussion about encoding in the linkgit:git-log[1] manual page."
-msgstr "Defina a codificação a ser utilizada para gerar os nomes dos autores e do resumo dos commits. Definindo como `none` torna a saída \"blame\" em dados sem conversão. Para mais informações, consulte a discussão sobre codificação na página do manual linkgit:git-log[1]."
+msgstr "Mostre apenas os nomes dos arquivos que foram alterados. Os nomes dos arquivos são frequentemente codificados em UTF-8.  Para mais informações, consulte a discussão sobre codificação na página do manual linkgit:git-log[1]."
 
 #. type: Labeled list
 #: en/diff-options.txt:307 en/git-ls-tree.txt:60
@@ -4657,10 +4629,9 @@ msgstr "--name-status"
 
 #. type: Plain text
 #: en/diff-options.txt:311
-#, fuzzy, priority:280
-#| msgid "Show only names and status of changed files. See the description of the `--diff-filter` option on what the status letters mean."
+#, priority:280
 msgid "Show only names and status of changed files. See the description of the `--diff-filter` option on what the status letters mean.  Just like `--name-only` the file names are often encoded in UTF-8."
-msgstr "Exiba apenas os nomes e a condição atual dos arquivos que foram alterados. Consulte a descrição da opção `--diff-filter` sobre o significado das letras de condição."
+msgstr "Exiba apenas os nomes e a condição atual dos arquivos que foram alterados. Consulte a descrição da opção `--diff-filter` sobre o significado das letras de condição.  Assim como os nomes dos arquivos com `--name-only` geralmente são codificados em UTF-8."
 
 #. type: Labeled list
 #: en/diff-options.txt:312
@@ -6030,7 +6001,7 @@ msgstr "--prefetch"
 #: en/fetch-options.txt:117
 #, priority:220
 msgid "Modify the configured refspec to place all refs into the `refs/prefetch/` namespace. See the `prefetch` task in linkgit:git-maintenance[1]."
-msgstr ""
+msgstr "Altere o refspec configurado para colocar todos os refs no namespace `refs/prefetch/`. Consulte a tarefa `prefetch` em linkgit:git-maintenance[1]."
 
 #. type: Labeled list
 #: en/fetch-options.txt:119 en/git-push.txt:153
@@ -7124,16 +7095,7 @@ msgstr "git-am - Aplica uma série de patches vindas de um mailbox (caixa de cor
 
 #. type: Plain text
 #: en/git-am.txt:21
-#, fuzzy, ignore-ellipsis, no-wrap, priority:100
-#| msgid ""
-#| "'git am' [--signoff] [--keep] [--[no-]keep-cr] [--[no-]utf8]\n"
-#| "\t [--[no-]3way] [--interactive] [--committer-date-is-author-date]\n"
-#| "\t [--ignore-date] [--ignore-space-change | --ignore-whitespace]\n"
-#| "\t [--whitespace=<option>] [-C<n>] [-p<n>] [--directory=<dir>]\n"
-#| "\t [--exclude=<path>] [--include=<path>] [--reject] [-q | --quiet]\n"
-#| "\t [--[no-]scissors] [-S[<keyid>]] [--patch-format=<format>]\n"
-#| "\t [(<mbox> | <Maildir>)...]\n"
-#| "'git am' (--continue | --skip | --abort | --quit | --show-current-patch[=(diff|raw)])\n"
+#, ignore-ellipsis, no-wrap, priority:100
 msgid ""
 "'git am' [--signoff] [--keep] [--[no-]keep-cr] [--[no-]utf8]\n"
 "\t [--[no-]3way] [--interactive] [--committer-date-is-author-date]\n"
@@ -7144,15 +7106,7 @@ msgid ""
 "\t [--quoted-cr=<action>]\n"
 "\t [(<mbox> | <Maildir>)...]\n"
 "'git am' (--continue | --skip | --abort | --quit | --show-current-patch[=(diff|raw)])\n"
-msgstr ""
-"'git am' [--signoff] [--keep] [--[no-]keep-cr] [--[no-]utf8]\n"
-"\t [--[no-]3way] [--interactive] [--committer-date-is-author-date]\n"
-"\t [--ignore-date] [--ignore-space-change | --ignore-whitespace]\n"
-"\t [--whitespace=<opção>] [-C<n>] [-p<n>] [--directory=<dir>]\n"
-"\t [--exclude=<caminho>] [--include=<caminho>] [--reject] [-q | --quiet]\n"
-"\t [--[no-]scissors] [-S[<keyid>]] [--patch-format=<formato>]\n"
-"\t [(<mbox> | <Maildir>)...]\n"
-"'git am' (--continue | --skip | --abort | --quit | --show-current-patch[=(diff|raw)])\n"
+msgstr "'git am' [--signoff] [--keep] [--[no-]keep-cr] [--[no-]utf8]\n\t [--[no-]3way] [--interactive] [--committer-date-is-author-date]\n\t [--ignore-date] [--ignore-space-change | --ignore-whitespace]\n\t [--whitespace=<opção>] [-C<n>] [-p<n>] [--directory=<dir>]\n\t [--exclude=<caminho>] [--include=<caminho>] [--reject] [-q | --quiet]\n\t [--[no-]scissors] [-S[<keyid>]] [--patch-format=<formato>]\n\t [--quoted-cr=<ação>]\n\t [(<mbox> | <Maildir>)...]\n'git am' (--continue | --skip | --abort | --quit | --show-current-patch[=(diff|raw)])\n"
 
 #. type: Plain text
 #: en/git-am.txt:27
@@ -7240,17 +7194,15 @@ msgstr "Ignore linhas \"scissors\" (tesouras) (veja linkgit:git-mailinfo[1])."
 
 #. type: Labeled list
 #: en/git-am.txt:63 en/git-mailinfo.txt:94
-#, fuzzy, no-wrap, priority:100
-#| msgid "--whitespace=<action>"
+#, no-wrap, priority:100
 msgid "--quoted-cr=<action>"
-msgstr "--whitespace=<ação>"
+msgstr "--quoted-cr=<ação>"
 
 #. type: Plain text
 #: en/git-am.txt:65
-#, fuzzy, priority:100
-#| msgid "Pass `-k` flag to 'git mailinfo' (see linkgit:git-mailinfo[1])."
+#, priority:100
 msgid "This flag will be passed down to 'git mailinfo' (see linkgit:git-mailinfo[1])."
-msgstr "Repasse o comando `-k` para o comando 'git mailinfo' (consulte linkgit:git-mailinfo[1])."
+msgstr "Esta opção será passada ao comando 'git mailinfo' (consulte linkgit:git-mailinfo[1])."
 
 #. type: Labeled list
 #: en/git-am.txt:67 en/git-mailinfo.txt:72
@@ -7814,10 +7766,9 @@ msgstr "Ao aplicar o patch apenas na árvore de trabalho, marque os novos arquiv
 
 #. type: Plain text
 #: en/git-apply.txt:94
-#, fuzzy, priority:100
-#| msgid "When the patch does not apply cleanly, fall back on 3-way merge if the patch records the identity of blobs it is supposed to apply to, and we have those blobs available locally, possibly leaving the conflict markers in the files in the working tree for the user to resolve.  This option implies the `--index` option, and is incompatible with the `--reject` and the `--cached` options."
+#, priority:100
 msgid "Attempt 3-way merge if the patch records the identity of blobs it is supposed to apply to and we have those blobs available locally, possibly leaving the conflict markers in the files in the working tree for the user to resolve.  This option implies the `--index` option unless the `--cached` option is used, and is incompatible with the `--reject` option.  When used with the `--cached` option, any conflicts are left at higher stages in the cache."
-msgstr "Quando o patch não for aplicado corretamente, volte a mesclagem bidirecional caso o patch registre a identidade das bolhas aos quais ele deve se aplicar e tivermos estas bolhas disponíveis localmente, possivelmente deixando os marcadores de conflito nos arquivos da árvore de trabalho para que o usuário possa resolver.  Implica no uso da opção `--index` sendo incompatível com as opções `--reject` e `--cached`."
+msgstr "Tente a mesclagem de 3 vias caso o patch registre a identidade das bolhas onde de deve aplicar e se tivermos essas bolhas disponíveis localmente, possivelmente deixando os marcadores de conflito nos arquivos da árvore de trabalho para o usuário resolver.  Esta opção implica no uso da opção `--index`, a menos que a opção `--cached` seja usada, é incompatível com a opção `--reject`.  Quando usado com a opção `--cached`, quaisquer conflitos são deixados nos estágios mais altos no cache."
 
 #. type: Labeled list
 #: en/git-apply.txt:95
@@ -11169,29 +11120,25 @@ msgstr "O nome do objeto que será exibido.  Para uma lista mais completa de man
 
 #. type: Plain text
 #: en/git-cat-file.txt:39
-#, fuzzy, priority:100
-#| msgid "Instead of the content, show the object type identified by <object>."
+#, priority:100
 msgid "Instead of the content, show the object type identified by `<object>`."
 msgstr "Em vez do conteúdo, exiba o tipo do objeto identificado por `<objeto>`."
 
 #. type: Plain text
 #: en/git-cat-file.txt:43
-#, fuzzy, priority:100
-#| msgid "Instead of the content, show the object size identified by <object>."
+#, priority:100
 msgid "Instead of the content, show the object size identified by `<object>`."
 msgstr "Em vez do conteúdo, exiba o tamanho do objeto identificado por `<objeto>`."
 
 #. type: Plain text
 #: en/git-cat-file.txt:48
-#, fuzzy, priority:100
-#| msgid "Exit with zero status if <object> exists and is a valid object. If <object> is of an invalid format exit with non-zero and emits an error on stderr."
+#, priority:100
 msgid "Exit with zero status if `<object>` exists and is a valid object. If `<object>` is of an invalid format exit with non-zero and emits an error on stderr."
 msgstr "Encerre com a condição zero caso o `<objeto>` exista e seja um objeto válido. Caso o `<objeto>` tenha um formato inválido, encerre com um valor diferente de zero e emita uma mensagem de erro no \"stderr\"."
 
 #. type: Plain text
 #: en/git-cat-file.txt:51
-#, fuzzy, priority:100
-#| msgid "Pretty-print the contents of <object> based on its type."
+#, priority:100
 msgid "Pretty-print the contents of `<object>` based on its type."
 msgstr "Faça uma impressão bonita do conteúdo do `<objeto>` com base no seu tipo."
 
@@ -11203,15 +11150,13 @@ msgstr "<tipo>"
 
 #. type: Plain text
 #: en/git-cat-file.txt:59
-#, fuzzy, priority:100
-#| msgid "Typically this matches the real type of <object> but asking for a type that can trivially be dereferenced from the given <object> is also permitted.  An example is to ask for a \"tree\" with <object> being a commit object that contains it, or to ask for a \"blob\" with <object> being a tag object that points at it."
+#, priority:100
 msgid "Typically this matches the real type of `<object>` but asking for a type that can trivially be dereferenced from the given `<object>` is also permitted.  An example is to ask for a \"tree\" with `<object>` being a commit object that contains it, or to ask for a \"blob\" with `<object>` being a tag object that points at it."
-msgstr "Normalmente, isso coincide com tipo real do <objeto>, mas solicitar um tipo sem referência de um determinado <objeto> também é permitido.  Um exemplo é pedir uma \"árvore\" com o `<objeto>` sendo um objeto commit que o contém, ou pedir uma \"bolha\" com o `<objeto>` sendo uma tag que aponte para ela."
+msgstr "Normalmente, isso coincide com tipo real do `<objeto>`, mas solicitar um tipo sem referência de um determinado `<objeto>` também é permitido.  Um exemplo é pedir uma \"árvore\" com o `<objeto>` sendo um objeto commit que o contém, ou pedir uma \"bolha\" com o `<objeto>` sendo uma tag que aponte para ela."
 
 #. type: Plain text
 #: en/git-cat-file.txt:65
-#, fuzzy, priority:100
-#| msgid "Show the content as transformed by a textconv filter. In this case, <object> has to be of the form <tree-ish>:<path>, or :<path> in order to apply the filter to the content recorded in the index at <path>."
+#, priority:100
 msgid "Show the content as transformed by a textconv filter. In this case, `<object>` has to be of the form `<tree-ish>:<path>`, or `:<path>` in order to apply the filter to the content recorded in the index at `<path>`."
 msgstr "Exiba o conteúdo da maneira que foi transformado por um filtro textconv. Nesse caso, o `<objeto>` deve estar no formato `<árvore>:<caminho>` ou `:<caminho>` para aplicar o filtro ao conteúdo registrado no índice do `<caminho>`."
 
@@ -11223,8 +11168,7 @@ msgstr "--filters"
 
 #. type: Plain text
 #: en/git-cat-file.txt:71
-#, fuzzy, priority:100
-#| msgid "Show the content as converted by the filters configured in the current working tree for the given <path> (i.e. smudge filters, end-of-line conversion, etc). In this case, <object> has to be of the form <tree-ish>:<path>, or :<path>."
+#, priority:100
 msgid "Show the content as converted by the filters configured in the current working tree for the given `<path>` (i.e. smudge filters, end-of-line conversion, etc). In this case, `<object>` has to be of the form `<tree-ish>:<path>`, or `:<path>`."
 msgstr "Exiba o conteúdo conforme foi convertido pelos filtros configurados na árvore de trabalho atual para o `<caminho>` informado (por exemplo, filtros de manchas, conversão da quebra de linha, etc.). Nesse caso, o `<objeto>` deve estar no formato `<árvore>:<caminho>` ou `:<caminho>`."
 
@@ -11236,8 +11180,7 @@ msgstr "--path=<caminho>"
 
 #. type: Plain text
 #: en/git-cat-file.txt:76
-#, fuzzy, priority:100
-#| msgid "For use with --textconv or --filters, to allow specifying an object name and a path separately, e.g. when it is difficult to figure out the revision from which the blob came."
+#, priority:100
 msgid "For use with `--textconv` or `--filters`, to allow specifying an object name and a path separately, e.g. when it is difficult to figure out the revision from which the blob came."
 msgstr "Para a utilização com o comando `--textconv` ou `--filters`, permitindo a definição de um nome do objeto e um caminho separadamente, quando for difícil descobrir a revisão de onde a bolha veio por exemplo."
 
@@ -11321,8 +11264,7 @@ msgstr "--allow-unknown-type"
 
 #. type: Plain text
 #: en/git-cat-file.txt:119
-#, fuzzy, priority:100
-#| msgid "Allow -s or -t to query broken/corrupt objects of unknown type."
+#, priority:100
 msgid "Allow `-s` or `-t` to query broken/corrupt objects of unknown type."
 msgstr "Permita que `-s` ou `-t` consultem os objetos quebrados/corrompidos de um tipo desconhecido."
 
@@ -11334,10 +11276,9 @@ msgstr "--follow-symlinks"
 
 #. type: Plain text
 #: en/git-cat-file.txt:129
-#, fuzzy, priority:100
-#| msgid "With --batch or --batch-check, follow symlinks inside the repository when requesting objects with extended SHA-1 expressions of the form tree-ish:path-in-tree.  Instead of providing output about the link itself, provide output about the linked-to object.  If a symlink points outside the tree-ish (e.g. a link to /foo or a root-level link to ../foo), the portion of the link which is outside the tree will be printed."
+#, priority:100
 msgid "With `--batch` or `--batch-check`, follow symlinks inside the repository when requesting objects with extended SHA-1 expressions of the form tree-ish:path-in-tree.  Instead of providing output about the link itself, provide output about the linked-to object.  If a symlink points outside the tree-ish (e.g. a link to `/foo` or a root-level link to `../foo`), the portion of the link which is outside the tree will be printed."
-msgstr "Com a opção `--batch` ou `--batch-check`, siga os links simbólicos dentro do repositório durante a solicitação dos objetos das expressões SHA-1 estendidas no formato `tree-ish: path-in-tree`.  Em vez de providenciar a geração sobre o próprio link, gere uma saída sobre o objeto que for vinculado.  Caso um link simbólico aponte para fora da árvore (um link para /foo ou um link na raiz para ../foo por exemplo), a parte do link que está fora da árvore será exibida."
+msgstr "Com a opção `--batch` ou `--batch-check`, siga os links simbólicos dentro do repositório durante a solicitação dos objetos das expressões SHA-1 estendidas no formato `tree-ish: path-in-tree`.  Em vez de providenciar a geração sobre o próprio link, gere uma saída sobre o objeto que for vinculado.  Caso um link simbólico aponte para fora da árvore (um link para `/foo` ou um link na raiz para `../foo` por exemplo), a parte do link que está fora da árvore será exibida."
 
 #. type: Plain text
 #: en/git-cat-file.txt:133
@@ -11437,38 +11378,33 @@ msgstr "SAÍDA"
 
 #. type: Plain text
 #: en/git-cat-file.txt:179
-#, fuzzy, priority:100
-#| msgid "If `-t` is specified, one of the <type>."
+#, priority:100
 msgid "If `-t` is specified, one of the `<type>`."
-msgstr "Caso a opção `-t` seja utilizada, um do <tipo>."
+msgstr "Caso a opção `-t` seja utilizada, um do `<tipo>`."
 
 #. type: Plain text
 #: en/git-cat-file.txt:181
-#, fuzzy, priority:100
-#| msgid "If `-s` is specified, the size of the <object> in bytes."
+#, priority:100
 msgid "If `-s` is specified, the size of the `<object>` in bytes."
-msgstr "Caso a opção `-s` seja utilizada, o tamanho do <objeto> em bytes."
+msgstr "Caso a opção `-s` seja utilizada, o tamanho do `<objeto>` em bytes."
 
 #. type: Plain text
 #: en/git-cat-file.txt:183
-#, fuzzy, priority:100
-#| msgid "If `-e` is specified, no output, unless the <object> is malformed."
+#, priority:100
 msgid "If `-e` is specified, no output, unless the `<object>` is malformed."
-msgstr "Caso a opção `-e` seja utilizada, nenhuma saída, a menos que o <objeto> esteja malformado."
+msgstr "Caso a opção `-e` seja utilizada, nenhuma saída, a menos que o `<objeto>` esteja malformado."
 
 #. type: Plain text
 #: en/git-cat-file.txt:185
-#, fuzzy, priority:100
-#| msgid "If `-p` is specified, the contents of <object> are pretty-printed."
+#, priority:100
 msgid "If `-p` is specified, the contents of `<object>` are pretty-printed."
-msgstr "Caso a opção `-p` seja utilizada, o conteúdo de <objeto> será bem impresso."
+msgstr "Caso a opção `-p` seja utilizada, o conteúdo de `<objeto>` será bem impresso."
 
 #. type: Plain text
 #: en/git-cat-file.txt:188
-#, fuzzy, priority:100
-#| msgid "If <type> is specified, the raw (though uncompressed) contents of the <object> will be returned."
+#, priority:100
 msgid "If `<type>` is specified, the raw (though uncompressed) contents of the `<object>` will be returned."
-msgstr "Caso um <tipo> seja utilizada, o conteúdo bruto (embora não compactado) do <objeto> será retornado."
+msgstr "Caso um `<tipo>` seja utilizada, o conteúdo bruto (embora não compactado) do `<objeto>` será retornado."
 
 #. type: Title -
 #: en/git-cat-file.txt:190
@@ -11496,10 +11432,9 @@ msgstr "`objectname`"
 
 #. type: Plain text
 #: en/git-cat-file.txt:204
-#, fuzzy, priority:100
-#| msgid "are the octal representation of the file modes."
+#, priority:100
 msgid "The full hex representation of the object name."
-msgstr "são a representação octais dos modos dos arquivos."
+msgstr "A representação completa do hex do nome do objeto."
 
 #. type: Labeled list
 #: en/git-cat-file.txt:205
@@ -11545,10 +11480,9 @@ msgstr "`deltabase`"
 
 #. type: Plain text
 #: en/git-cat-file.txt:221
-#, fuzzy, priority:100
-#| msgid "If the object is stored as a delta on-disk, this expands to the 40-hex sha1 of the delta base object. Otherwise, expands to the null sha1 (40 zeroes). See `CAVEATS` below."
+#, priority:100
 msgid "If the object is stored as a delta on-disk, this expands to the full hex representation of the delta base object name.  Otherwise, expands to the null OID (all zeroes). See `CAVEATS` below."
-msgstr "Se o objeto estiver armazenado como um delta no disco, ele se expandirá para SHA-1 com 40 hexadecimais do objeto base delta. Caso contrário, expande para um SHA-1 nulo (40 zeros). Consulte `RESSALVAS` abaixo."
+msgstr "Caso o objeto seja armazenado como um delta no disco, isso se expandirá para a representação hexadecimal completa do nome do objeto base delta.  Caso contrário, expande-se para o OID nulo (todos zeros). Consulte `RESSALVAS` abaixo."
 
 #. type: Labeled list
 #: en/git-cat-file.txt:222
@@ -11582,16 +11516,11 @@ msgstr "Por exemplo, o comando `--batch` sem um formato personalizado produziria
 
 #. type: delimited block -
 #: en/git-cat-file.txt:241
-#, fuzzy, no-wrap, priority:100
-#| msgid ""
-#| "<sha1> SP <type> SP <size> LF\n"
-#| "<contents> LF\n"
+#, no-wrap, priority:100
 msgid ""
 "<oid> SP <type> SP <size> LF\n"
 "<contents> LF\n"
-msgstr ""
-"<sha1> SP <tipo> SP <tamanho> LF\n"
-"<conteúdo> LF\n"
+msgstr "<oid> SP <tipo> SP <tamanho> LF\n<conteúdo> LF\n"
 
 #. type: Plain text
 #: en/git-cat-file.txt:244
@@ -11601,10 +11530,9 @@ msgstr "Considerando que `--batch-check ='%(objeto-nome)% (objeto-tipo)'` produz
 
 #. type: delimited block -
 #: en/git-cat-file.txt:247
-#, fuzzy, no-wrap, priority:100
-#| msgid "<sha1> SP <type> LF\n"
+#, no-wrap, priority:100
 msgid "<oid> SP <type> LF\n"
-msgstr "<sha1> SP <tipo> LF\n"
+msgstr "<oid> SP <tipo> LF\n"
 
 #. type: Plain text
 #: en/git-cat-file.txt:251
@@ -11632,8 +11560,7 @@ msgstr "<objeto> SP ambíguo LF\n"
 
 #. type: Plain text
 #: en/git-cat-file.txt:265
-#, fuzzy, priority:100
-#| msgid "If --follow-symlinks is used, and a symlink in the repository points outside the repository, then `cat-file` will ignore any custom format and print:"
+#, priority:100
 msgid "If `--follow-symlinks` is used, and a symlink in the repository points outside the repository, then `cat-file` will ignore any custom format and print:"
 msgstr "Caso a opção `--follow-symlinks` seja utilizado e um link-simbólico no repositório apontar para fora do repositório, então o `cat-file` irá ignorar qualquer outro formato customizado e exibirá:"
 
@@ -11649,15 +11576,13 @@ msgstr ""
 
 #. type: Plain text
 #: en/git-cat-file.txt:274
-#, fuzzy, priority:100
-#| msgid "The symlink will either be absolute (beginning with a /), or relative to the tree root.  For instance, if dir/link points to ../../foo, then <symlink> will be ../foo.  <size> is the size of the symlink in bytes."
+#, priority:100
 msgid "The symlink will either be absolute (beginning with a `/`), or relative to the tree root.  For instance, if dir/link points to `../../foo`, then `<symlink>` will be `../foo`.  `<size>` is the size of the symlink in bytes."
-msgstr "O link simbólico ou será absoluto (começando com um /) ou relativo à raiz da árvore.  Por exemplo, caso o  dir/link aponte para ../../foo, então o `<symlink>` será ../foo.  <tamanho> é o tamanho do link simbólico em bytes."
+msgstr "O link simbólico ou será absoluto (começando com um `/`) ou relativo à raiz da árvore.  Por exemplo, caso o  dir/link aponte para `../../foo`, então o `<symlink>` será `../foo`.  O `<tamanho>` é o tamanho do link simbólico em bytes."
 
 #. type: Plain text
 #: en/git-cat-file.txt:277
-#, fuzzy, priority:100
-#| msgid "If --follow-symlinks is used, the following error messages will be displayed:"
+#, priority:100
 msgid "If `--follow-symlinks` is used, the following error messages will be displayed:"
 msgstr "Caso a opção `--follow-symlinks` seja utilizado, as seguintes mensagens de erro serão exibidas:"
 
@@ -14565,17 +14490,7 @@ msgstr "git-clone - Clona um repositório em um novo diretório"
 
 #. type: Plain text
 #: en/git-clone.txt:21
-#, fuzzy, no-wrap, priority:300
-#| msgid ""
-#| "'git clone' [--template=<template_directory>]\n"
-#| "\t  [-l] [-s] [--no-hardlinks] [-q] [-n] [--bare] [--mirror]\n"
-#| "\t  [-o <name>] [-b <name>] [-u <upload-pack>] [--reference <repository>]\n"
-#| "\t  [--dissociate] [--separate-git-dir <git dir>]\n"
-#| "\t  [--depth <depth>] [--[no-]single-branch] [--no-tags]\n"
-#| "\t  [--recurse-submodules[=<pathspec>]] [--[no-]shallow-submodules]\n"
-#| "\t  [--[no-]remote-submodules] [--jobs <n>] [--sparse]\n"
-#| "\t  [--filter=<filter>] [--] <repository>\n"
-#| "\t  [<directory>]\n"
+#, no-wrap, priority:300
 msgid ""
 "'git clone' [--template=<template_directory>]\n"
 "\t  [-l] [-s] [--no-hardlinks] [-q] [-n] [--bare] [--mirror]\n"
@@ -14586,16 +14501,7 @@ msgid ""
 "\t  [--[no-]remote-submodules] [--jobs <n>] [--sparse] [--[no-]reject-shallow]\n"
 "\t  [--filter=<filter>] [--] <repository>\n"
 "\t  [<directory>]\n"
-msgstr ""
-"'git clone' [--template=<diretório-modelo>]\n"
-"\t  [-l] [-s] [--no-hardlinks] [-q] [-n] [--bare] [--mirror]\n"
-"\t  [-o <nome>] [-b <nome>] [-u <upload-pack>] [--reference <repositório>]\n"
-"\t  [--dissociate] [--separate-git-dir <dir git>]\n"
-"\t  [--depth <profundidade>] [--[no-]single-branch] [--no-tags]\n"
-"\t  [--recurse-submodules[=<pathspec>]] [--[no-]shallow-submodules]\n"
-"\t  [--[no-]remote-submodules] [--jobs <n>] [--sparse]\n"
-"\t  [--filter=<filter>] [--] <repositório>\n"
-"\t  [<diretório>]\n"
+msgstr "'git clone' [--template=<diretório-modelo>]\n\t  [-l] [-s] [--no-hardlinks] [-q] [-n] [--bare] [--mirror]\n\t  [-o <nome>] [-b <nome>] [-u <upload-pack>] [--reference <repositório>]\n\t  [--dissociate] [--separate-git-dir <dir git>]\n\t  [--depth <profundidade>] [--[no-]single-branch] [--no-tags]\n\t  [--recurse-submodules[=<pathspec>]] [--[no-]shallow-submodules]\n\t  [--[no-]remote-submodules] [--jobs <n>] [--sparse] [--[no-]reject-shallow]\n\t  [--filter=<filter>] [--] <repositório>\n\t  [<diretório>]\n"
 
 #. type: Plain text
 #: en/git-clone.txt:30
@@ -14773,7 +14679,7 @@ msgstr "--[no-]reject-shallow"
 #: en/git-clone.txt:156
 #, priority:300
 msgid "Fail if the source repository is a shallow repository.  The 'clone.rejectShallow' configuration variable can be used to specify the default."
-msgstr ""
+msgstr "Falha caso o repositório de fontes for um repositório superficial.  A variável de configuração 'clone.rejectShallow' pode ser usada para definir o padrão."
 
 #. type: Labeled list
 #: en/git-clone.txt:157 en/git-init.txt:48 en/git-p4.txt:305 en/git.txt:171
@@ -15481,15 +15387,7 @@ msgstr "git-commit - Grava as alterações feitas no repositório"
 
 #. type: Plain text
 #: en/git-commit.txt:19
-#, fuzzy, ignore-ellipsis, no-wrap, priority:280
-#| msgid ""
-#| "'git commit' [-a | --interactive | --patch] [-s] [-v] [-u<mode>] [--amend]\n"
-#| "\t   [--dry-run] [(-c | -C | --fixup | --squash) <commit>]\n"
-#| "\t   [-F <file> | -m <msg>] [--reset-author] [--allow-empty]\n"
-#| "\t   [--allow-empty-message] [--no-verify] [-e] [--author=<author>]\n"
-#| "\t   [--date=<date>] [--cleanup=<mode>] [--[no-]status]\n"
-#| "\t   [-i | -o] [--pathspec-from-file=<file> [--pathspec-file-nul]]\n"
-#| "\t   [-S[<keyid>]] [--] [<pathspec>...]\n"
+#, ignore-ellipsis, no-wrap, priority:280
 msgid ""
 "'git commit' [-a | --interactive | --patch] [-s] [-v] [-u<mode>] [--amend]\n"
 "\t   [--dry-run] [(-c | -C | --squash) <commit> | --fixup [(amend|reword):]<commit>)]\n"
@@ -15499,14 +15397,7 @@ msgid ""
 "\t   [-i | -o] [--pathspec-from-file=<file> [--pathspec-file-nul]]\n"
 "\t   [(--trailer <token>[(=|:)<value>])...] [-S[<keyid>]]\n"
 "\t   [--] [<pathspec>...]\n"
-msgstr ""
-"'git commit' [-a | --interactive | --patch] [-s] [-v] [-u<modo>] [--amend]\n"
-"\t   [--dry-run] [(-c | -C | --fixup | --squash) <commit>]\n"
-"\t   [-F <arquivo> | -m <msg>] [--reset-author] [--allow-empty]\n"
-"\t   [--allow-empty-message] [--no-verify] [-e] [--author=<autor>]\n"
-"\t   [--date=<data>] [--cleanup=<modo>] [--[no-]status]\n"
-"\t   [-i | -o] [--pathspec-from-file=<arquivo> [--pathspec-file-nul]]\n"
-"\t   [-S[<keyid>]] [--] [<pathspec>...]\n"
+msgstr "'git commit' [-a | --interactive | --patch] [-s] [-v] [-u<modo>] [--amend]\n\t   [--dry-run] [(-c | -C | --squash) <commit> | --fixup [(amend|reword):]<commit>)]\n\t   [-F <file> | -m <msg>] [--reset-author] [--allow-empty]\n\t   [--allow-empty-message] [--no-verify] [-e] [--author=<autor>]\n\t   [--date=<data>] [--cleanup=<modo>] [--[no-]status]\n\t   [-i | -o] [--pathspec-from-file=<file> [--pathspec-file-nul]]\n\t   [(--trailer <token>[(=|:)<value>])...] [-S[<keyid>]]\n\t   [--] [<pathspec>...]\n"
 
 #. type: Plain text
 #: en/git-commit.txt:28
@@ -15612,40 +15503,39 @@ msgstr "Como `-C`, porém com `-c` o editor é chamado para que o usuário possa
 
 #. type: Labeled list
 #: en/git-commit.txt:90
-#, fuzzy, no-wrap, priority:280
-#| msgid "--fixup=<commit>"
+#, no-wrap, priority:280
 msgid "--fixup=[(amend|reword):]<commit>"
-msgstr "--fixup=<commit>"
+msgstr "--fixup=[(amend|reword):]<commit>"
 
 #. type: Plain text
 #: en/git-commit.txt:100
 #, priority:280
 msgid "Create a new commit which \"fixes up\" `<commit>` when applied with `git rebase --autosquash`. Plain `--fixup=<commit>` creates a \"fixup!\" commit which changes the content of `<commit>` but leaves its log message untouched. `--fixup=amend:<commit>` is similar but creates an \"amend!\" commit which also replaces the log message of `<commit>` with the log message of the \"amend!\" commit.  `--fixup=reword:<commit>` creates an \"amend!\" commit which replaces the log message of `<commit>` with its own log message but makes no changes to the content of `<commit>`."
-msgstr ""
+msgstr "Crie um novo commit que \"corrija\" o `<commit>` quando for aplicado com o comando `git rebase --autosquash`. Somente a opção `-fixup=<commit>` cria um \"fixup!\" (correção) que altera o conteúdo de um `<commit>` contudo deixa a mensagem de registro intacta. `-fixup=amend:<commit>` é semelhante, porém, cria um commit \"amend!\" que também substitui a mensagem do registro do `<commit>` pela mensagem de registro do commit \"amend!\".  A opção `-fixup=reword:<commit>` cria um commit \"amend!\" que substitui a mensagem do registro do `<commit>` por sua própria mensagem de registro, mas não faz quaisquer alterações no conteúdo do `<commit>`."
 
 #. type: Plain text
 #: en/git-commit.txt:108
 #, priority:280
 msgid "The commit created by plain `--fixup=<commit>` has a subject composed of \"fixup!\" followed by the subject line from <commit>, and is recognized specially by `git rebase --autosquash`. The `-m` option may be used to supplement the log message of the created commit, but the additional commentary will be thrown away once the \"fixup!\" commit is squashed into `<commit>` by `git rebase --autosquash`."
-msgstr ""
+msgstr "O commit criado somente com a opção `-fixup=<commit>` tem o assunto da mensagem composto por \"fixup!\" seguido pela linha do assunto do <commit>, também é reconhecido especialmente através do comando `git rebase --autosquash`. A opção `-m` pode ser usada para complementar o registro da mensagem do commit criado, porém o comentário adicional será jogado fora assim que o commit \"fixup!\" for aplicado ao `<commit>` através do comando `git rebase --autosquash`."
 
 #. type: Plain text
 #: en/git-commit.txt:118
 #, priority:280
 msgid "The commit created by `--fixup=amend:<commit>` is similar but its subject is instead prefixed with \"amend!\". The log message of <commit> is copied into the log message of the \"amend!\" commit and opened in an editor so it can be refined. When `git rebase --autosquash` squashes the \"amend!\" commit into `<commit>`, the log message of `<commit>` is replaced by the refined log message from the \"amend!\" commit. It is an error for the \"amend!\" commit's log message to be empty unless `--allow-empty-message` is specified."
-msgstr ""
+msgstr "O commit criado através da opção `--fixup=amend:<commit>` é semelhante porém seu assunto é prefixado com \"amend!\". A mensagem do log do <commit> é copiada para a mensagem de log do commit \"amend!\" e aberto em um editor para que possa ser refinado. Quando o comando `git rebase --autosquash` comprime o commit \"amend!\" no `<commit>`, a mensagem de log do `<commit>` é substituída pela mensagem de log refinada do commit \"amend!\". É considerado um erro quando o registro da mensagem do commit \"amend!\" esteja vazia, a menos que a opção `--allow-empty-message` seja definida."
 
 #. type: Plain text
 #: en/git-commit.txt:124
 #, priority:280
 msgid "`--fixup=reword:<commit>` is shorthand for `--fixup=amend:<commit> --only`. It creates an \"amend!\" commit with only a log message (ignoring any changes staged in the index). When squashed by `git rebase --autosquash`, it replaces the log message of `<commit>` without making any other changes."
-msgstr ""
+msgstr "`--fixup=reword:<commit>` é uma abreviação para `--fixup=amend:<commit> --only`. Isso cria um commit \"amend!\" com apenas uma mensagem log (ignorando quaisquer alterações preparadas no índice). Quando é comprimido através do comando `git rebase --autosquash`, ele substitui a mensagem do log do `<commit>` sem fazer quaisquer outras alterações."
 
 #. type: Plain text
 #: en/git-commit.txt:128
 #, priority:280
 msgid "Neither \"fixup!\" nor \"amend!\" commits change authorship of `<commit>` when applied by `git rebase --autosquash`.  See linkgit:git-rebase[1] for details."
-msgstr ""
+msgstr "Nem os commits \"fixup!\" tampouco os commits \"amend!\" alteram a autoria do `<commit>` quando aplicadas através do comando `git rebase --autosquash`.  Para mais detalhes, consulte linkgit:git-rebase[1]."
 
 #. type: Labeled list
 #: en/git-commit.txt:129
@@ -15813,7 +15703,7 @@ msgstr "--trailer <token>[(=|:)<valor>]"
 #: en/git-commit.txt:213
 #, priority:280
 msgid "Specify a (<token>, <value>) pair that should be applied as a trailer. (e.g. `git commit --trailer \"Signed-off-by:C O Mitter \\ <committer@example.com>\" --trailer \"Helped-by:C O Mitter \\ <committer@example.com>\"` will add the \"Signed-off-by\" trailer and the \"Helped-by\" trailer to the commit message.)  The `trailer.*` configuration variables (linkgit:git-interpret-trailers[1]) can be used to define if a duplicated trailer is omitted, where in the run of trailers each trailer would appear, and other details."
-msgstr ""
+msgstr "Determine um par (<token>, <valor>) que deve ser aplicado como um caracteres de resposta. (por exemplo, `git commit --trailer \"Auxiliado por:C O Mitter \\ <committer@example.com>\" --trailer \"Auxiliado por:C O Mitter \\ <committer@example.com>\"` será atrelado o \"Auxiliado por\" e o \"Auxiliado por\" à mensagem do commit.)  A variável de configuração do `trailer.*` (linkgit:git-interpret-trailers[1]) pode ser usado para definir se um atrelado duplicado será omitido, onde na rodada de atrelados cada atrelado apareceria em conjunto com outros detalhes."
 
 #. type: Labeled list
 #: en/git-commit.txt:215 en/git-rebase.txt:407 en/merge-options.txt:106
@@ -17029,10 +16919,9 @@ msgstr "GIT_CONFIG_SYSTEM"
 
 #. type: Plain text
 #: en/git-config.txt:347
-#, fuzzy, priority:100
-#| msgid "Whether to skip reading settings from the system-wide $(prefix)/etc/gitconfig file. See linkgit:git[1] for details."
+#, priority:100
 msgid "Take the configuration from the given files instead from global or system-level configuration. See linkgit:git[1] for details."
-msgstr "Independente se você vai ignorar as configurações de leitura do arquivo `$(prefix)/etc/gitconfig` do sistema. Para mais detalhes, consulte linkgit:git[1]."
+msgstr "Obtenha a configuração dos arquivos informados em vez da configuração global ou no nível do sistema. Para mais detalhes, consulte linkgit:git[1]."
 
 #. type: Labeled list
 #: en/git-config.txt:348
@@ -26488,10 +26377,9 @@ msgstr "As primeiras `N` linhas da mensagem."
 
 #. type: Plain text
 #: en/git-for-each-ref.txt:266
-#, fuzzy, priority:100
-#| msgid "Additionally, the trailers as interpreted by linkgit:git-interpret-trailers[1] are obtained as `trailers` (or by using the historical alias `contents:trailers`).  Non-trailer lines from the trailer block can be omitted with `trailers:only`. Whitespace-continuations can be removed from trailers so that each trailer appears on a line by itself with its full content with `trailers:unfold`. Both can be used together as `trailers:unfold,only`."
+#, priority:100
 msgid "Additionally, the trailers as interpreted by linkgit:git-interpret-trailers[1] are obtained as `trailers[:options]` (or by using the historical alias `contents:trailers[:options]`). For valid [:option] values see `trailers` section of linkgit:git-log[1]."
-msgstr "Além disso, os trailers interpretados através do linkgit:git-interpret-trailers[1] são obtidos como `caractere de resposta` (ou utilizando o alias do histórico `contents:trailers`).  As linhas que não forem caractere de resposta do bloco dos caracteres de resposta, podem ser omitidos com `trailers:only`. As continuações dos espaços podem ser removidos dos caracteres de resposta, para que cada caractere apareça em uma linha por si só e com o seu conteúdo completo, utilizando `trailers:unfold`. Ambos podem ser utilizados juntos como `trailers:unfold,only`."
+msgstr "Além disso, os trailers interpretados por linkgit:git-interpret-trailers[1] são obtidos como `trailers[:opções]` (ou usando o pseudônimo histórico `contents:trailers[:opções]`). Para conhecer os valores válidos para as [:opções], consulte a seção `trailers` do linkgit:git-log[1]."
 
 #. type: Plain text
 #: en/git-for-each-ref.txt:270
@@ -26801,41 +26689,39 @@ msgstr ""
 
 #. type: Plain text
 #: en/git-format-patch.txt:43
-#, fuzzy, priority:100
-#| msgid "Prepare each commit with its patch in one file per commit, formatted to resemble UNIX mailbox format.  The output of this command is convenient for e-mail submission or for use with 'git am'."
+#, priority:100
 msgid "Prepare each non-merge commit with its \"patch\" in one \"message\" per commit, formatted to resemble a UNIX mailbox.  The output of this command is convenient for e-mail submission or for use with 'git am'."
-msgstr "Prepare cada commit com o seu respectivo patch em um arquivo, formatado para que se assemelhe com uma caixa de correio UNIX.  A saída deste comando é conveniente para o envio de um e-mail ou para a utilização com 'git am'."
+msgstr "Prepare cada commit não mesclado com o seu respectivo \"patch\" em uma mensagem por commit, formatado para que se assemelhe com uma caixa de correio UNIX.  A saída deste comando é conveniente para o envio de um e-mail ou para a utilização com 'git am'."
 
 #. type: Plain text
 #: en/git-format-patch.txt:45
 #, priority:100
 msgid "A \"message\" generated by the command consists of three parts:"
-msgstr ""
+msgstr "Uma \"mensagem\" gerada pelo comando consiste em três partes:"
 
 #. type: Plain text
 #: en/git-format-patch.txt:52
 #, priority:100
 msgid "A brief metadata header that begins with `From <commit>` with a fixed `Mon Sep 17 00:00:00 2001` datestamp to help programs like \"file(1)\" to recognize that the file is an output from this command, fields that record the author identity, the author date, and the title of the change (taken from the first paragraph of the commit log message)."
-msgstr ""
+msgstr "Um breve cabeçalho de metadados que começa com `From <commit>` com um registro de data e hora fixo, como `Seg Set 17 00:00:00 2001` para auxiliar programas como \"arquivo(1)\" a reconhecer que o arquivo foi gerado deste comando, campos que registrem a identidade do autor, a data da autoria e o título da alteração (retirado do primeiro parágrafo da mensagem do log do commit)."
 
 #. type: Plain text
 #: en/git-format-patch.txt:54
-#, fuzzy, priority:100
-#| msgid "The size in bytes of the commit or tag message."
+#, priority:100
 msgid "The second and subsequent paragraphs of the commit log message."
-msgstr "O tamanho em bytes da mensagem do commit ou da tag."
+msgstr "O segundo ou o parágrafo subsequente da mensagem do registro do commit."
 
 #. type: Plain text
 #: en/git-format-patch.txt:57
 #, priority:100
 msgid "The \"patch\", which is the \"diff -p --stat\" output (see linkgit:git-diff[1]) between the commit and its parent."
-msgstr ""
+msgstr "O \"patch\", que é gerado com o comando \"diff -p --stat\" (consulte linkgit:git-diff[1]) entre o commit e a fonte principal."
 
 #. type: Plain text
 #: en/git-format-patch.txt:60
 #, priority:100
 msgid "The log message and the patch is separated by a line with a three-dash line."
-msgstr ""
+msgstr "A mensagem de registro e o patch são separados por uma linha com três traços."
 
 #. type: Plain text
 #: en/git-format-patch.txt:62
@@ -27175,10 +27061,9 @@ msgstr "--reroll-count=<n>"
 
 #. type: Plain text
 #: en/git-format-patch.txt:246
-#, fuzzy, priority:100
-#| msgid "Mark the series as the <n>-th iteration of the topic. The output filenames have `v<n>` prepended to them, and the subject prefix (\"PATCH\" by default, but configurable via the `--subject-prefix` option) has ` v<n>` appended to it.  E.g.  `--reroll-count=4` may produce `v4-0001-add-makefile.patch` file that has \"Subject: [PATCH v4 1/20] Add makefile\" in it."
+#, priority:100
 msgid "Mark the series as the <n>-th iteration of the topic. The output filenames have `v<n>` prepended to them, and the subject prefix (\"PATCH\" by default, but configurable via the `--subject-prefix` option) has ` v<n>` appended to it.  E.g.  `--reroll-count=4` may produce `v4-0001-add-makefile.patch` file that has \"Subject: [PATCH v4 1/20] Add makefile\" in it.  `<n>` does not have to be an integer (e.g. \"--reroll-count=4.4\", or \"--reroll-count=4rev2\" are allowed), but the downside of using such a reroll-count is that the range-diff/interdiff with the previous version does not state exactly which version the new interation is compared against."
-msgstr "Marque a série como a <n>-ésima iteração do tópico. Os nomes dos arquivos na saída têm `v<n>` anexado a eles e o prefixo do assunto (a predefinição retorna para \"PATCH\", porém pode ser alterado através da opção `--subject-prefix`).  Por exemplo. `--reroll-count=4` pode produzir o arquivo `v4-0001-add-makefile.patch` que contém \"Assunto: [PATCH v4 1/20] Adicione o makefile\"."
+msgstr "Marque a série como a e<n>ésima iteração do tópico. Os nomes de arquivo que são gerados têm `v<n>` prefixado neles, o prefixo do assunto (é predefinido como \"PATCH\", mas pode ser configurável através da opção `--subject-prefix`) tem `v<n>` anexado nele.  Por exemplo,  `--reroll-count=4` poderá gerar o arquivo `v4-0001-add-makefile.patch` que contém \"Assunto: [PATCH v4 1/20] Adicione um makefile\" nele.  Um `<n>` não precisa ser um inteiro (por exemplo, \"--reroll-count=4.4\", ou \"--reroll-count=4rev2\" são permitidos), porém a desvantagem de usar tal contagem de reroll é que o range-diff/interdiff com a versão anterior não indica exatamente com qual versão a nova interação acabou sendo comparada."
 
 #. type: Labeled list
 #: en/git-format-patch.txt:247
@@ -28050,7 +27935,7 @@ msgstr "$ git format-patch -3\n"
 #: en/git-format-patch.txt:750
 #, priority:100
 msgid "Note that `format-patch` will omit merge commits from the output, even if they are part of the requested range. A simple \"patch\" does not include enough information for the receiving end to reproduce the same merge commit."
-msgstr ""
+msgstr "Observe que `format-patch` irá omitir a mesclagem dos commits que forem gerados, ainda que eles façam parte do intervalo solicitado. Um simples \"patch\" não inclui informações suficientes para que a parte receptora reproduza a mesma mesclagem do commit."
 
 #. type: Plain text
 #: en/git-format-patch.txt:754
@@ -30664,23 +30549,21 @@ msgstr "--packfile=<hash>"
 
 #. type: Plain text
 #: en/git-http-fetch.txt:51
-#, fuzzy, priority:100
-#| msgid "Instead of a commit id on the command line (which is not expected in this case), 'git http-fetch' fetches the packfile directly at the given URL and uses index-pack to generate corresponding .idx and .keep files.  The hash is used to determine the name of the temporary file and is arbitrary. The output of index-pack is printed to stdout."
+#, priority:100
 msgid "For internal use only. Instead of a commit id on the command line (which is not expected in this case), 'git http-fetch' fetches the packfile directly at the given URL and uses index-pack to generate corresponding .idx and .keep files.  The hash is used to determine the name of the temporary file and is arbitrary. The output of index-pack is printed to stdout. Requires --index-pack-args."
-msgstr "Em vez de uma ID para o commit na linha de comando (o que não é esperado neste caso), o comando 'git http-fetch' busca o arquivo dos pacotes diretamente na URL informada e usa o pacote dos índices para gerar os arquivos .idx e .keep correspondentes. O hash é utilizado para determinar o nome do arquivo temporário e é arbitrário. O pacote dos índices que foi é impresso no stdout."
+msgstr "Para uso interno apenas. Em vez de uma ID para o commit na linha de comando (o que não é esperado neste caso), o comando 'git http-fetch' busca o arquivo dos pacotes diretamente na URL informada e usa o pacote dos índices para gerar os arquivos .idx e .keep correspondentes. O hash é utilizado para determinar o nome do arquivo temporário e é arbitrário. O pacote dos índices que foi é impresso no stdout. Requer a opção --index-pack-args."
 
 #. type: Labeled list
 #: en/git-http-fetch.txt:52
-#, fuzzy, no-wrap, priority:100
-#| msgid "--include-paths=<regex>"
+#, no-wrap, priority:100
 msgid "--index-pack-args=<args>"
-msgstr "--include-paths=<expressão-regular>"
+msgstr "--index-pack-args=<argumentos>"
 
 #. type: Plain text
 #: en/git-http-fetch.txt:55
 #, priority:100
 msgid "For internal use only. The command to run on the contents of the downloaded pack. Arguments are URL-encoded separated by spaces."
-msgstr ""
+msgstr "Apenas para uso interno. O comando que será executado no conteúdo do pacote que foi baixado. Os argumentos são codificados por URL separados por espaços."
 
 #. type: Labeled list
 #: en/git-http-fetch.txt:56
@@ -31206,13 +31089,13 @@ msgstr "--fsck-objects"
 #: en/git-index-pack.txt:90
 #, priority:100
 msgid "For internal use only."
-msgstr ""
+msgstr "Apenas para uso interno."
 
 #. type: Plain text
 #: en/git-index-pack.txt:95
 #, priority:100
 msgid "Die if the pack contains broken objects. If the pack contains a tree pointing to a .gitmodules blob that does not exist, prints the hash of that blob (for the caller to check) after the hash that goes into the name of the pack/idx file (see \"Notes\")."
-msgstr ""
+msgstr "O processo é encerrado caso o pacote contenha objetos quebrados. Caso o pacote contiver uma árvore apontando para uma bolha \".gitmodules\" que não exista, imprima o hash desta bolha (para que o requerente o verifique) após o hash que vai para o nome do arquivo pack/idx (consulte \"Notas\")."
 
 #. type: Labeled list
 #: en/git-index-pack.txt:96 en/git-pack-objects.txt:251 en/git-repack.txt:102
@@ -32192,47 +32075,43 @@ msgstr "trailer.<token>.command"
 #: en/git-interpret-trailers.txt:239
 #, priority:100
 msgid "This option behaves in the same way as 'trailer.<token>.cmd', except that it doesn't pass anything as argument to the specified command.  Instead the first occurrence of substring $ARG is replaced by the value that would be passed as argument."
-msgstr ""
+msgstr "Esta opção se comporta da mesma maneira que o 'trailer.<token>.cmd', exceto que nada é oferecido como argumento para o comando informado.  Em vez disso, a primeira ocorrência da substring $ARG é substituída pelo valor que seria passado como argumento."
 
 #. type: Plain text
 #: en/git-interpret-trailers.txt:243
 #, priority:100
 msgid "The 'trailer.<token>.command' option has been deprecated in favor of 'trailer.<token>.cmd' due to the fact that $ARG in the user's command is only replaced once and that the original way of replacing $ARG is not safe."
-msgstr ""
+msgstr "A opção 'trailer.<token>.command' foi substituída por 'trailer.<token>.cmd' pois o $ARG no comando do usuário ser substituído apenas uma vez e a maneira anterior de se substituir o $ARG não era segura."
 
 #. type: Plain text
 #: en/git-interpret-trailers.txt:247
 #, priority:100
 msgid "When both 'trailer.<token>.cmd' and 'trailer.<token>.command' are given for the same <token>, 'trailer.<token>.cmd' is used and 'trailer.<token>.command' is ignored."
-msgstr ""
+msgstr "Quando ambos 'trailer.<token>.cmd' e 'trailer.<token>.command' são oferecidos para o mesmo <token>, o 'trailer.<token>.cmd' é usado e o 'trailer.<token>.command' é ignorado."
 
 #. type: Labeled list
 #: en/git-interpret-trailers.txt:248
-#, fuzzy, no-wrap, priority:100
-#| msgid "trailer.<token>.command"
+#, no-wrap, priority:100
 msgid "trailer.<token>.cmd"
-msgstr "trailer.<token>.command"
+msgstr "trailer.<token>.cmd"
 
 #. type: Plain text
 #: en/git-interpret-trailers.txt:253
-#, fuzzy, priority:100
-#| msgid "This option can be used to specify a shell command that will be called to automatically add or modify a trailer with the specified <token>."
+#, priority:100
 msgid "This option can be used to specify a shell command that will be called: once to automatically add a trailer with the specified <token>, and then each time a '--trailer <token>=<value>' argument to modify the <value> of the trailer that this option would produce."
-msgstr "Esta opção pode ser utilizada para definir um comando shell que será chamado para adicionar ou modificar automaticamente um caractere de resposta com o <token> definido."
+msgstr "Esta opção pode ser usada para definir um comando shell que será invocado: uma vez para adicionar um atrelado de forma automática com o <token> informado e, a seguir, a cada opção '--trailer <token>=<valor>' para alterar o <valor> do atrelado que esta opção produziria."
 
 #. type: Plain text
 #: en/git-interpret-trailers.txt:260
-#, fuzzy, priority:100
-#| msgid "When this option is specified, the behavior is as if a special '<token>=<value>' argument were added at the beginning of the command line, where <value> is taken to be the standard output of the specified command with any leading and trailing whitespace trimmed off."
+#, priority:100
 msgid "When the specified command is first called to add a trailer with the specified <token>, the behavior is as if a special '--trailer <token>=<value>' argument was added at the beginning of the \"git interpret-trailers\" command, where <value> is taken to be the standard output of the command with any leading and trailing whitespace trimmed off."
-msgstr "Quando esta opção é utilizada, o comportamento é como se um argumento especial '<token>=<valor>' fosse adicionado no início da linha de comando, onde <valor> é considerado a saída padrão do comando utilizado, removendo quaisquer espaços no começo e no fim."
+msgstr "Quando o comando informado é chamado pela primeira vez para adicionar um atrelado com o <token> definido, o comportamento é como se um argumento especial '--trailer <token>=<valor>' fosse adicionado no início do comando \"git interpret-trailers\", onde o <valor> é considerado a saída padrão do comando com qualquer espaço em branco eliminado à esquerda e à direita."
 
 #. type: Plain text
 #: en/git-interpret-trailers.txt:267
-#, fuzzy, priority:100
-#| msgid "If some '<token>=<value>' arguments are also passed on the command line, when a 'trailer.<token>.command' is configured, the command will also be executed for each of these arguments. And the <value> part of these arguments, if any, will be used to replace the `$ARG` string in the command."
+#, priority:100
 msgid "If some '--trailer <token>=<value>' arguments are also passed on the command line, the command is called again once for each of these arguments with the same <token>. And the <value> part of these arguments, if any, will be passed to the command as its first argument. This way the command can produce a <value> computed from the <value> passed in the '--trailer <token>=<value>' argument."
-msgstr "Caso alguns dos argumentos '<token>=<valor>' também forem passados na linha de comando, quando um 'trailer.<token>.command' estiver configurado, o comando também será executado para cada um destes argumentos. A parte `<valor>` destes argumentos, caso haja, será utilizada para substituir a string `$ARG` no comando."
+msgstr "Caso algumas opção '--trailer <token>=<valor>' também sejam passadosna linha de comando, o comando é invocado novamente uma vez para cada um destes argumentos que tenham o mesmo <token>. E a parte <valor> desses argumentos, caso hajam, será passada ao comando como sendo o seu primeiro argumento. Desta forma, o comando pode produzir um <valor> calculado a partir do <valor> informado na opção '--trailer <token>=<valor>'."
 
 #. type: Plain text
 #: en/git-interpret-trailers.txt:273
@@ -32410,10 +32289,9 @@ msgstr "Fix #42\n"
 
 #. type: Plain text
 #: en/git-interpret-trailers.txt:352
-#, fuzzy, priority:100
-#| msgid "Configure a 'see' trailer with a command to show the subject of a commit that is related, and show how it works:"
+#, priority:100
 msgid "Configure a 'help' trailer with a cmd use a script `glog-find-author` which search specified author identity from git log in git repository and show how it works:"
-msgstr "Configure um caractere de resposta 'see' com um comando para exibir o assunto de um commit relacionado e exibir como ele funciona:"
+msgstr "Configure um atrelado de 'ajuda' com um cmd usando um script `glog-find-author` que pesquisa a identidade do autor informado no log do git no repositório e mostre como funciona:"
 
 #. type: delimited block -
 #: en/git-interpret-trailers.txt:367
@@ -32432,7 +32310,7 @@ msgid ""
 ">\n"
 "> EOF\n"
 "subject\n"
-msgstr ""
+msgstr "$ cat ~/bin/glog-find-author\n#!/bin/sh\ntest -n \"$1\" && git log --author=\"$1\" --pretty=\"%an <%ae>\" -1 || true\n$ git config trailer.help.key \"Auxiliado por: \"\n$ git config trailer.help.ifExists \"addIfDifferentNeighbor\"\n$ git config trailer.help.cmd \"~/bin/glog-find-author\"\n$ git interpret-trailers --trailer=\"help:Junio\" --trailer=\"help:Couder\" <<EOF\n> assunto\n>\n> mensagem\n>\n> EOF\nassunto\n"
 
 #. type: delimited block -
 #: en/git-interpret-trailers.txt:372
@@ -32440,14 +32318,13 @@ msgstr ""
 msgid ""
 "Helped-by: Junio C Hamano <gitster@pobox.com>\n"
 "Helped-by: Christian Couder <christian.couder@gmail.com>\n"
-msgstr ""
+msgstr "Auxiliado por: Junio C Hamano <gitster@pobox.com>\nAuxiliado por: Christian Couder <christian.couder@gmail.com>\n"
 
 #. type: Plain text
 #: en/git-interpret-trailers.txt:377
-#, fuzzy, priority:100
-#| msgid "Configure a 'see' trailer with a command to show the subject of a commit that is related, and show how it works:"
+#, priority:100
 msgid "Configure a 'ref' trailer with a cmd use a script `glog-grep` to grep last relevant commit from git log in the git repository and show how it works:"
-msgstr "Configure um caractere de resposta 'see' com um comando para exibir o assunto de um commit relacionado e exibir como ele funciona:"
+msgstr "Configure um atrelado 'ref' com um cmd, use um script `glog-grep` para fazer um \"grep\" (captura) do último commit relevante do log do git no repositório e mostre como funciona:"
 
 #. type: delimited block -
 #: en/git-interpret-trailers.txt:392
@@ -32466,13 +32343,13 @@ msgid ""
 ">\n"
 "> EOF\n"
 "subject\n"
-msgstr ""
+msgstr "$ cat ~/bin/glog-grep\n#!/bin/sh\ntest -n \"$1\" && git log --grep \"$1\" --pretty=reference -1 || true\n$ git config trailer.ref.key \"Referência para: \"\n$ git config trailer.ref.ifExists \"substitua\"\n$ git config trailer.ref.cmd \"~/bin/glog-grep\"\n$ git interpret-trailers --trailer=\"ref:Add copyright notices.\" <<EOF\n> assunto\n>\n> mensagem\n>\n> EOF\nassunto\n"
 
 #. type: delimited block -
 #: en/git-interpret-trailers.txt:396
 #, no-wrap, priority:100
 msgid "Reference-to: 8bc9a0c769 (Add copyright notices., 2005-04-07)\n"
-msgstr ""
+msgstr "Refere-se ao: 8bc9a0c769 (Adicionado avisos de ireitos autorais., 2005-04-07)\n"
 
 #. type: Plain text
 #: en/git-interpret-trailers.txt:400
@@ -33828,13 +33705,12 @@ msgstr "git-mailinfo - Extrai o patch e a autoria de uma única mensagem de e-ma
 
 #. type: Plain text
 #: en/git-mailinfo.txt:15
-#, fuzzy, no-wrap, priority:100
-#| msgid "'git mailinfo' [-k|-b] [-u | --encoding=<encoding> | -n] [--[no-]scissors] <msg> <patch>\n"
+#, no-wrap, priority:100
 msgid ""
 "'git mailinfo' [-k|-b] [-u | --encoding=<encoding> | -n]\n"
 "\t       [--[no-]scissors] [--quoted-cr=<action>]\n"
 "\t       <msg> <patch>\n"
-msgstr "'git mailinfo' [-k|-b] [-u | --encoding=<codificação> | -n] [--[no-]scissors] <msg> <patch>\n"
+msgstr "'git mailinfo' [-k|-b] [-u | --encoding=<encoding> | -n]\n\t       [--[no-]scissors] [--quoted-cr=<ação>]\n\t       <msg> <patch>\n"
 
 #. type: Plain text
 #: en/git-mailinfo.txt:25
@@ -33948,44 +33824,43 @@ msgstr "Ignore as linhas de grafo traçado. Útil para substituir as configuraç
 #: en/git-mailinfo.txt:98
 #, priority:100
 msgid "Action when processes email messages sent with base64 or quoted-printable encoding, and the decoded lines end with a CRLF instead of a simple LF."
-msgstr ""
+msgstr "A ação quando processa as mensagens de e-mail enviadas com codificação base64 ou citada para impressão, as linhas decodificadas terminam com um CRLF em vez de um LF simples."
 
 #. type: Plain text
 #: en/git-mailinfo.txt:100
-#, fuzzy, priority:100
-#| msgid "The possible options are:"
+#, priority:100
 msgid "The valid actions are:"
-msgstr "As opções disponíveis são:"
+msgstr "As ações válidas são:"
 
 #. type: Plain text
 #: en/git-mailinfo.txt:103
 #, priority:100
 msgid "`nowarn`: Git will do nothing when such a CRLF is found."
-msgstr ""
+msgstr "`nowarn`: O git não fará nada quando tal CRLF for encontrado."
 
 #. type: Plain text
 #: en/git-mailinfo.txt:104
 #, priority:100
 msgid "`warn`: Git will issue a warning for each message if such a CRLF is"
-msgstr ""
+msgstr "`warn`: O git emitirá um aviso para cada mensagem caso tal CRLF seja"
 
 #. type: Plain text
 #: en/git-mailinfo.txt:105
 #, priority:100
 msgid "found."
-msgstr ""
+msgstr "encontrado."
 
 #. type: Plain text
 #: en/git-mailinfo.txt:106
 #, priority:100
 msgid "`strip`: Git will convert those CRLF to LF."
-msgstr ""
+msgstr "`strip`: O git converterá estes CRLF para LF."
 
 #. type: Plain text
 #: en/git-mailinfo.txt:110
 #, priority:100
 msgid "The default action could be set by configuration option `mailinfo.quotedCR`.  If no such configuration option has been set, `warn` will be used."
-msgstr ""
+msgstr "A ação predefinida pode ser definida pela opção de configuração `mailinfo.quotedCR`.  Caso nenhuma opção de configuração tenha sido definida, um `warn` será usado."
 
 #. type: Labeled list
 #: en/git-mailinfo.txt:111
@@ -38263,13 +38138,13 @@ msgstr "--stdin-packs"
 #: en/git-pack-objects.txt:94
 #, priority:100
 msgid "Read the basenames of packfiles (e.g., `pack-1234abcd.pack`)  from the standard input, instead of object names or revision arguments. The resulting pack contains all objects listed in the included packs (those not beginning with `^`), excluding any objects listed in the excluded packs (beginning with `^`)."
-msgstr ""
+msgstr "Leia os nomes base dos \"packfiles\" (por exemplo, `pack-1234abcd.pack`) a partir da entrada predefinida, em vez de nomes dos objetos ou das opções da revisão. O pacote resultante contém todos os objetos listados nos pacotes incluídos (aqueles que não comecem com `^`), excluindo quaisquer objetos listados nos pacotes excluídos (que comecem com `^`)."
 
 #. type: Plain text
 #: en/git-pack-objects.txt:97
 #, priority:100
 msgid "Incompatible with `--revs`, or options that imply `--revs` (such as `--all`), with the exception of `--unpacked`, which is compatible."
-msgstr ""
+msgstr "É incompatível com a opção `--revs`, ou opções que impliquem no uso de `--revs` (como `--all`), menos com a opção `--unpacked`, que é compatível."
 
 #. type: Labeled list
 #: en/git-pack-objects.txt:98 en/git-repack.txt:89
@@ -40225,10 +40100,9 @@ msgstr "`git push origin`"
 
 #. type: Plain text
 #: en/git-push.txt:606
-#, fuzzy, priority:220
-#| msgid "Without additional configuration, pushes the current branch to the configured upstream (`remote.origin.merge` configuration variable) if it has the same name as the current branch, and errors out without pushing otherwise."
+#, priority:220
 msgid "Without additional configuration, pushes the current branch to the configured upstream (`branch.<name>.merge` configuration variable) if it has the same name as the current branch, and errors out without pushing otherwise."
-msgstr "Sem uma configuração adicional, envia a ramificação atual para a upstream configurada (a variável de configuração `remote.origin.merge`) caso ela tenha o mesmo nome que o ramo atual e os erros ocorrerem sem qualquer outro impulsionamento."
+msgstr "Sem uma configuração adicional, envia a ramificação atual para a upstream configurada (a variável de configuração `branch.<name>.merge`) caso ela tenha o mesmo nome que o ramo atual e os erros ocorrerem sem qualquer outro impulsionamento."
 
 #. type: Plain text
 #: en/git-push.txt:610
@@ -42488,10 +42362,9 @@ msgstr "--no-autosquash"
 
 #. type: Plain text
 #: en/git-rebase.txt:601
-#, fuzzy, ignore-ellipsis, priority:100
-#| msgid "When the commit log message begins with \"squash! ...\" (or \"fixup! ...\"), and there is already a commit in the todo list that matches the same `...`, automatically modify the todo list of rebase -i so that the commit marked for squashing comes right after the commit to be modified, and change the action of the moved commit from `pick` to `squash` (or `fixup`).  A commit matches the `...` if the commit subject matches, or if the `...` refers to the commit's hash. As a fall-back, partial matches of the commit subject work, too.  The recommended way to create fixup/squash commits is by using the `--fixup`/`--squash` options of linkgit:git-commit[1]."
+#, ignore-ellipsis, priority:100
 msgid "When the commit log message begins with \"squash! ...\" or \"fixup! ...\" or \"amend! ...\", and there is already a commit in the todo list that matches the same `...`, automatically modify the todo list of `rebase -i`, so that the commit marked for squashing comes right after the commit to be modified, and change the action of the moved commit from `pick` to `squash` or `fixup` or `fixup -C` respectively. A commit matches the `...` if the commit subject matches, or if the `...` refers to the commit's hash. As a fall-back, partial matches of the commit subject work, too. The recommended way to create fixup/amend/squash commits is by using the `--fixup`, `--fixup=amend:` or `--fixup=reword:` and `--squash` options respectively of linkgit:git-commit[1]."
-msgstr "Quando a mensagem do registro log do commit começar com \"squash! ...\" (ou \"fixup! ...\"),e já existe um commit na lista de tarefas que coincidem com o mesmo `...`, altera a lista de tarefas automaticamente do 'rebase -i' para que o commit marcado para ser comprimido venha logo após o commit que será modificado e altere a ação do commit movido de `pick` para `squash` (ou `fixup`).  Um commit coincide com `...` caso haja a coincidência do assunto do commit ou se o `...` se referir ao hash do commit. Como alternativa, as coincidências que forem parciais ao assunto do commit, também funcionam.  A maneira recomendada para se criar os commits para correção/compressão é utilizando as opções `--fixup`/`--squash` do comando linkgit:git-commit[1]."
+msgstr "Quando a mensagem do registro log do commit começar com \"squash! ...\" ou \"fixup! ...\", já existe um commit na lista de tarefas que coincidem com o mesmo `...`, altera a lista de tarefas automaticamente do `rebase -i` para que o commit marcado para ser comprimido venha logo após o commit que será modificado e altere a ação do commit movido de `pick` para `squash`, `fixup` ou `fixup -C` respectivamente. Um commit coincide com `...` caso haja a coincidência do assunto do commit ou se o `...` se referir ao hash do commit. Como alternativa, as coincidências que forem parciais ao assunto do commit, também funcionam. A maneira recomendada para se criar os commits para fixup/amend/squash é utilizando as opções `--fixup`, `--fixup=amend:` ou `--fixup=reword:` e `--squash` respectivamente do comando linkgit:git-commit[1]."
 
 #. type: Plain text
 #: en/git-rebase.txt:605
@@ -42539,7 +42412,7 @@ msgstr "Reagende automaticamente os comandos `exec` que falharam. Isso só faz s
 #: en/git-rebase.txt:628
 #, priority:100
 msgid "Even though this option applies once a rebase is started, it's set for the whole rebase at the start based on either the `rebase.rescheduleFailedExec` configuration (see linkgit:git-config[1] or \"CONFIGURATION\" below) or whether this option is provided. Otherwise an explicit `--no-reschedule-failed-exec` at the start would be overridden by the presence of `rebase.rescheduleFailedExec=true` configuration."
-msgstr ""
+msgstr "Ainda que esta opção se aplique quando uma reconstrução for iniciada, é definido para que toda a reconstrução no início, tenha como base a configuração `rebase.rescheduleFailedExec` (consulte linkgit:git-config[1] ou a \"CONFIGURAÇÃO\" abaixo) ou se esta opção é oferecida. Caso contrário, uma opção explícita `--no-reschedule-failed-exec` no início no início seria sobrescrito pela presença da configuração `rebase.rescheduleFailedExec=true`."
 
 #. type: Title -
 #: en/git-rebase.txt:630
@@ -42999,10 +42872,9 @@ msgstr "Para eliminar um commit, substitua o comando \"pick\" por \"drop\" ou ap
 
 #. type: Plain text
 #: en/git-rebase.txt:903
-#, fuzzy, priority:100
-#| msgid "If you want to fold two or more commits into one, replace the command \"pick\" for the second and subsequent commits with \"squash\" or \"fixup\".  If the commits had different authors, the folded commit will be attributed to the author of the first commit.  The suggested commit message for the folded commit is the concatenation of the commit messages of the first commit and of those with the \"squash\" command, but omits the commit messages of commits with the \"fixup\" command."
+#, priority:100
 msgid "If you want to fold two or more commits into one, replace the command \"pick\" for the second and subsequent commits with \"squash\" or \"fixup\".  If the commits had different authors, the folded commit will be attributed to the author of the first commit.  The suggested commit message for the folded commit is the concatenation of the first commit's message with those identified by \"squash\" commands, omitting the messages of commits identified by \"fixup\" commands, unless \"fixup -c\" is used.  In that case the suggested commit message is only the message of the \"fixup -c\" commit, and an editor is opened allowing you to edit the message.  The contents (patch) of the \"fixup -c\" commit are still incorporated into the folded commit. If there is more than one \"fixup -c\" commit, the message from the final one is used.  You can also use \"fixup -C\" to get the same behavior as \"fixup -c\" except without opening an editor."
-msgstr "Caso queira dobrar dois ou mais commits em um, substitua o comando \"pick\" da segunda e os commits subsequentes por \"squash\" ou \"fixup\".  Caso os commits tenham autores diferentes, o commit dobrado será atribuído ao autor do primeiro commit.  A mensagem do commit sugerido para o commit que foi dobrado é a concatenação das mensagens dos commits do primeiro commit e daquelas feitas com o comando \"squash\", porém omite as mensagens dos commits feitas com o comando \"fixup\"."
+msgstr "Caso queira juntar dois ou mais commits em um, substitua o comando \"pick\" para o segundo commit e os commits subsequentes por \"squash\" ou \"fixup\".  Caso os commits tenham diferentes autores, o commit que foi juntado será atribuído ao autor do primeiro commit.  A mensagem sugerida do commit para o commit que foi juntado, é a concatenação da mensagem do primeiro commit com aquelas identificadas pelos comandos \"squash\", omitindo as mensagens dos commits identificados pelos comandos \"fixup\", a menos que a opção `fixup -c` seja utilizado.  Nesse caso, a mensagem do commit sugerido é apenas a mensagem do commit `fixup -c` onde um editor é aberto permitindo que você edite a mensagem.  O conteúdo (patch) do commit `fixup -c` ainda está incorporado ao commit que foi juntado. Caso haja mais de um commit `fixup -c`, a mensagem do último será usada.  Você também pode usar a opção `fixup -C` para obter o mesmo comportamento que a opção `fixup -c`, sem a opção de abrir um editor."
 
 #. type: Plain text
 #: en/git-rebase.txt:908
@@ -45246,37 +45118,37 @@ msgstr "Encaminha a opção `--delta-islands` para `git-pack-objects`, consulte 
 #: en/git-repack.txt:168
 #, no-wrap, priority:100
 msgid "-g=<factor>"
-msgstr ""
+msgstr "-g=<fator>"
 
 #. type: Labeled list
 #: en/git-repack.txt:169
 #, no-wrap, priority:100
 msgid "--geometric=<factor>"
-msgstr ""
+msgstr "--geometric=<fator>"
 
 #. type: Plain text
 #: en/git-repack.txt:173
 #, priority:100
 msgid "Arrange resulting pack structure so that each successive pack contains at least `<factor>` times the number of objects as the next-largest pack."
-msgstr ""
+msgstr "Organize a estrutura do pacote resultante de modo que cada sucessivo pacote contenha ao menos o `<fator>` vezes a quantidade de objetos como o próximo maior pacote."
 
 #. type: Plain text
 #: en/git-repack.txt:179
 #, priority:100
 msgid "`git repack` ensures this by determining a \"cut\" of packfiles that need to be repacked into one in order to ensure a geometric progression. It picks the smallest set of packfiles such that as many of the larger packfiles (by count of objects contained in that pack) may be left intact."
-msgstr ""
+msgstr "O comando `git repack` garante isso determinando um \"corte\" dos packfiles que precisam ser reembalados em um para garantir uma progressão geométrica. Será escolhido o menor conjunto dos packfiles de forma que muitos dos maiores packfiles (pela contagem de objetos contidos naquele pacote) podem ser deixados intactos."
 
 #. type: Plain text
 #: en/git-repack.txt:184
 #, priority:100
 msgid "Unlike other repack modes, the set of objects to pack is determined uniquely by the set of packs being \"rolled-up\"; in other words, the packs determined to need to be combined in order to restore a geometric progression."
-msgstr ""
+msgstr "Ao contrário dos outros modos de reembalagem, o conjunto dos objetos que serão embalados é determinado exclusivamente pelo conjunto dos pacotes sendo \"juntados\"; em outras palavras, os pacotes determinados precisam ser combinados para restaurar uma progressão geométrica."
 
 #. type: Plain text
 #: en/git-repack.txt:190
 #, priority:100
 msgid "When `--unpacked` is specified, loose objects are implicitly included in this \"roll-up\", without respect to their reachability. This is subject to change in the future. This option (implying a drastically different repack mode) is not guaranteed to work with all other combinations of option to `git repack`."
-msgstr ""
+msgstr "Quando a opção `--unpacked` é usada, os objetos soltos são implicitamente incluídos neste \"ajuntamento\", sem respeito à sua acessibilidade. Isso está sujeito a alterações no futuro. Esta opção (que implica num modo de repack drasticamente diferente) não tem garantia de funcionar com todas as outras combinações de opções para o comando `git repack`."
 
 #. type: Plain text
 #: en/git-repack.txt:206
@@ -48436,10 +48308,9 @@ msgstr ""
 
 #. type: Plain text
 #: en/git-rm.txt:29
-#, fuzzy, priority:280
-#| msgid "Remove files matching pathspec from the index, or from the working tree and the index. `git rm` will not remove a file from just your working directory. (There is no option to remove a file only from the working tree and yet keep it in the index; use `/bin/rm` if you want to do that.) The files being removed have to be identical to the tip of the branch, and no updates to their contents can be staged in the index, though that default behavior can be overridden with the `-f` option.  When `--cached` is given, the staged content has to match either the tip of the branch or the file on disk, allowing the file to be removed from just the index."
+#, priority:280
 msgid "Remove files matching pathspec from the index, or from the working tree and the index. `git rm` will not remove a file from just your working directory. (There is no option to remove a file only from the working tree and yet keep it in the index; use `/bin/rm` if you want to do that.) The files being removed have to be identical to the tip of the branch, and no updates to their contents can be staged in the index, though that default behavior can be overridden with the `-f` option.  When `--cached` is given, the staged content has to match either the tip of the branch or the file on disk, allowing the file to be removed from just the index. When sparse-checkouts are in use (see linkgit:git-sparse-checkout[1]), `git rm` will only remove paths within the sparse-checkout patterns."
-msgstr "Remove os arquivos correspondentes ao `pathspec` do índice, ou da árvore de trabalho e do índice. O comando `git rm` não removerá um arquivo apenas do seu diretório de trabalho. (Não há opção para remover um arquivo apenas da árvore de trabalho e ainda mantê-lo no índice; utilize `/bin/rm` caso queira fazer isso.) Os arquivos que estão sendo removidos devem ser idênticos ao cume do ramo e nenhuma atualização do seu conteúdo pode ser preparada no índice, embora este comportamento predefinido possa ser substituído pela opção `-f `.  Quando `--cached` é utilizado, o conteúdo escalonado deve corresponder ao cume do ramo ou ao arquivo no disco, permitindo que o arquivo seja removido no índice apenas."
+msgstr "Exclui os arquivos correspondentes ao pathspec do índice ou da árvore de trabalho e do índice. O comando `git rm` não irá remover um arquivo apenas do seu diretório de trabalho. (Não há opção para remover um arquivo apenas da árvore de trabalho e ainda mantê-lo no índice; use `/bin/rm` caso queira fazer isso.) Os arquivos que estão sendo removidos devem ser idênticos ao topo do ramo, assim como, nenhuma atualização de seu conteúdo pode ser testada no índice, embora este comportamento predefinido possa ser alterado ao usar a opção `-f`.  Quando `--cached` é usado, o conteúdo testado deve corresponder ao topo do ramo ou ao arquivo no disco, permitindo que o arquivo seja removido apenas do índice. Quando \"sparse-checkouts\" estão em uso (consulte linkgit:git-sparse-checkout[1]), o comando `git rm` apenas removerá os caminhos que estiverem dentro dos padrões do \"sparse-checkout\"."
 
 #. type: Plain text
 #: en/git-rm.txt:38
@@ -51323,20 +51194,7 @@ msgstr "git-stash - Guarda as alterações em um outro diretório de trabalho"
 
 #. type: Plain text
 #: en/git-stash.txt:23
-#, fuzzy, ignore-ellipsis, no-wrap, priority:240
-#| msgid ""
-#| "'git stash' list [<log-options>]\n"
-#| "'git stash' show [<diff-options>] [<stash>]\n"
-#| "'git stash' drop [-q|--quiet] [<stash>]\n"
-#| "'git stash' ( pop | apply ) [--index] [-q|--quiet] [<stash>]\n"
-#| "'git stash' branch <branchname> [<stash>]\n"
-#| "'git stash' [push [-p|--patch] [-k|--[no-]keep-index] [-q|--quiet]\n"
-#| "\t     [-u|--include-untracked] [-a|--all] [-m|--message <message>]\n"
-#| "\t     [--pathspec-from-file=<file> [--pathspec-file-nul]]\n"
-#| "\t     [--] [<pathspec>...]]\n"
-#| "'git stash' clear\n"
-#| "'git stash' create [<message>]\n"
-#| "'git stash' store [-m|--message <message>] [-q|--quiet] <commit>\n"
+#, ignore-ellipsis, no-wrap, priority:240
 msgid ""
 "'git stash' list [<log-options>]\n"
 "'git stash' show [-u|--include-untracked|--only-untracked] [<diff-options>] [<stash>]\n"
@@ -51350,19 +51208,7 @@ msgid ""
 "'git stash' clear\n"
 "'git stash' create [<message>]\n"
 "'git stash' store [-m|--message <message>] [-q|--quiet] <commit>\n"
-msgstr ""
-"'git stash' list [<opções-do-log>]\n"
-"'git stash' show [<opções-do-diff] [<stash>]\n"
-"'git stash' drop [-q|--quiet] [<stash>]\n"
-"'git stash' ( pop | apply ) [--index] [-q|--quiet] [<stash>]\n"
-"'git stash' branch <nome-do-ramo> [<stash>]\n"
-"'git stash' [push [-p|--patch] [-k|--[no-]keep-index] [-q|--quiet]\n"
-"\t     [-u|--include-untracked] [-a|--all] [-m|--message <mensagem>]\n"
-"\t     [--pathspec-from-file=<arquivo> [--pathspec-file-nul]]\n"
-"\t     [--] [<pathspec>...]]\n"
-"'git stash' clear\n"
-"'git stash' create [<mensagem>]\n"
-"'git stash' store [-m|--message <mensagem>] [-q|--quiet] <commit>\n"
+msgstr "'git stash' list [<opções-do-log>]\n'git stash' show [-u|--include-untracked|--only-untracked] [<opções-do-diff] [<stash>]\n'git stash' drop [-q|--quiet] [<stash>]\n'git stash' ( pop | apply ) [--index] [-q|--quiet] [<stash>]\n'git stash' branch <nome-do-ramo> [<stash>]\n'git stash' [push [-p|--patch] [-k|--[no-]keep-index] [-q|--quiet]\n\t     [-u|--include-untracked] [-a|--all] [-m|--message <mensagem>]\n\t     [--pathspec-from-file=<arquivo> [--pathspec-file-nul]]\n\t     [--] [<pathspec>...]]\n'git stash' clear\n'git stash' create [<mensagem>]\n'git stash' store [-m|--message <mensagem>] [-q|--quiet] <commit>\n"
 
 #. type: Plain text
 #: en/git-stash.txt:31
@@ -51444,14 +51290,13 @@ msgstr "O comando aceita as opções aplicáveis ao comando 'git log' para contr
 #: en/git-stash.txt:86
 #, no-wrap, priority:240
 msgid "show [-u|--include-untracked|--only-untracked] [<diff-options>] [<stash>]"
-msgstr ""
+msgstr "show [-u|--include-untracked|--only-untracked] [<opções-do-diff>] [<stash>]"
 
 #. type: Plain text
 #: en/git-stash.txt:96
-#, fuzzy, priority:240
-#| msgid "Show the changes recorded in the stash entry as a diff between the stashed contents and the commit back when the stash entry was first created.  By default, the command shows the diffstat, but it will accept any format known to 'git diff' (e.g., `git stash show -p stash@{1}` to view the second most recent entry in patch form).  You can use stash.showStat and/or stash.showPatch config variables to change the default behavior."
+#, priority:240
 msgid "Show the changes recorded in the stash entry as a diff between the stashed contents and the commit back when the stash entry was first created.  By default, the command shows the diffstat, but it will accept any format known to 'git diff' (e.g., `git stash show -p stash@{1}` to view the second most recent entry in patch form).  You can use stash.showIncludeUntracked, stash.showStat, and stash.showPatch config variables to change the default behavior."
-msgstr "Exiba as alterações registradas na entrada 'stash' como uma diferença entre o conteúdo oculto e o commit quando a entrada stash for criada.  É predefinido que o comando exiba o \"diffstat\", porém aceite qualquer formato informado pelo comando 'git diff' (por exemplo, `git stash show -p stash@{1}` para exibir a segunda entrada mais recente em formato patch).  Você pode usar as variáveis de configuração `stash.showStat` e/ou `stash.showPatch` para alterar o comportamento predefinido."
+msgstr "Exiba as alterações registradas na entrada 'stash' como uma diferença entre o conteúdo oculto e o commit quando a entrada stash for criada.  É predefinido que o comando exiba o \"diffstat\", porém aceite qualquer formato informado pelo comando 'git diff' (por exemplo, `git stash show -p stash@{1}` para exibir a segunda entrada mais recente em formato patch).  Você pode usar as variáveis de configuração `stash.showIncludeUntracked`, `stash.showStat` e `stash.showPatch` para alterar o comportamento predefinido."
 
 #. type: Labeled list
 #: en/git-stash.txt:97
@@ -51575,16 +51420,15 @@ msgstr "--no-include-untracked"
 
 #. type: Plain text
 #: en/git-stash.txt:167
-#, fuzzy, priority:240
-#| msgid "All ignored and untracked files are also stashed and then cleaned up with `git clean`."
+#, priority:240
 msgid "When used with the `push` and `save` commands, all untracked files are also stashed and then cleaned up with `git clean`."
-msgstr "Todos os arquivos ignorados e não monitorados também são armazenados em cache e limpos com o comando `git clean`."
+msgstr "Quando usado em conjunto com os comandos `push` e `save`, todos os arquivos não monitorados também são armazenados em cache e limpos com o comando `git clean`."
 
 #. type: Plain text
 #: en/git-stash.txt:170
 #, priority:240
 msgid "When used with the `show` command, show the untracked files in the stash entry as part of the diff."
-msgstr ""
+msgstr "Quando usado com o comando `show`, mostra os arquivos não rastreados na entrada acumulada como parte do diff."
 
 #. type: Labeled list
 #: en/git-stash.txt:171
@@ -51594,17 +51438,15 @@ msgstr "--only-untracked"
 
 #. type: Plain text
 #: en/git-stash.txt:173
-#, fuzzy, priority:240
-#| msgid "This option is only valid for `push` command."
+#, priority:240
 msgid "This option is only valid for the `show` command."
-msgstr "Esta opção só é válida para o comando `push`."
+msgstr "Esta opção só é válida para o comando `show`."
 
 #. type: Plain text
 #: en/git-stash.txt:175
-#, fuzzy, priority:240
-#| msgid "Output only the trailers, not any other parts of the input."
+#, priority:240
 msgid "Show only the untracked files in the stash entry as part of the diff."
-msgstr "Exibe apenas os caracteres de resposta e não quaisquer outras partes da entrada."
+msgstr "Mostra apenas os arquivos não rastreados na entrada do stash como parte do diff."
 
 #. type: Plain text
 #: en/git-stash.txt:178
@@ -56472,14 +56314,7 @@ msgstr "git - o monitor de conteúdo estúpido"
 
 #. type: Plain text
 #: en/git.txt:18
-#, fuzzy, no-wrap, priority:100
-#| msgid ""
-#| "'git' [--version] [--help] [-C <path>] [-c <name>=<value>]\n"
-#| "    [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]\n"
-#| "    [-p|--paginate|-P|--no-pager] [--no-replace-objects] [--bare]\n"
-#| "    [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]\n"
-#| "    [--super-prefix=<path>] [--config-env <name>=<envvar>]\n"
-#| "    <command> [<args>]\n"
+#, no-wrap, priority:100
 msgid ""
 "'git' [--version] [--help] [-C <path>] [-c <name>=<value>]\n"
 "    [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]\n"
@@ -56487,13 +56322,7 @@ msgid ""
 "    [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]\n"
 "    [--super-prefix=<path>] [--config-env=<name>=<envvar>]\n"
 "    <command> [<args>]\n"
-msgstr ""
-"'git' [--version] [--help] [-C <caminho>] [-c <nome>=<valor>]\n"
-"    [--exec-path[=<caminho>]] [--html-path] [--man-path] [--info-path]\n"
-"    [-p|--paginate|-P|--no-pager] [--no-replace-objects] [--bare]\n"
-"    [--git-dir=<caminho>] [--work-tree=<caminho>] [--namespace=<nome>]\n"
-"    [--super-prefix=<caminho>][--config-env <nome>=<envvar>]\n"
-"    <comando> [<args>]\n"
+msgstr "'git' [--version] [--help] [-C <caminho>] [-c <nome>=<valor>]\n    [--exec-path[=<caminho>]] [--html-path] [--man-path] [--info-path]\n    [-p|--paginate|-P|--no-pager] [--no-replace-objects] [--bare]\n    [--git-dir=<caminho>] [--work-tree=<caminho>] [--namespace=<nome>]\n    [--super-prefix=<caminho>][--config-env=<nome>=<envvar>]\n    <comando> [<args>]\n"
 
 #. type: Plain text
 #: en/git.txt:24
@@ -57699,7 +57528,7 @@ msgstr "`GIT_CONFIG_SYSTEM`"
 #: en/git.txt:682
 #, priority:100
 msgid "Take the configuration from the given files instead from global or system-level configuration files. If `GIT_CONFIG_SYSTEM` is set, the system config file defined at build time (usually `/etc/gitconfig`)  will not be read. Likewise, if `GIT_CONFIG_GLOBAL` is set, neither `$HOME/.gitconfig` nor `$XDG_CONFIG_HOME/git/config` will be read. Can be set to `/dev/null` to skip reading configuration files of the respective level."
-msgstr ""
+msgstr "Obtenha a configuração dos arquivos fornecidos em vez dos arquivos de configuração globais ou no nível do sistema. Caso a variável `GIT_CONFIG_SYSTEM` estiver definida, o arquivo de configuração do sistema definido no momento da compilação (normalmente `/etc/gitconfig`) não será lido. Da mesma forma, caso a variável `GIT_CONFIG_GLOBAL` esteja definida, nem `$HOME/.gitconfig`, nem `$XDG_CONFIG_HOME/git/config` serão lidos. Pode ser definido como `/dev/null` para ignorar a leitura dos arquivos de configuração do respectivo nível."
 
 #. type: Labeled list
 #: en/git.txt:683
@@ -63889,10 +63718,9 @@ msgstr "'%ah'"
 
 #. type: Plain text
 #: en/pretty-formats.txt:195
-#, fuzzy, priority:260
-#| msgid "ref names, like the --decorate option of linkgit:git-log[1]"
+#, priority:260
 msgid "author date, human style (like the `--date=human` option of linkgit:git-rev-list[1])"
-msgstr "nomes de referência \"ref\", como a opção --decorate do linkgit:git-log[1]"
+msgstr "data da autoria, compreensível para pessoas (como a opção `--date=human` do linkgit:git-rev-list[1])"
 
 #. type: Labeled list
 #: en/pretty-formats.txt:195
@@ -64058,10 +63886,9 @@ msgstr "'%ch'"
 
 #. type: Plain text
 #: en/pretty-formats.txt:213
-#, fuzzy, priority:260
-#| msgid "ref names, like the --decorate option of linkgit:git-log[1]"
+#, priority:260
 msgid "committer date, human style (like the `--date=human` option of linkgit:git-rev-list[1])"
-msgstr "nomes de referência \"ref\", como a opção --decorate do linkgit:git-log[1]"
+msgstr "a data de quem fez o commit, compreensível para pessoas (como a opção `--date=human` do linkgit:git-rev-list[1])"
 
 #. type: Labeled list
 #: en/pretty-formats.txt:213
@@ -64089,28 +63916,27 @@ msgstr "nomes de referência \"ref\" sem quebra automática \" (\", \")\"."
 
 #. type: Labeled list
 #: en/pretty-formats.txt:215
-#, fuzzy, no-wrap, priority:260
-#| msgid "'%(trailers[:options])'"
+#, no-wrap, priority:260
 msgid "'%(describe[:options])'"
-msgstr "'%(trailers[:options])'"
+msgstr "'%(describe[:options])'"
 
 #. type: Plain text
 #: en/pretty-formats.txt:222
 #, priority:260
 msgid "human-readable name, like linkgit:git-describe[1]; empty string for undescribable commits.  The `describe` string may be followed by a colon and zero or more comma-separated options.  Descriptions can be inconsistent when tags are added or removed at the same time."
-msgstr ""
+msgstr "nome legível para as pessoas, como linkgit:git-describe[1]; uma expressão vazia para os commits sem descrição.  A expressão `describe` pode ser seguida por dois pontos e zero ou mais opções separadas por vírgulas.  As descrições podem ser inconsistentes quando as etiquetas são adicionadas ou removidas ao mesmo tempo."
 
 #. type: Plain text
 #: en/pretty-formats.txt:225
 #, priority:260
 msgid "'match=<pattern>': Only consider tags matching the given `glob(7)` pattern, excluding the \"refs/tags/\" prefix."
-msgstr ""
+msgstr "'match=<pattern>': Considere apenas as etiquetas que coincidam com o padrão `glob(7)` informado, excluindo o prefixo \"refs/tags/\"."
 
 #. type: Plain text
 #: en/pretty-formats.txt:227
 #, priority:260
 msgid "'exclude=<pattern>': Do not consider tags matching the given `glob(7)` pattern, excluding the \"refs/tags/\" prefix."
-msgstr ""
+msgstr "'exclude=<pattern>': Desconsidere as etiquetas que coincidam com o padrão `glob(7)` informado, excluindo o prefixo \"refs/tags/\"."
 
 #. type: Plain text
 #: en/pretty-formats.txt:230
@@ -64360,8 +64186,7 @@ msgstr "'%(trailers[:options])'"
 
 #. type: Plain text
 #: en/pretty-formats.txt:275
-#, fuzzy, priority:260
-#| msgid "display the trailers of the body as interpreted by linkgit:git-interpret-trailers[1]. The `trailers` string may be followed by a colon and zero or more comma-separated options.  If any option is provided multiple times the last occurance wins."
+#, priority:260
 msgid "display the trailers of the body as interpreted by linkgit:git-interpret-trailers[1]. The `trailers` string may be followed by a colon and zero or more comma-separated options.  If any option is provided multiple times the last occurrence wins."
 msgstr "exibe os trechos do corpo como interpretado através do linkgit:git-interpret-trailers[1]. Os trechos do texto da resposta podem ser seguidas por dois pontos, zero ou mais opções separadas por vírgula: Caso qualquer opção seja usada várias vezes, a última ocorrência ganha."
 
@@ -67051,7 +66876,7 @@ msgstr "O formulário '--filter=blob:limit=<n>[kmg]' omite as bolhas que forem m
 #: en/rev-list-options.txt:897
 #, priority:260
 msgid "The form '--filter=object:type=(tag|commit|tree|blob)' omits all objects which are not of the requested type."
-msgstr ""
+msgstr "A forma '--filter=object:type=(tag|commit|tree|blob)' omite todo os objetos que não sejam do mesmo tipo que foi requisitado."
 
 #. type: Plain text
 #: en/rev-list-options.txt:902
@@ -67105,7 +66930,7 @@ msgstr "--filter-provided-objects"
 #: en/rev-list-options.txt:940
 #, priority:260
 msgid "Filter the list of explicitly provided objects, which would otherwise always be printed even if they did not match any of the filters. Only useful with `--filter=`."
-msgstr ""
+msgstr "Filtre a lista dos objetos explicitamente informados, que, de outra forma, sempre seriam exibidos, ainda que não correspondam a nenhum dos filtros. Útil apenas com `--filter=`."
 
 #. type: Labeled list
 #: en/rev-list-options.txt:941
