@@ -1,6 +1,7 @@
 blame-options.txt
 cmds-ancillaryinterrogators.txt
 cmds-ancillarymanipulators.txt
+cmds-developerinterfaces.txt
 cmds-foreignscminterface.txt
 cmds-guide.txt
 cmds-mainporcelain.txt
@@ -9,7 +10,13 @@ cmds-plumbingmanipulators.txt
 cmds-purehelpers.txt
 cmds-synchelpers.txt
 cmds-synchingrepositories.txt
+cmds-userinterfaces.txt
 config.txt
+config/add.txt
+config/clone.txt
+config/commit.txt
+config/diff.txt
+config/init.txt
 config/merge.txt
 config/fmt-merge-msg.txt
 date-formats.txt
@@ -17,6 +24,7 @@ diff-format.txt
 diff-generate-patch.txt
 diff-options.txt
 fetch-options.txt
+gitignore.txt
 git-add.txt
 git-am.txt
 git-annotate.txt
